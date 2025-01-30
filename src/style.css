@@ -3,17 +3,28 @@
   src: url(assets/Fredoka.ttf);
 }
 
+@font-face {
+  font-family: Allura;
+  src: url(assets/Allura.ttf);
+}
+
 body {
   background-color: #f9f5f2;
   font-family: Fredoka, sans-serif;
   font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   h2 {
     font-weight: 400;
     margin-top: 0.3rem;
     font-size: 1.2rem;
+  }
+  #app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
