@@ -3,18 +3,24 @@
 
   const props = defineProps({
     categories: Array,
-    colors: Array
+    colors: Array,
+    cultivationTypes: Array,
+    canPlantInPots: Array
   })
 
   const emit = defineEmits([
     'update:searchName',
     'update:chosenCategory',
-    'update:chosenColor'
+    'update:chosenColor',
+    'update:chosenCultivationType',
+    'update:chosenAnswerAboutPots'
   ])
 
   const searchName = ref('')
   const chosenCategory = ref('')
   const chosenColor = ref([])
+  const chosenCultivationType = ref('')
+  const chosenAnswerAboutPots = ref(null)
 
   watch(chosenColor, (newValue) => {
     emit('update:chosenColor', newValue)
@@ -26,6 +32,14 @@
 
   watch(chosenCategory, (newValue) => {
     emit('update:chosenCategory', newValue)
+  })
+
+  watch(chosenCultivationType, (newValue) => {
+    emit('update:chosenCultivationType', newValue)
+  })
+
+  watch(chosenAnswerAboutPots, (newValue) => {
+    emit('update:chosenAnswerAboutPots', newValue)
   })
 </script>
 
@@ -43,5 +57,28 @@
         {{ category }}
       </option>
     </select>
+
+    <div class="radios" v-for="type in cultivationTypes" :key="type">
+      <input
+        type="radio"
+        :id="type"
+        :value="type"
+        v-model="chosenCultivationType"
+        name="cultivationType"
+      />
+      <label :for="type">{{ type }}</label>
+    </div>
+
+    <div class="radios" v-for="answer in canPlantInPots" :key="answer">
+      <input
+        type="radio"
+        :id="answer"
+        :value="answer"
+        v-model="chosenAnswerAboutPots"
+        name="canPlantInPots"
+      />
+      <label v-if="answer === true" :for="answer">Ja</label>
+      <label v-else :for="answer">Nej</label>
+    </div>
   </section>
 </template>
