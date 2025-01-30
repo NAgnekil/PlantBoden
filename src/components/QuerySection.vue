@@ -22,6 +22,33 @@
   const chosenCultivationType = ref('')
   const chosenAnswerAboutPots = ref(null)
 
+  const getHexColor = (color) => {
+    const colorMap = {
+      Aprikos: '#F8AF88',
+      Blå: '#7459D9',
+      Brun: '#51282D',
+      Cerise: '#B3124F',
+      Cream: '#F5F5DC',
+      'Gammel-rosa': '#D27985',
+      Grön: '#97B13B',
+      Gul: '#FCD008',
+      Korall: '#F97B56',
+      Krämvit: '#ECE9E0',
+      Laxrosa: '#FF7E70',
+      Lila: '#AD50E6',
+      Ljusrosa: '#F7C6E3',
+      Magenta: '#DD27A6',
+      Orange: '#FCA834',
+      Persika: '#F8A351',
+      Rosa: '#F596C8',
+      Röd: '#DB0614',
+      Terrakotta: '#c16b4c',
+      Vinröd: '#8C0029',
+      Vit: '#F7FDF9'
+    }
+    return colorMap[color] || '#000' // Standard svart om ingen färg matchar
+  }
+
   watch(chosenColor, (newValue) => {
     emit('update:chosenColor', newValue)
   })
@@ -46,10 +73,24 @@
 <template>
   <section class="query-section">
     <input v-model="searchName" placeholder="Sök efter en blomma" />
-
-    <div class="checkboxes" v-for="color in colors" :key="color">
-      <input type="checkbox" :id="color" :value="color" v-model="chosenColor" />
-      <label :for="color">{{ color }}</label>
+    <div class="color-checkboxes">
+      <div class="checkbox" v-for="color in colors" :key="color">
+        <input
+          type="checkbox"
+          :id="color"
+          :value="color"
+          v-model="chosenColor"
+          class="hidden-checkbox"
+        />
+        <label
+          :for="color"
+          class="color-label"
+          :style="{ backgroundColor: getHexColor(color) }"
+        >
+          <span v-if="chosenColor.includes(color)" class="check-icon">✔</span>
+        </label>
+        <span class="color-name">{{ color }}</span>
+      </div>
     </div>
 
     <select v-model="chosenCategory">
@@ -82,3 +123,50 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+  .color-checkboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+    width: 100%;
+    .checkbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 0.2rem 0.5rem;
+      max-width: 2.5rem;
+      .hidden-checkbox {
+        display: none;
+      }
+      .color-label {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        border: 2px solid #ccc;
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 0.5rem;
+        &:hover {
+          transform: scale(1.1);
+        }
+        .check-icon {
+          font-size: 20px;
+          color: white;
+          font-weight: bold;
+        }
+      }
+
+      .color-name {
+        margin-top: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+</style>
