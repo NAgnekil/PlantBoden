@@ -72,7 +72,11 @@
 
 <template>
   <section class="query-section">
-    <input v-model="searchName" placeholder="Sök efter en blomma" />
+    <input
+      class="searchfield-name"
+      v-model="searchName"
+      placeholder="Sök efter en blomma"
+    >Sök efter en blomma</input>
     <div class="color-checkboxes">
       <div class="checkbox" v-for="color in colors" :key="color">
         <input
@@ -125,6 +129,12 @@
 </template>
 
 <style scoped>
+  .searchfield-name {
+    width: 50%;
+    height: 3rem;
+    border-radius: 8px;
+    border: 1px solid #ece9e0;
+  }
   .color-checkboxes {
     display: flex;
     flex-direction: row;
