@@ -2,13 +2,13 @@
   <section v-if="flowers">
     <div class="product-cards" v-if="searchQueryExists">
       <div class="card" v-for="flower in filteredFlowers" :key="flower.id">
-        <img class="product-img" :src="flower.img" alt="" />
+        <img class="product-img" :src="flower.mainImg" alt="" />
         <h2>{{ flower.name }}</h2>
       </div>
     </div>
     <div class="product-cards" v-else>
       <div class="card" v-for="flower in flowers" :key="flower.id">
-        <img class="product-img" :src="flower.img" alt="" />
+        <img class="product-img" :src="flower.mainImg" alt="" />
         <h2>{{ flower.name }}</h2>
       </div>
     </div>
