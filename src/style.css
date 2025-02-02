@@ -8,6 +8,16 @@
   src: url(assets/Allura.ttf);
 }
 
+@font-face {
+  font-family: Aboreto;
+  src: url(assets/Aboreto.ttf);
+}
+
+@font-face {
+  font-family: Belanosima;
+  src: url(assets/Belanosima.ttf);
+}
+
 body {
   background-color: #f9f5f2;
   font-family: Fredoka, sans-serif;
