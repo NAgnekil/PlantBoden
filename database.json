@@ -33,7 +33,10 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/other/ageratum-dondowhite.webp",
       "additionalImages": [
-        "src/assets/flowers/other/ageratum-dondowhite2.webp"
+        "src/assets/flowers/other/ageratum-dondowhite2.webp",
+        "src/assets/flowers/other/ageratum-dondowhite3.webp",
+        "src/assets/flowers/other/ageratum-dondowhite4.webp",
+        "src/assets/flowers/other/ageratum-dondowhite5.webp"
       ],
       "additionalComments": "Är giftig, både plantorna och fröerna!",
       "description": "Plantorna bjuder på både knoppar och blommor samtidigt vilket ger stor effekt under en lång blomperiod.\n\n'Dondo Vit' har buskiga och upprätt växande plantor med långa, stabila stjälkar. Passar som solitär eller som centrumväxt i rabatter, stora krukor och bänkar.\n\nEn lättskött och tålig växt som älskar full sol, blommar under hela sommaren ända fram till frost. Blommorna lockar till sig mängder av fjärilar och pollinerare."
@@ -70,7 +73,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/ageratum-tallblueplanet.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/ageratum-tallblueplanet2.webp",
+        "src/assets/flowers/other/ageratum-tallblueplanet3.webp",
+        "src/assets/flowers/other/ageratum-tallblueplanet4.webp"
+      ],
       "additionalComments": "Är giftig, både plantorna och fröerna!",
       "description": "Plantorna bjuder på både knoppar och blommor samtidigt vilket ger stor effekt under en lång blomperiod.\n\n'Tall Blå Planet' har buskiga och upprätt växande plantor med långa, stabila stjälkar. Passar som solitär eller som centrumväxt i rabatter, stora krukor och bänkar.\n\nEn lättskött och tålig växt som älskar full sol, blommar under hela sommaren ända fram till frost. Blommorna lockar till sig mängder av fjärilar och pollinerare."
     },
@@ -106,7 +113,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/amarant-greenthumb.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/amarant-greenthumb2.webp",
+        "src/assets/flowers/other/amarant-greenthumb3.webp",
+        "src/assets/flowers/other/amarant-greenthumb4.webp",
+        "src/assets/flowers/other/amarant-greenthumb5.webp",
+        "src/assets/flowers/other/amarant-greenthumb6.webp"
+      ],
       "additionalComments": "Kan direktsås efter sista frost",
       "description": "Green Thumb är en dekorativ växt som får ovanliga och livligt äppelgröna blomspiror med ett upprätt växtsätt. Planthöjd ca. 40 cm.\n\nToppamarant passar utfyllnad i rabatter och bäddar. Spirorna är vackra i buketter och arrangemang, används både färska och torkade."
     },
@@ -142,7 +155,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/other/amarant-musegreenpearls.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/amarant-musegreenpearls2.webp",
+        "src/assets/flowers/other/amarant-musegreenpearls3.webp",
+        "src/assets/flowers/other/amarant-musegreenpearls4.webp"
+      ],
       "additionalComments": "Kan direktsås efter sista frost. Amaranter kan planteras någorlunda tätt, detta för att få stöd av varandra. Annars kan du ta hjälp av växtstöd i form av nät eller dylikt.",
       "description": "Amaranter härstammar från Peru och är en självpollinerande växt som blommar under sommaren och hösten.\n\nDen växter som en buske och kan få långa stjälkar.\n\nAmaranten är släkt med Quinoa och fröerna är glutenfria och ätbara, även växtens blad går att äta."
     },
@@ -177,8 +194,13 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/other/atlasblomma-graceshellpink.webp.webp",
-      "additionalImages": [],
+      "mainImg": "src/assets/flowers/other/atlasblomma-graceshellpink.webp",
+      "additionalImages": [
+        "src/assets/flowers/other/atlasblomma-graceshellpink2.webp",
+        "src/assets/flowers/other/atlasblomma-graceshellpink3.webp",
+        "src/assets/flowers/other/atlasblomma-graceshellpink4.webp",
+        "src/assets/flowers/other/atlasblomma-graceshellpink5.webp"
+      ],
       "additionalComments": "Kan behöva bindas upp.",
       "description": "Atlasblomma är en ettårig sommarblomma och är lika vacker i rabatten som i buketter som snittblomma med sina långa stjälkar och en planthöjd på ca. 45cm."
     },
@@ -214,7 +236,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/blomstermorot-dara.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/blomstermorot-dara1.webp",
+        "src/assets/flowers/other/blomstermorot-dara2.webp",
+        "src/assets/flowers/other/blomstermorot-dara3.webp"
+      ],
       "additionalComments": "Kan direktsås efter sista frost, men är osäker på när den blommar då, hinner den blomma samma år?",
       "description": "Blomstermorot blommar under hela sommaren med sina stora, vackra och skira flockblommor i gammelrosa, vinröda och chokladfärgade nyanser. Bladverket är finflikigt. Blommar Rödan första året vid tidig sådd. Upp till tusen små blommor produceras i delikata, spetsiga, platta, 5-10 cm stora klasar. De är vackra och passar bra med nästan allt i trädgården eller i vasen.\n\nBra snittblomma som gör sig otroligt bra som utfyllnad i buketter eller för att binda ihop rabatter och krukor. Skapar också stor effekt som solitär och ger effekt av ett fluffigt moln i vasen. Kan även användas torkad i buketter och arrangemang. Blommorna håller i upp till 10 dagar i vas och ger en dramatisk, luftig kvalitet till färdiga arrangemang.\n\nBra dragväxt för pollinerare.\n\nDaucus carota är en bra växt för landskapsplanering och kan användas på ängar och vilda trädgårdar, där den älskas av bin och ger en underbar värdväxt för fjärilar. Växterna växer till en höjd av cirka 120 cm med en spridning på 40 cm.\n\nBlomningen fortsätter vanligtvis långt in på hösten, även efter att blommorna har dött ut och fröskidor börjat bildas. När fröna mognar krullas fröhuvudet inåt för att bilda en 'fågelbo'-form och blir brunt. Ett litet borstigt frö produceras i slutet av varje blomstjälk, och när de är torra hakar de lätt fast i päls eller fjädrar för att spridas bortom där fröna annars skulle falla."
     },
@@ -250,7 +276,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/dahlia-signaturemix.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/dahlia-signaturemix2.webp",
+        "src/assets/flowers/other/dahlia-signaturemix3.webp",
+        "src/assets/flowers/other/dahlia-signaturemix4.webp",
+        "src/assets/flowers/other/dahlia-signaturemix5.webp"
+      ],
       "additionalComments": "Dahliafrö är inte sortäkta!",
       "description": "En ny fröblandning där de finaste fyllda dahliasorterna odlas tillsammans avskilt från öppna sorter. Mixen är speciellt sammansatt för att ger hög procent fyllda blommor."
     },
@@ -286,7 +317,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/eucalyptus-silverdollar.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/eucalyptus-silverdollar2.webp",
+        "src/assets/flowers/other/eucalyptus-silverdollar3.webp",
+        "src/assets/flowers/other/eucalyptus-silverdollar4.webp",
+        "src/assets/flowers/other/eucalyptus-silverdollar5.webp",
+        "src/assets/flowers/other/eucalyptus-silverdollar6.webp"
+      ],
       "additionalComments": "Kan odlas i stora krukor och övervintra frostfritt. Tål ej frost men har lång utvecklingstid, så tidigt inne. Vid omplantering så har eukalyptusen ett ganska känsligt rotsystem, så hantera dina plantor varsamt. Kassera inte frön som inte gror direkt, fröna kan ligga i dvala tills förhållandena liknar deras naturliga krav för att groning ska ske. Ibland kan krukor man ställt undan för att slängas överraska en.",
       "description": "Eucalyptus Silverdollar har blåaktigt väldoftande bladverk. En fantastisk växt för snittblomsodlaren. En populär växt med runda blad, att använda i blomsterdekorationer och kransar. Men också ofta använd i samplanteringar i rabatten.\n\nSom ettårig i rabatten eller i frilandsodling blir den 70-100 cm hög.\n\nEgentligen ett träd som odlas ettårig på friland eller flerårig i stora krukor, vilka förvaras frostfritt. Kan i Svenskt klimat bli en buske på en par meter hög.\n\nUnder sommaren är plantan gråaktigt grön, när det blir kallare antar plantorna en blåaktig ton. Toppas oftast. Blommar inte i Sverige."
     },
@@ -322,7 +359,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/fargtistel-whitegrenade.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/fargtistel-whitegrenade2.webp",
+        "src/assets/flowers/other/fargtistel-whitegrenade3.webp",
+        "src/assets/flowers/other/fargtistel-whitegrenade4.webp",
+        "src/assets/flowers/other/fargtistel-whitegrenade5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Safflor är originalnamnet - men växten är även kallad färgtistel - är en ettårig ört som kan bli upp till 60 cm hög. Den har odlats som färgväxt sedan antiken i bland annat länderna kring Medelhavet och i Kina.\n\nBlommorna kan användas för att växtfärga tyger, ger då färger i orange, gul och rosa toner beroende på hur man går tillväga.\n\nFin sort att torka som eternell då den behåller färgen bra.\n\nDen rödgula tistelns frö ger färg men inte smak till matlagningen och används ofta som naturligt färgämne, även kallat 'färgtistelkoncentrat'. Förr såldes ofta denna ört billigt som saffranpistiller."
     },
@@ -358,7 +400,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/harort-griffithii.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/harort-griffithii2.webp",
+        "src/assets/flowers/other/harort-griffithii3.webp",
+        "src/assets/flowers/other/harort-griffithii4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Fin utfyllnads växt till rabatt, utekruka eller buketter. Harört är väldigt lätt odlad och självsår sig där den trivs.\n\nBlommar med gulgröna 'buketter', omgivna av gröna högblad. Stadiga, höga stjälkar. Hela växten torkas när blommorna slår ut."
     },
@@ -394,7 +440,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/jatteeternell-kingsizegold.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/jatteeternell-kingsizegold2.webp",
+        "src/assets/flowers/other/jatteeternell-kingsizegold3.webp",
+        "src/assets/flowers/other/jatteeternell-kingsizegold4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Lättodlad eternell som ger dubbla, stora blommor. Passar utmärkt som snittblomma eller i torkade arrangemang.\n\nGer mängder av färgstarka blommor som är attraktiva för fjärilar. Väldigt tåliga mot värme och torka."
     },
@@ -430,7 +480,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/jungfrun-albiongreenpod.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/jungfrun-albiongreenpod2.webp",
+        "src/assets/flowers/other/jungfrun-albiongreenpod3.webp",
+        "src/assets/flowers/other/jungfrun-albiongreenpod4.webp",
+        "src/assets/flowers/other/jungfrun-albiongreenpod5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Ljuvlig nigella med sina vita blomster och ljusgröna mitt. Bra att torka, får väldigt fina fröställningar."
     },
@@ -466,7 +521,12 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/other/jungfrun-missjekyllwhite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/jungfrun-missjekyllwhite2.webp",
+        "src/assets/flowers/other/jungfrun-missjekyllwhite3.webp",
+        "src/assets/flowers/other/jungfrun-missjekyllwhite4.webp",
+        "src/assets/flowers/other/jungfrun-missjekyllwhite5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Romantiskt vita blommor mot ett dill-liknande bladverk. Lättodlad för snitt och rabatter. Vackra frökapslar som gör sig fint i färska och torkade buketter. Kallas på engelska för 'Love in a mist'."
     },
@@ -502,7 +562,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/jungfrun-moodyblues.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/jungfrun-moodyblues2.webp",
+        "src/assets/flowers/other/jungfrun-moodyblues3.webp",
+        "src/assets/flowers/other/jungfrun-moodyblues4.webp",
+        "src/assets/flowers/other/jungfrun-moodyblues5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "En vacker blå variant av Jungfrun i det gröna som blommar vackert på ca 45 cm långa stjälkar. Det växer både mörk- och ljusblå blommor på samma planta. Bladen är små och nästan trådlika som dill. Vid slutet av sommaren blir den mycket speciella frökapseln brun och väldigt vacker även den!"
     },
@@ -538,7 +603,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/klotamarant-lasvegaswhite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/klotamarant-lasvegaswhite2.webp",
+        "src/assets/flowers/other/klotamarant-lasvegaswhite3.webp",
+        "src/assets/flowers/other/klotamarant-lasvegaswhite4.webp",
+        "src/assets/flowers/other/klotamarant-lasvegaswhite5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Klotamarant ger bollformade, runda blommor på långa stjälkar. För krukor och blomlådor. Blommorna är utmärkta att torka som eterneller för arrangemang och buketter."
     },
@@ -574,7 +644,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/other/lovkoja-anytimewhite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/lovkoja-anytimewhite2.webp",
+        "src/assets/flowers/other/lovkoja-anytimewhite3.webp",
+        "src/assets/flowers/other/lovkoja-anytimewhite4.webp"
+      ],
       "additionalComments": "Blommar bäst under 15 grader. Kan även direktsås i soligt läge när jorden är uppvärmd. En blomma per planta - toppa inte plantorna då det påverkar blomningen. Lövkojan vill ha svalare temperaturer för att utvecklas optimalt.",
       "description": "Vacker och maffig sommarblomma med fyllda vita blommor. Stadiga, tjocka spiror som lämpar sig fint för snitt.\n\nFröna ger till ungefär hälften enkla och hälften dubbla blommor. För att enbart få dubbla blommor behöver man selektera plantorna när de fått hjärtblad. Plantor som ger dubbla blommor brukar oftast gro snabbare och får symmetriska, fina hjärtblad, medan de enkla blommorna får ihopväxta, deformerade blad. Plocka bort plantorna som ser ut att ge enkla blommor om du bara vill ha dubbla! "
     },
@@ -610,7 +684,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/rudbeckia-sahara.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/rudbeckia-sahara2.webp",
+        "src/assets/flowers/other/rudbeckia-sahara3.webp",
+        "src/assets/flowers/other/rudbeckia-sahara4.webp",
+        "src/assets/flowers/other/rudbeckia-sahara5.webp",
+        "src/assets/flowers/other/rudbeckia-sahara6.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "En magisk sensommarprakt i vacker färgskala med stora halv till heldubbla blommor. Färgnyanserna går i karamellrosa, ljusgula, rostfärgade och höströda nyanser. Denna fantastiska sort blommar sent in på hösten och är tålig för alla typer av växtlägen. En perfekt snittblomma som blir magisk i buketter. Färgen på blommorna skiljer sig åt vilket gör att varje blomma blir unik och gör att både rabatter och buketter blir mer levande."
     },
@@ -646,7 +726,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/musselsyska.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/musselsyska2.webp",
+        "src/assets/flowers/other/musselsyska3.webp",
+        "src/assets/flowers/other/musselsyska4.webp"
+      ],
       "additionalComments": "Måste stratifieras. Placera fröna i frysen. Om de inte gror, placera sådden i kylskåp ca 2 veckor.",
       "description": "Musselsyska, även känd som Bells of Ireland, är en fascinerande och dekorativ ettårig växt som hör till familjen kransblommiga växter. Den utmärker sig med sina limegröna spiror och små, klockformade foderblad som omsluter de faktiska blommorna. Dessa blad skapar ett unikt och iögonfallande utseende som är mycket uppskattat i blomsterarrangemang, buketter och rabatter. Dess hållbarhet gör den även idealisk för torkning och längre användning i dekorationer."
     },
@@ -682,7 +766,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/persiancress.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/persiancress2.webp",
+        "src/assets/flowers/other/persiancress3.webp",
+        "src/assets/flowers/other/persiancress4.webp",
+        "src/assets/flowers/other/persiancress5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Även kallad bukettkrasse eller trädgårdskrasse.\n\nLuftiga, men ändå robusta grenar fyllda med små frökapslar som liknar silvergröna mynt, efter att ha blommat med vita små blommor."
     },
@@ -718,7 +807,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/other/riddarsporre-imperialsalmonbeauty.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/riddarsporre-imperialsalmonbeauty2.webp",
+        "src/assets/flowers/other/riddarsporre-imperialsalmonbeauty3.webp",
+        "src/assets/flowers/other/riddarsporre-imperialsalmonbeauty4.webp"
+      ],
       "additionalComments": "Riddarsporren är giftig, både plantorna och fröerna!",
       "description": "En klassiker i mormorsrabatten ger vackra, tätt sittande blommor i rosa. Väldigt fin i både rabatt och bukett.\n\nRiddarsporre är en ultimat snittblomma som står sig länge, de långa spirorna ger en exklusiv känsla till buketter och i blomsterrabatten. Långt vasliv. Plockar du bort vissna blommor så blommar riddarsporren en gång till innan sommarens slut."
     },
@@ -754,7 +847,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/rollika-favoriteberries.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/rollika-favouriteberries2.webp",
+        "src/assets/flowers/other/rollika-favouriteberries3.webp",
+        "src/assets/flowers/other/rollika-favouriteberries4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "En vacker pastellblandning i nyanser av rosa, aprikos, gult och lavendel. Perenn. Stora blomsterkluster på ca 60 cm långa stjälkar och ett långt vasliv gör den perfekt som snittblomma."
     },
@@ -790,7 +887,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/solboll-drumstick.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/solboll-drumstick2.webp",
+        "src/assets/flowers/other/solboll-drumstick3.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Unika, bollformade blommor på stadiga stjälkar. En effektfull och användbar snittblomma som även passar för torkning och odling i rabatter."
     },
@@ -826,7 +926,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/sommarhalsort-blackknight.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/sommarhalsort-blackknight2.webp",
+        "src/assets/flowers/other/sommarhalsort-blackknight3.webp",
+        "src/assets/flowers/other/sommarhalsort-blackknight4.webp",
+        "src/assets/flowers/other/sommarhalsort-blackknight5.webp"
+      ],
       "additionalComments": "Växer långsamt.",
       "description": "Dramatiskt mörkblå blommor i tätt sammansatta knippen. Upprätt, buskigt växtsätt med mörkt purpurgrönt bladverk. Snygg till både snitt och rabatt."
     },
@@ -862,7 +967,13 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/other/sommarrudbeckia-rusticdwarf.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/sommarrudbeckia-rusticdwarf2.webp",
+        "src/assets/flowers/other/sommarrudbeckia-rusticdwarf3.webp",
+        "src/assets/flowers/other/sommarrudbeckia-rusticdwarf4.webp",
+        "src/assets/flowers/other/sommarrudbeckia-rusticdwarf5.webp",
+        "src/assets/flowers/other/sommarrudbeckia-rusticdwarf6.webp"
+      ],
       "additionalComments": "Tålig sommarblomma som blommar till frosten. Älskar sol och värme",
       "description": "Matchande färgmix av blomrik sommarrudbeckia i glödande, varma färger. Passar i både utekruka och rabatt. Lång blomningstid och de färgstarka små solarna uppskattas av våra pollinatörer."
     },
@@ -898,7 +1009,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/stjarnvadd-papermoon.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/stjarnvadd-papermoon2.webp",
+        "src/assets/flowers/other/stjarnvadd-papermoon3.webp",
+        "src/assets/flowers/other/stjarnvadd-papermoon4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Även kallad Scabiosa, som ger små, ljusa blommor vilka utvecklas till dekorativa fröhuvuden. Odlas främst som eternell för sina vackra, bollformade och geometriska fröställningar som får en bronsfärg som torkad. Fröställningen användas i färska och torkade buketter och arrangemang.\n\nBlommorna uppskattas av pollinatörer och andra insekter."
     },
@@ -934,7 +1049,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/tradgardsmalla-green.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/tradgardsmalla-green2.webp",
+        "src/assets/flowers/other/tradgardsmalla-green3.webp",
+        "src/assets/flowers/other/tradgardsmalla-green4.webp",
+        "src/assets/flowers/other/tradgardsmalla-green5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "En ståtlig växt som får stora, äppelgröna fröplymer på stabila stjälkar. Dessa är mycket dekorativa att använda i torkade arrangemang. Plantans blad kan användas späda som salladsblad eller som spenat.\n\nPlymerna är 30-60cm långa och gröna på långa, starka stjälkar med små, papperstunna frökapslar. Lättodlad växt som ger ett intressant, strukturellt element för designarbete i arrangemang och buketter. Jordrött kombineras enkelt med andra färger i buketter. Planthöjden är 150-180cm vid full mognad.\n\nUtmärkt i samplanteringar och i blomsterrabatten\n\nDenna växt är väldigt lik spenat men har mindre tendens att gå i blom vilket gör att den kan odlas även under högsommaren. Denna sort är tålig och kallas också ibland för 'salty bush' på grund av dess tolerans för alkaliska och saltiga jordar."
     },
@@ -970,7 +1090,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/trollrudbeckia.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/trollrudbeckia2.webp",
+        "src/assets/flowers/other/trollrudbeckia3.webp",
+        "src/assets/flowers/other/trollrudbeckia4.webp",
+        "src/assets/flowers/other/trollrudbeckia5.webp"
+      ],
       "additionalComments": "Om fröerna inte gror, sätt in i kylen i 2-4 veckor.",
       "description": "Sägenomspunnen art. Iögonfallande, originella blommor med gröna stödblad i stället för kronblad. Hög, svartbrun, prydlig mittdel. Utgör ett intressant inslag i perennrabatten."
     },
@@ -1006,7 +1131,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/trumpetblomma.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/trumpetblomma2.webp",
+        "src/assets/flowers/other/trumpetblomma3.webp",
+        "src/assets/flowers/other/trumpetblomma4.webp",
+        "src/assets/flowers/other/trumpetblomma5.webp"
+      ],
       "additionalComments": "Gillar sol och vindskydd. Ev växthus?",
       "description": "En unik mix av trumpetblommor som ger krusiga blommor i olika färger. Att odla trumpetblommor är tacksamt då dessa blommar hela sommaren och ger mängder av blommor!\n\nFin sort att odla i rabatt, kruka, ampel, balkonglåda eller liknande. Hela växten är giftig."
     },
@@ -1042,7 +1172,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/other/appelsolbrud-pineapples.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/appelsolbrud-pineapples2.webp",
+        "src/assets/flowers/other/appelsolbrud-pineapples3.webp",
+        "src/assets/flowers/other/appelsolbrud-pineapples4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Äppelsolbruden är ett gulligt och väldoftande inslag i både rabatt och kruka. De små gula bollarna doftar ljuvligt av ananas och äpple vid beröring. De sfäriska blommorna kan torkas till väldoftande potpurrier."
     },
@@ -1078,7 +1212,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/tandpetarsilja.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/tandpetarsilja2.webp",
+        "src/assets/flowers/other/tandpetarsilja3.webp",
+        "src/assets/flowers/other/tandpetarsilja4.webp",
+        "src/assets/flowers/other/tandpetarsilja5.webp"
+      ],
       "additionalComments": "Kan direktsås i maj-juni",
       "description": "Detta är en utmärkt växt för utfyllnad eller bakgrund i rabatt och bäddar. Populär att använda som snittblomma, tandpetarsiljan ger en fyllig men luftig känsla i färska eller torkade buketter.\n\nLimegröna knoppar som slår ut i täta, vita blomflockar över det yviga, friskt gröna, finflikiga bladverket.\n\nTandpetarsilja har ett större och mörkare bladverk samt mer upphöjda blommor än sin släkting slöjsilja. Med stabila blommor och stjälkar blommar den från juni till september. Blommorna blir upp till 20 cm i diameter, de är till en början tillplattade och gröna för att sedan öppna sig och ändra färg till vitt.\n\nPlantorna växer till en höjd av cirka 80-100 cm och odlas tillsammans med både ettåriga och perenner, de är ett utmärkt komplement till vilda trädgårdar och lockar bin och fjärilar med sina nektarrika blommor. Plantorna fyller ut rabatten väl och skapar en sammanhållen men delikat luftighet till alla soliga eller delvis skuggade lägen. Denna ettåriga, icke-invasiva art är extremt lätt att odla på en mängd olika jordar och är idealisk för att locka in nyttiga insekter i trädgården. Det är en bra växt för landskapsarkitektur och kan användas på ängar och vilda trädgårdar. Blomningen fortsätter ofta långt in på hösten, även efter att blommorna har dött ut och fröskidor börjat bildas.\n\nTandpetarsilja är en av de bästa utfyllnads-växterna du kan odla, de skira, strukturerade blom huvudena är floristens dröm. De spetsiga vita blommorna används ofta för bröllopsbuketter och är spektakulära när de används i blandade buketter eller helt enkelt arrangerade i ett eget stort moln. De håller upp till 10 dagar i vasen och kan även användas färgade eller torkade."
     },
@@ -1114,7 +1253,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/vitpytta-marschmallow.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/vitpytta-marschmallow2.webp",
+        "src/assets/flowers/other/vitpytta-marschmallow3.webp",
+        "src/assets/flowers/other/vitpytta-marshmallow4.webp",
+        "src/assets/flowers/other/vitpytta-marschmallow5.webp"
+      ],
       "additionalComments": "Kan direktsås i maj-juni",
       "description": "En charmig och söt perenn som förskönar din trädgård med sina eleganta blommor. Den blommar med rena, vita, enkla till halvfyllda blommor som bildar vackra kvastlika samlingar ovanför det frodiga, djupgröna bladverket.\n\nPassar fint i stenparti, rabatt och i bukett (kan även torkas)."
     },
@@ -1149,8 +1293,13 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/other/pappersblomster.webp",
-      "additionalImages": [],
+      "mainImg": "src/assets/flowers/other/pappersblomster3.webp",
+      "additionalImages": [
+        "src/assets/flowers/other/pappersblomster2.webp",
+        "src/assets/flowers/other/pappersblomster.webp",
+        "src/assets/flowers/other/pappersblomster4.webp",
+        "src/assets/flowers/other/pappersblomster5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "En klassisk torkblomma. Denna mix ger bedårande dubbla blommor, kragformade blommor i silkesglänsande färg med rosa, lila, violett och vitt. Perfekt till färska eller torkade buketter och arrangemang med en späd stjälk som är seg och tålig. Skördas fullt utvecklade för torkning"
     },
@@ -1186,9 +1335,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/spetsblomma-lacemix.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/spetsblomma-lacemix2.webp",
+        "src/assets/flowers/other/spetsblomma-lacemix3.webp",
+        "src/assets/flowers/other/spetsblomma-lacemix4.webp",
+        "src/assets/flowers/other/spetsblomma-lacemix5.webp"
+      ],
       "additionalComments": "Successionssådd för längre blomning",
-      "description": "Denna eleganta blomma är en riktig pärla som ger en touch av sofistikerad charm till alla blomsterarrangemang. Med sina läckert lavendelblå blommor som liknar små, stjärnformade konfetti, kommer \"Lavender Blå\" att förvandla din trädgård och dina buketter till en dröm.\n\nSpetsblomman är lätt att odla och trivs i soliga lägen med väldränerad jord. Den blommar generöst under sommaren och fortsätter att lysa upp ditt utomhusutrymme med sina vackra, doftande blommor. Dess grågröna bladverk ger en fin kontrast och framhäver den lila färgens skönhet.\n\nUtmärkt för både rabattkanter och som snittblomma i buketter, erbjuder en lång blomningstid och ett minimalistiskt men ändå fantastiskt utseende. Lägg till denna eleganta blomma i din trädgård och njut av dess förtrollande skönhet hela sommaren."
+      "description": "Denna eleganta blomma är en riktig pärla som ger en touch av sofistikerad charm till alla blomsterarrangemang. Med sina läckert lavendelblå och vita blommor som liknar små, stjärnformade konfetti, kommer spetsblomman att förvandla din trädgård och dina buketter till en dröm.\n\nSpetsblomman är lätt att odla och trivs i soliga lägen med väldränerad jord. Den blommar generöst under sommaren och fortsätter att lysa upp ditt utomhusutrymme med sina vackra, doftande blommor. Dess grågröna bladverk ger en fin kontrast och framhäver dess skönhet.\n\nUtmärkt för både rabattkanter och som snittblomma i buketter, erbjuder en lång blomningstid och ett minimalistiskt men ändå fantastiskt utseende. Lägg till denna eleganta blomma i din trädgård och njut av dess förtrollande skönhet hela sommaren."
     },
     {
       "id": "037",
@@ -1222,7 +1376,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/other/atlasblomma.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/other/atlasblomma2.webp",
+        "src/assets/flowers/other/atlasblomma3.webp",
+        "src/assets/flowers/other/atlasblomma4.webp",
+        "src/assets/flowers/other/atlasblomma5.webp",
+        "src/assets/flowers/other/atlasblomma6.webp"
+      ],
       "additionalComments": "Kan behöva bindas upp.",
       "description": "Atlasblomma är en ettårig sommarblomma och är lika vacker i rabatten som i buketter som snittblomma med sina långa stjälkar och en planthöjd på ca. 45cm."
     },
@@ -1258,7 +1418,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-amandinescarlet.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet4.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1294,7 +1458,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-labellesalmon.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-labellesalmon2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-labellesalmon3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-labellesalmon4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-labellesalmon5.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1330,7 +1499,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-supergreenrose.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-supergreenrose2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenrose3.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1366,7 +1538,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-supergreenyellow.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-supergreenyellow2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenyellow3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenyellow4.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1402,7 +1578,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-supergreenwhite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite6.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1438,7 +1620,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-malva.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-malva2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-malva3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-malva4.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1474,7 +1660,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/ranunkel/ranunkel-pastellostriato.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato5.webp"
+      ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
     },
@@ -1510,7 +1701,13 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-snapstarchampagne.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-snapstarchampagne2.webp",
+        "src/assets/flowers/lejongap/lejongap-snapstarchampagne3.webp",
+        "src/assets/flowers/lejongap/lejongap-snapstarchampagne4.webp",
+        "src/assets/flowers/lejongap/lejongap-snapstarchampagne5.webp",
+        "src/assets/flowers/lejongap/lejongap-snapstarchampagne6.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1546,7 +1743,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-canneslavender.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-canneslavender2.webp",
+        "src/assets/flowers/lejongap/lejongap-canneslavender3.webp",
+        "src/assets/flowers/lejongap/lejongap-canneslavender4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1582,7 +1783,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-doubleshotpeach.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-doubleshotpeach2.webp",
+        "src/assets/flowers/lejongap/lejongap-doubleshotpeach3.webp",
+        "src/assets/flowers/lejongap/lejongap-doubleshotpeach4.webp",
+        "src/assets/flowers/lejongap/lejongap-doubleshotpeach5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1618,7 +1824,12 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-twinnypeach.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-twinnypeach2.webp",
+        "src/assets/flowers/lejongap/lejongap-twinnypeach3.webp",
+        "src/assets/flowers/lejongap/lejongap-twinnypeach4.webp",
+        "src/assets/flowers/lejongap/lejongap-twinnypeach5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1654,7 +1865,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-madamebutterflyivory.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyivory2.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyivory3.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyivory4.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyivory5.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyivory6.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1690,7 +1907,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-opusearlybronze.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-opusearlybronze2.webp",
+        "src/assets/flowers/lejongap/lejongap-opusearlybronze3.webp",
+        "src/assets/flowers/lejongap/lejongap-opusearlybronze4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1726,7 +1947,12 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-costasummerlavender.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-costasummerlavender2.webp",
+        "src/assets/flowers/lejongap/lejongap-costasummerlavender3.webp",
+        "src/assets/flowers/lejongap/lejongap-costasummerlavender4.webp",
+        "src/assets/flowers/lejongap/lejongap-costasummerlavender5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1762,7 +1988,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-bridalpink.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-bridalpink2.webp",
+        "src/assets/flowers/lejongap/lejongap-bridalpink3.webp",
+        "src/assets/flowers/lejongap/lejongap-bridalpink4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1798,7 +2028,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-madamebutterflyred.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyred2.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyred3.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyred4.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyred5.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyred6.webp",
+        "src/assets/flowers/lejongap/lejongap-madamebutterflyred7.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1834,7 +2071,10 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-twinnybronzeshades.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-twinnybronzeshades2.webp",
+        "src/assets/flowers/lejongap/lejongap-twinnybronzeshades3.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1870,7 +2110,13 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-costasilver.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-costasilver2.webp",
+        "src/assets/flowers/lejongap/lejongap-costasilver3.webp",
+        "src/assets/flowers/lejongap/lejongap-costasilver4.webp",
+        "src/assets/flowers/lejongap/lejongap-costasilver5.webp",
+        "src/assets/flowers/lejongap/lejongap-costasilver6.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1906,7 +2152,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-canarybird.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-canarybird2.webp",
+        "src/assets/flowers/lejongap/lejongap-canarybird3.webp",
+        "src/assets/flowers/lejongap/lejongap-canarybird4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1942,7 +2192,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-rocketwhite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-rocketwhite2.webp",
+        "src/assets/flowers/lejongap/lejongap-rocketwhite3.webp",
+        "src/assets/flowers/lejongap/lejongap-rocketwhite4.webp",
+        "src/assets/flowers/lejongap/lejongap-rocketwhite5.webp",
+        "src/assets/flowers/lejongap/lejongap-rocketwhite6.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -1978,7 +2234,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-luckylips.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-luckylips2.webp",
+        "src/assets/flowers/lejongap/lejongap-luckylips3.webp",
+        "src/assets/flowers/lejongap/lejongap-luckylips4.webp",
+        "src/assets/flowers/lejongap/lejongap-luckylips5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -2014,13 +2275,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-chantillydelightmixed.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/lejongap/lejongap-chantillydelightmixed2.webp",
+        "src/assets/flowers/lejongap/lejongap-chantillydelightmixed3.webp",
+        "src/assets/flowers/lejongap/lejongap-chantillydelightmixed4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
     {
       "id": "301",
-      "name": "Risp “Pastel Mixed”",
+      "name": "Risp “Pastel Mix”",
       "category": "Risp",
       "height": "60-70 cm",
       "color": ["Persika", "Lila", "Rosa", "Vit", "Aprikos"],
@@ -2050,7 +2315,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-pastelmix.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-pastelmix2.webp",
+        "src/assets/flowers/risp/risp-pastelmix3.webp",
+        "src/assets/flowers/risp/risp-pastelmix4.webp",
+        "src/assets/flowers/risp/risp-pastelmix5.webp",
+        "src/assets/flowers/risp/risp-pastelmix6.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2086,7 +2357,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/risp/risp-qisapricot.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-qisapricot2.webp",
+        "src/assets/flowers/risp/risp-qisapricot3.webp",
+        "src/assets/flowers/risp/risp-qisapricot4.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2122,7 +2397,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-purpleattraction.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-purpleattraction2.webp",
+        "src/assets/flowers/risp/risp-purpleattraction3.webp",
+        "src/assets/flowers/risp/risp-purpleattraction4.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2158,7 +2437,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/risp/risp-pacificmix.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-pacificmix2.webp",
+        "src/assets/flowers/risp/risp-pacificmix4.webp",
+        "src/assets/flowers/risp/risp-pacificmix5.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2194,7 +2477,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-midnightblue.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-midnightblue2.webp",
+        "src/assets/flowers/risp/risp-midnightblue3.webp",
+        "src/assets/flowers/risp/risp-midnightblue4.webp",
+        "src/assets/flowers/risp/risp-midnightblue5.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2230,7 +2518,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-iceberg.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-iceberg.2webp",
+        "src/assets/flowers/risp/risp-iceberg3.webp",
+        "src/assets/flowers/risp/risp-iceberg4.webp",
+        "src/assets/flowers/risp/risp-iceberg5.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2266,13 +2559,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-apricotshades.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-apricotshades2.webp",
+        "src/assets/flowers/risp/risp-apricotshades3.webp",
+        "src/assets/flowers/risp/risp-apricotshades4.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
     {
       "id": "308",
-      "name": "Risp “Dark Blue”",
+      "name": "Risp “Qis Dark Blue”",
       "category": "Risp",
       "height": "60-70 cm",
       "color": ["Blå", "Lila"],
@@ -2302,7 +2599,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-qisdarkblue.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-qisdarkblue2.webp",
+        "src/assets/flowers/risp/risp-qisdarkblue3.webp",
+        "src/assets/flowers/risp/risp-qisdarkblue4.webp"
+      ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2338,7 +2639,7 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/risp/risp-rosa.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/risp/risp-rosa2.webp"],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2374,7 +2675,7 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/risp/risp-lila.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/risp/risp-lila2.webp"],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
       "description": "Beskrivning av växten"
     },
@@ -2410,7 +2711,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-balloonchamois.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-balloonchamois2.webp",
+        "src/assets/flowers/aster/aster-balloonchamois3.webp",
+        "src/assets/flowers/aster/aster-balloonchamois4.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2446,7 +2751,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-chrisantellaautumnforest.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-chrisantellaautumnforest2.webp",
+        "src/assets/flowers/aster/aster-chrisantellaautumnforest3.webp",
+        "src/assets/flowers/aster/aster-chrisantellaautumnforest4.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2482,7 +2791,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-ladycoralsalmon.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-ladycoralsalmon2.webp",
+        "src/assets/flowers/aster/aster-ladycoralsalmon3.webp",
+        "src/assets/flowers/aster/aster-ladycoralsalmon4.webp",
+        "src/assets/flowers/aster/aster-ladycoralsalmon5.webp",
+        "src/assets/flowers/aster/aster-ladycoralsalmon6.webp",
+        "src/assets/flowers/aster/aster-ladycoralsalmon7.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2518,7 +2834,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-hulk.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-hulk2.webp",
+        "src/assets/flowers/aster/aster-hulk3.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2554,7 +2873,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-towerviolet.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-towerviolet2.webp",
+        "src/assets/flowers/aster/aster-towerviolet3.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2590,7 +2912,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-towerblue.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-towerblue2.webp",
+        "src/assets/flowers/aster/aster-towerblue3.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2626,7 +2951,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-duchessered.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-duchessered2.webp",
+        "src/assets/flowers/aster/aster-duchessered3.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2662,7 +2990,7 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-cinderella.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/aster/aster-cinderella2.webp"],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2698,7 +3026,11 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/aster/aster-matsumotoblue.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-matsumotoblue2.webp",
+        "src/assets/flowers/aster/aster-matsumotoblue3.webp",
+        "src/assets/flowers/aster/aster-matsumotoblue4.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2734,7 +3066,10 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/aster/aster-matsumotopink.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-matsumotopink2.webp",
+        "src/assets/flowers/aster/aster-matsumotopink3.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2770,7 +3105,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-kingsizeapricot.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-kingsizeapricot2.webp",
+        "src/assets/flowers/aster/aster-kingsizeapricot3.webp",
+        "src/assets/flowers/aster/aster-kingsizeapricot4.webp",
+        "src/assets/flowers/aster/aster-kingsizeapricot5.webp",
+        "src/assets/flowers/aster/aster-kingsizeapricot6.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2806,7 +3147,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-kingsizeappleblossom.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-kingsizeappleblossom2.webp",
+        "src/assets/flowers/aster/aster-kingsizeappleblossom3.webp",
+        "src/assets/flowers/aster/aster-kingsizeappleblossom4.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2842,7 +3187,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-kingsizewhite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-kingsizewhite2.webp",
+        "src/assets/flowers/aster/aster-kingsizewhite3.webp",
+        "src/assets/flowers/aster/aster-kingsizewhite4.webp",
+        "src/assets/flowers/aster/aster-kingsizewhite5.webp",
+        "src/assets/flowers/aster/aster-kingsizewhite6.jpg"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2878,7 +3229,7 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-princesseva.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/aster/aster-princesseva2.webp"],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2913,7 +3264,7 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/aster/aster-duchesseroseandwhite.webp",
+      "mainImg": "src/assets/flowers/aster/aster-duchesseroseandwhite.jpg",
       "additionalImages": [],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
@@ -2950,7 +3301,7 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/aster/aster-silveryrose.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/aster/aster-silveryrose2.webp"],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -2986,7 +3337,7 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-princess.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/aster/aster-princess2.webp"],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -3022,7 +3373,10 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/aster/aster-theroses.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/aster/aster-theroses2.webp",
+        "src/assets/flowers/aster/aster-theroses3.webp"
+      ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -3058,7 +3412,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/axamarant-flamingofeather.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/axamarant-flamingofeather2.webp",
+        "src/assets/flowers/celosia/axamarant-flamingofeather3.webp",
+        "src/assets/flowers/celosia/axamarant-flamingofeather4.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
     },
@@ -3093,8 +3451,12 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/celosia/axamarant-terracotta.webp",
-      "additionalImages": [],
+      "mainImg": "src/assets/flowers/celosia/axamarant-terracotta.png",
+      "additionalImages": [
+        "src/assets/flowers/celosia/axamarant-terracotta2.webp",
+        "src/assets/flowers/celosia/axamarant-terracotta3.webp",
+        "src/assets/flowers/celosia/axamarant-terracotta4.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
     },
@@ -3130,7 +3492,7 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/celosia-shimmer.webp",
-      "additionalImages": [],
+      "additionalImages": ["src/assets/flowers/celosia/celosia-shimmer2.webp"],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
     },
@@ -3166,7 +3528,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/plymort-freshlookorange.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/plymort-freshlookorange2.webp",
+        "src/assets/flowers/celosia/plymort-freshlookorange3.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
     },
@@ -3202,7 +3567,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/plymort-pampasplume.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/plymort-pampasplume2.webp",
+        "src/assets/flowers/celosia/plymort-pampasplume3.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
     },
@@ -3238,7 +3606,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/tuppkam-barbossachampagne.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/tuppkam-barbossachampagne2.webp",
+        "src/assets/flowers/celosia/tuppkam-barbossachampagne3.webp",
+        "src/assets/flowers/celosia/tuppkam-barbossachampagne4.webp",
+        "src/assets/flowers/celosia/tuppkam-barbossachampagne5.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme. En planta i varje kruka.",
       "description": "Beskrivning av växten"
     },
@@ -3274,7 +3647,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/tuppkam-frozen.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/tuppkam-frozen2.webp",
+        "src/assets/flowers/celosia/tuppkam-frozen3.webp",
+        "src/assets/flowers/celosia/tuppkam-frozen4.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme. En planta i varje kruka.",
       "description": "Beskrivning av växten"
     },
@@ -3310,7 +3687,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/tuppkam-hautecouture.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/tuppkam-hautecouture2.webp",
+        "src/assets/flowers/celosia/tuppkam-hautecouture3.webp",
+        "src/assets/flowers/celosia/tuppkam-hautecouture4.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme. En planta i varje kruka.",
       "description": "Beskrivning av växten"
     },
@@ -3346,7 +3727,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/tuppkam-cramersburgundy.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/tuppkam-cramersburgundy2.webp",
+        "src/assets/flowers/celosia/tuppkam-cramersburgundy4.webp",
+        "src/assets/flowers/celosia/tuppkam-cramersburgundy5.webp",
+        "src/assets/flowers/celosia/tuppkam-cramersburgundy3.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme. En planta i varje kruka.",
       "description": "Beskrivning av växten"
     },
@@ -3382,7 +3768,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/tuppkam-orangequeen.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/tuppkam-orangequeen2.webp",
+        "src/assets/flowers/celosia/tuppkam-orangequeen3.webp",
+        "src/assets/flowers/celosia/tuppkam-orangequeen4.webp",
+        "src/assets/flowers/celosia/tuppkam-orangequeen5.webp",
+        "src/assets/flowers/celosia/tuppkam-orangequeen6.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme. En planta i varje kruka.",
       "description": "Beskrivning av växten"
     },
@@ -3418,7 +3810,9 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/celosia/tuppkam-chiefgold.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/celosia/tuppkam-chiefgold2.webp"
+      ],
       "additionalComments": "Bor gärna i växthus - gillar värme. En planta i varje kruka.",
       "description": "Utgått ur sortimentet hos Natalies blommor och ting. Beskrivning av växten"
     },
@@ -4897,7 +5291,12 @@
       ],
       "chosen": false,
       "mainImg": "src/assets/flowers/luktart/luktart-enchante2.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-enchante.webp",
+        "src/assets/flowers/luktart/luktart-enchante3.webp",
+        "src/assets/flowers/luktart/luktart-enchante4.webp",
+        "src/assets/flowers/luktart/luktart-enchante5.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "En älskad sort! Trefärgad luktärt som får körsbärsrosa och lavendel / blå kronblad. Stora blommor och doften är stark och alldeles ljuvlig. Skörda blommorna i knoppstadiet."
     },
@@ -4969,7 +5368,9 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-perfumepromisepinkwhitebicolor.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-perfumepromisepinkwhitebicolor2.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Charmig, väldoftande, tvåfärgad luktärt i vitt och nyanser av rosa och cerise. Fin till snitt. Trivs i sol till halvskugga. Skörda blommorna i knoppstadiet."
     },
@@ -5005,7 +5406,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-spenceroldtimes.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-spenceroldtimes2.webp",
+        "src/assets/flowers/luktart/luktart-spenceroldtimes3.webp",
+        "src/assets/flowers/luktart/luktart-spenceroldtimes4.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "En underbar sort med gräddvita kronblad och ljust lavendelblå skiftningar. Stark fin doft och mycket hållbar som snitt. Skörda blommorna i knoppstadiet."
     },
@@ -5041,7 +5446,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-solwaymix.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-solway-classic.webp",
+        "src/assets/flowers/luktart/luktart-solway-classic2.webp",
+        "src/assets/flowers/luktart/luktart-solwaymix-sapphire.webp",
+        "src/assets/flowers/luktart/luktart-solwaymix-sapphire2.webp",
+        "src/assets/flowers/luktart/luktart-solwaymix-sapphire3.webp",
+        "src/assets/flowers/luktart/luktart-solway-classicsapphire.webp",
+        "src/assets/flowers/luktart/luktart-solwaymix-snowflake.webp",
+        "src/assets/flowers/luktart/luktart-solwaymix-snowflake2.webp",
+        "src/assets/flowers/luktart/luktart-solwaymix-snowflake3.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärtsblandningen Solway mix är en blandning av de fantastiska ’Solway’-sorterna med alla dess färger. Den består av Solway Snowflake, Solway Sapphire och Solway Classic. Blir ca 80 cm hög och fin som liten häck eller i en stor kruka. Stöd med grenar vid plantering. De kommer ganska snart att döljas av bladverket. Ganska korta stjälkar, ca 10-14 cm, gör dem passande till bordsdekorering, särskilt som de är mycket blomrika."
     },
@@ -5077,7 +5492,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-juliet.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-juliet2.webp",
+        "src/assets/flowers/luktart/luktart-juliet3.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Juliet’ är vaniljvit med en rosa rodnad. Okänt ursprung. 'Juliet' har en rik doft med en blommig kropp av jasmin och söta inslag av kaprifol och mandel."
     },
@@ -5113,7 +5531,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-noelsutton.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-noelsutton2.webp",
+        "src/assets/flowers/luktart/luktart-noelsutton3.webp",
+        "src/assets/flowers/luktart/luktart-noelsutton4.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Noel Sutton’ är en ljuvlig djupt mellanblå sort med lite ljusare kanter på blomman. En riktig favoritsort med stark doft, långa stjälkar och många blommor på varje stjälk. Storvuxen. 'Noel Sutton' har en mild doft av blommig frangipanikropp med söt mandel och jojoba. "
     },
@@ -5149,7 +5571,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-sirjimmyshand.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-sirjimmyshand2.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand3.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand4.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand6.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Sir Jimmy Shand’ har stora, doftande blommor i vitt med violetta teckningar. En av de allra vackraste. Höjd ca 250-300 cm. 'Sir Jimmy Shand' har en mild söt bouquet med toner av blommig frangipani och körsbärsblom."
     },
@@ -5185,7 +5612,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-earlgrey.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-earlgrey2.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey3.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey4.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey5.jpg"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Earl Grey’ är en stilig silvervit, veckad luktärt med purpurlila strimmor. Långa stjälkar. 'Earl Grey' har en disig myskessens med kropp av neroli och inslag av citronmeliss."
     },
@@ -5221,7 +5653,15 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/solros/solros-teddybear.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/solros/solros-teddybear2.webp",
+        "src/assets/flowers/solros/solros-teddybear3.webp",
+        "src/assets/flowers/solros/solros-teddybear4.webp",
+        "src/assets/flowers/solros/solros-teddybear5.webp",
+        "src/assets/flowers/solros/solros-teddybear6.webp",
+        "src/assets/flowers/solros/solros-teddybear7.webp",
+        "src/assets/flowers/solros/solros-teddybear8.webp"
+      ],
       "additionalComments": "Plantera fröna 2-5 cm djupt",
       "description": "Solrosen 'Teddy Bear' som är en charmig och kompakt sort som snabbt blir en favorit i trädgårdar och krukodlingar. Denna sort är särskilt uppskattad för sina frodiga, fyllda blommor som har en mjukt gyllengul färg och en fluffig känsla– därav namnet 'Teddy Bear'.\n\nBlommorna är cirka 10-15 cm i diameter och sitter på korta, robusta stjälkar som gör växten perfekt för mindre utrymmen, balkonger eller barnvänliga trädgårdar. Den når en höjd på cirka 40–60 cm, vilket gör den idealisk även som kantväxt eller i blomsterbäddar.\n\nTeddy Bear är mycket lättodlad och blommar rikligt från mitten av sommaren till tidig höst. Den trivs bäst i soliga lägen och i väldränerad, näringsrik jord. För bästa resultat kan du så den direkt på växtplatsen efter sista frosten eller förkultivera inomhus för en tidigare blomning.\n\nDenna solros är en fröjd för ögat och dess kompakta form och livliga färg gör den också till ett utmärkt val för snittblommor i dekorativa arrangemang."
     },
@@ -5257,7 +5697,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/solros/solros-procutplum.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/solros/solros-procutplum2.webp",
+        "src/assets/flowers/solros/solros-procutplum3.webp",
+        "src/assets/flowers/solros/solros-procutplum4.webp",
+        "src/assets/flowers/solros/solros-procutplum5.webp",
+        "src/assets/flowers/solros/solros-procutplum6.webp"
+      ],
       "additionalComments": "Plantera fröna 2-5 cm djupt",
       "description": "En ny och förtrollande solrossort som med sina unika färger charmar stora som små. En tvåfärgad solros med stora tjusiga blommor. Sorten får gräddgula blomblad som övergår till en vacker plommonfärgad nyans närmast solrosens mitt. Pro Cut Plum är perfekt till snitt och är sagolik i buketter och blomarrangemang. Den får långa och stadiga stjälkar med en tjusig solrosblomma per stjälk.\n\nSorten är otroligt dekorativ som bakgrundsväxt i planteringar och omtyckt av alla våra pollinatörer."
     },
@@ -5293,7 +5739,10 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/solros/solros-procutred.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/solros/solros-procutred2.webp",
+        "src/assets/flowers/solros/solros-procutred3.webp"
+      ],
       "additionalComments": "Plantera fröna 2-5 cm djupt",
       "description": "Pro cut Red är solrosen med det där lilla extra. Med sin unika och mörkröda färgnyans fick den oss på Florea på fall direkt. Sorten förgrenar sig ofta och storleken på blommorna är perfekta att använda i buketter eller andra typer av blomsterarrangemang. En fantastisk lättodlad sort som passar lika bra i rabatten som i en större kruka."
     },
@@ -5329,7 +5778,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/solros/solros-procutwhitenite.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/solros/solros-procutwhitenite2.webp",
+        "src/assets/flowers/solros/solros-procutwhitenite3.webp",
+        "src/assets/flowers/solros/solros-procutwhitenite4.webp",
+        "src/assets/flowers/solros/solros-procutwhitenite5.webp"
+      ],
       "additionalComments": "Plantera fröna 2-5 cm djupt",
       "description": "Denna ljuvliga solrosnyhet kommer att ta dig med storm. Den har en vacker ljusgul till vit nyans med en kontrastfull mörk mitt. Med sitt unika utseende skiljer den sig från klassiska sorter på ett positivt och överraskande sätt. Den är slående vacker som bakgrundsväxt i planteringar och väldigt uppskattad av alla våra pollinatörer.\n\nPro Cut White Nite har stadiga och robusta stjälkar och passar utmärkt till snitt. Några stjälkar av denna tjusiga sort kan smycka vilket matbord som helst!"
     },
@@ -5365,7 +5819,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/phlox/phlox-tallmixed.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/phlox/phlox-tallmixed2.webp",
+        "src/assets/flowers/phlox/phlox-tallmixed3.webp",
+        "src/assets/flowers/phlox/phlox-tallmixed4.webp",
+        "src/assets/flowers/phlox/phlox-tallmixed6.webp"
+      ],
       "additionalComments": "Sommarflox är mörkergroende. Odlingstråget ska därför skyddas mot ljus efter det att man man sått fröna och täckt dem med ett tunt lager jord. Gör detta med hjälp av en bit kartong, mörk plast, en tallrik eller liknande. Håll fuktigt och lufta ibland.",
       "description": "Sommarflox med sina färgglada små blomklasar är en otroligt söt sommarblomma. Samtidigt är den en riktig tuffing i trädgården. Den klarar regn, blåst och lite frost. Sommarflox blommar rikligt och länge. Med sin härliga doft lockar den till sig pollinatörer som fjärilar och bin.\n\n“Flox” betyder flamma. Det är ett passande namn eftersom blommorna ibland är mycket färgstarka. De kan vara enfärgade eller tvåfärgade. Idag finns sommarflox i såväl milda som intensiva nyanser i blått, lila, rosa, crèmefärgat och vitt."
     },
@@ -5401,7 +5860,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/phlox/phlox-cherrycaramel.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/phlox/phlox-cherrycaramel2.webp",
+        "src/assets/flowers/phlox/phlox-cherrycaramel3.webp",
+        "src/assets/flowers/phlox/phlox-cherrycaramel4.webp",
+        "src/assets/flowers/phlox/phlox-cherrycaramel6.webp",
+        "src/assets/flowers/phlox/phlox-cherrycaramel7.webp"
+      ],
       "additionalComments": "Sommarflox är mörkergroende. Odlingstråget ska därför skyddas mot ljus efter det att man man sått fröna och täckt dem med ett tunt lager jord. Gör detta med hjälp av en bit kartong, mörk plast, en tallrik eller liknande. Håll fuktigt och lufta ibland.",
       "description": "Sommarflox med sina färgglada små blomklasar är en otroligt söt sommarblomma. Samtidigt är den en riktig tuffing i trädgården. Den klarar regn, blåst och lite frost. Sommarflox blommar rikligt och länge. Med sin härliga doft lockar den till sig pollinatörer som fjärilar och bin.\n\n“Flox” betyder flamma. Det är ett passande namn eftersom blommorna ibland är mycket färgstarka. De kan vara enfärgade eller tvåfärgade. Idag finns sommarflox i såväl milda som intensiva nyanser i blått, lila, rosa, crèmefärgat och vitt."
     },
@@ -5437,7 +5902,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/phlox/phlox-sugarstars.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/phlox/phlox-sugarstars2.webp",
+        "src/assets/flowers/phlox/phlox-sugarstars3.webp",
+        "src/assets/flowers/phlox/phlox-sugarstars4.webp"
+      ],
       "additionalComments": "Sommarflox är mörkergroende. Odlingstråget ska därför skyddas mot ljus efter det att man man sått fröna och täckt dem med ett tunt lager jord. Gör detta med hjälp av en bit kartong, mörk plast, en tallrik eller liknande. Håll fuktigt och lufta ibland.",
       "description": "Sommarflox med sina färgglada små blomklasar är en otroligt söt sommarblomma. Samtidigt är den en riktig tuffing i trädgården. Den klarar regn, blåst och lite frost. Sommarflox blommar rikligt och länge. Med sin härliga doft lockar den till sig pollinatörer som fjärilar och bin.\n\n“Flox” betyder flamma. Det är ett passande namn eftersom blommorna ibland är mycket färgstarka. De kan vara enfärgade eller tvåfärgade. Idag finns sommarflox i såväl milda som intensiva nyanser i blått, lila, rosa, crèmefärgat och vitt."
     },
@@ -5473,7 +5942,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/phlox/phlox-blushingbride.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/phlox/phlox-blushingbride2.webp",
+        "src/assets/flowers/phlox/phlox-blushingbride3.webp",
+        "src/assets/flowers/phlox/phlox-blushingbride4.webp",
+        "src/assets/flowers/phlox/phlox-blushingbride5.webp"
+      ],
       "additionalComments": "Sommarflox är mörkergroende. Odlingstråget ska därför skyddas mot ljus efter det att man man sått fröna och täckt dem med ett tunt lager jord. Gör detta med hjälp av en bit kartong, mörk plast, en tallrik eller liknande. Håll fuktigt och lufta ibland.",
       "description": "Sommarflox med sina färgglada små blomklasar är en otroligt söt sommarblomma. Samtidigt är den en riktig tuffing i trädgården. Den klarar regn, blåst och lite frost. Sommarflox blommar rikligt och länge. Med sin härliga doft lockar den till sig pollinatörer som fjärilar och bin.\n\n“Flox” betyder flamma. Det är ett passande namn eftersom blommorna ibland är mycket färgstarka. De kan vara enfärgade eller tvåfärgade. Idag finns sommarflox i såväl milda som intensiva nyanser i blått, lila, rosa, crèmefärgat och vitt.\n\nMan vill ofta ha många plantor som planteras tätt. För att floxen ska ge intryck av en sammanhängande och frodig plantering, snarare än enstaka spridda plantor, bör man sätta minst 5–10 plantor tillsammans i grupp."
     }
