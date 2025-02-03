@@ -3,18 +3,20 @@
   import FlowerList from './FlowerList.vue'
   import QuerySection from './QuerySection.vue'
   import { fetchFlowers } from '../../fetchFlowers'
+  import Sorting from './Sorting.vue'
 
   let flowers = ref([])
   let searchQueryExists = ref(false)
   let categories = ref([])
   let colors = ref([])
   let cultivationTypes = ref([])
-  let canPlantInPots = ref(null)
   let searchQuery = ref('')
   let chosenCategory = ref([])
   let chosenColor = ref([])
-  let chosenCultivationType = ref('')
-  let chosenAnswerAboutPots = ref(null)
+  let chosenCultivationType = ref('all')
+  const sortOrder = ref('')
+  const sortCategory = ref('')
+  const sortMonth = ref('')
 
   onMounted(async () => {
     flowers.value = await fetchFlowers()
@@ -25,9 +27,6 @@
     cultivationTypes.value = [
       ...new Set(flowers.value.map((flower) => flower.cultivationType))
     ]
-    canPlantInPots.value = [
-      ...new Set(flowers.value.map((flower) => flower.canPlantInPots))
-    ]
     colors.value = [
       ...new Set(flowers.value.flatMap((flower) => flower.color))
     ].sort()
@@ -37,65 +36,101 @@
     // flatMap() går igenom varje blomma (flower) i flowers.value och samlar ihop alla färger från varje blomma i en enda enkel lista. Vi använder flatMap här för att colors är en array i databasen. Hade det varit en enkel string, som category är, hade vi bara använt map().
   })
 
+  const extractMonth = (dateString) => {
+    const splitString = dateString.split('/')
+    if (splitString.length === 2) {
+      const month = parseInt(splitString[1])
+      return isNaN(month) ? 0 : month
+    }
+    return 0
+  }
+
+  //NOTE TO SELF: För att Övrigt-kategorin ska hamna sist måste jag göra en fallback då Ö har ett högre Unicode-värde än de andra bokstäverna i det svenska alfabetet. Sorteringsfunktionen i JavaScript använder sig av Unicode-värden för att jämföra strängar, så Ö kommer hamna först i en stigande sortering (A-Z). Den här funktionen säger att om någon av kategorierna är "Övrigt", placera den sist
+  const customSort = (a, b) => {
+    if (a === 'Övrigt') return 1 // "Övrigt" ska hamna efter andra kategorier
+    if (b === 'Övrigt') return -1 // Andra kategorier ska hamna före "Övrigt"
+
+    // Använd localeCompare för att sortera svenska bokstäver korrekt
+    return a.localeCompare(b, 'sv')
+  }
+
   const updateFilteredFlowers = computed(() => {
     let result = flowers.value
     if (searchQuery.value) {
       result = result.filter((flower) =>
         flower.name.toLowerCase().includes(searchQuery.value.toLowerCase())
       )
+      searchQueryExists.value = true
     }
     if (chosenCategory.value.length) {
       result = result.filter((flower) =>
         chosenCategory.value.includes(flower.category)
       )
+      searchQueryExists.value = true
     }
-    if (chosenCultivationType.value) {
+    if (chosenCultivationType.value !== 'all') {
       result = result.filter(
         (flower) => flower.cultivationType === chosenCultivationType.value
       )
-    }
-    if (
-      chosenAnswerAboutPots.value !== null &&
-      chosenAnswerAboutPots.value !== undefined
-    ) {
-      result = result.filter(
-        (flower) => flower.canPlantInPots === chosenAnswerAboutPots.value
-      )
+      searchQueryExists.value = true
     }
     if (chosenColor.value.length) {
       result = result.filter((flower) =>
         chosenColor.value.some((color) => flower.color.includes(color))
       )
       //NOTE TO SELF: some() kollar om NÅGOT element i en array uppfyller ett villkor. Den returnerar true om den hittar minst ett element som matchar, annars false.
+      searchQueryExists.value = true
     }
-    searchQueryExists.value = true
+    if (sortOrder.value === 'desc') {
+      result = result.sort((a, b) => b.name.localeCompare(a.name)) // Z-A
+    } else if (sortOrder.value === 'asc') {
+      result.sort((a, b) => a.name.localeCompare(b.name))
+    }
+    if (sortCategory.value === 'category') {
+      result.sort((a, b) => customSort(a.category, b.category))
+    }
+    if (sortMonth.value === 'asc') {
+      return [...flowers.value].sort((a, b) => {
+        const monthA = extractMonth(a.sowingDate)
+        const monthB = extractMonth(b.sowingDate)
+        return monthA - monthB // Jämför månaden numeriskt
+      })
+    }
     return result
   })
 </script>
 
 <template>
+  <Sorting
+    v-model:sortOrder="sortOrder"
+    v-model:sortCategory="sortCategory"
+    v-model:sortMonth="sortMonth"
+  />
   <div class="main-content">
     <QuerySection
       v-model:searchName="searchQuery"
       v-model:chosenCategory="chosenCategory"
       v-model:chosenColor="chosenColor"
       v-model:chosenCultivationType="chosenCultivationType"
-      v-model:chosenAnswerAboutPots="chosenAnswerAboutPots"
       :categories="categories"
       :colors="colors"
       :cultivationTypes="cultivationTypes"
-      :canPlantInPots="canPlantInPots"
     />
     <FlowerList
-      :flowers="flowers"
+      :flowers="updateFilteredFlowers"
       :filteredFlowers="updateFilteredFlowers"
-      :searchQueryExists="searchQueryExists"
+      :searchQueryExists="!!searchQuery"
+      :sortOrder="sortOrder"
+      :sortMonth="sortMonth"
+      :sortCategory="sortCategory"
+      :extractMonth="extractMonth"
     />
   </div>
 </template>
 
 <style scoped>
   .main-content {
+    margin-top: 1rem;
     width: 100%;
     display: flex;
     flex-direction: row;

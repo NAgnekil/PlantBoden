@@ -17,18 +17,14 @@
 
 <template>
   <div class="accordion-menu">
-    <input type="checkbox" id="tab2" />
-    <label
-      class="accordion-label"
-      for="tab2"
-      @click="categoryIsOpen = !categoryIsOpen"
-      >Filtrera på kategori
-      <span class="arrow" :class="{ rotated: categoryIsOpen }"
-        ><i class="fas fa-chevron-down"></i></span
-    ></label>
-    <div class="accordion-content">
+    <label class="accordion-label" @click="categoryIsOpen = !categoryIsOpen">
+      Filtrera på kategori
+      <span class="arrow" :class="{ rotated: categoryIsOpen }">
+        <i class="fas fa-chevron-down"></i>
+      </span>
+    </label>
+    <div :class="['accordion-content', { 'is-open': categoryIsOpen }]">
       <div
-        v-show="categoryIsOpen"
         v-for="category in categories"
         :key="category"
         class="label-container"
@@ -39,8 +35,9 @@
             :id="category"
             :value="category"
             v-model="chosenCategory"
-          /><span class="category-name">{{ category }}</span></label
-        >
+          />
+          <span class="category-name">{{ category }}</span>
+        </label>
       </div>
     </div>
     <hr />
@@ -50,21 +47,9 @@
 <style scoped>
   .accordion-menu {
     overflow: hidden;
-    input {
-      &:checked ~ .accordion-content {
-        max-height: 100vh;
-        padding-bottom: 1rem;
-      }
-    }
-    #tab2 {
-      position: absolute;
-      opacity: 0;
-      z-index: -1;
-    }
     .accordion-label {
       display: flex;
       justify-content: space-between;
-      font-weight: bold;
       cursor: pointer;
       margin-bottom: -0.2rem;
       .arrow {
@@ -79,32 +64,39 @@
       }
     }
     .accordion-content {
-      max-height: 0;
+      max-height: 0; /* Börjar stängd */
+      width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 10px;
       overflow: hidden;
-      transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out;
+      opacity: 0; /* Börjar osynlig */
+      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Synkronisera båda övergångarna */
+
+      &.is-open {
+        max-height: 500px; /* Ett stort värde som garanterar att allt innehåll får plats */
+        opacity: 1; /* Fullt synlig */
+        .label-container:last-child {
+          padding-bottom: 1rem; /* Justera detta värde efter behov */
+        }
+      }
       .label-container {
         .category-label {
           cursor: pointer;
-          font-size: 1.3rem;
+          display: flex;
+          font-size: 1rem;
           input {
-            position: absolute;
-            opacity: 0;
             cursor: pointer;
             height: 0;
           }
           .category-name {
-            padding: 0.2rem 1.5rem;
+            width: 100%;
+            padding: 0.5rem 1.5rem;
             border-radius: 8px;
           }
-          /* On mouse-over, add a grey background color */
           &:hover input ~ .category-name {
             background-color: #ccc;
           }
 
-          /* When the checkbox is checked, add a blue background */
           input:checked ~ .category-name {
             background-color: var(--color-green);
           }
@@ -113,7 +105,7 @@
     }
   }
   hr {
-    border-top: 2px solid var(--color-dark-grey);
+    border-top: 1px solid var(--color-dark-grey);
     box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
     margin: 0 0 1rem 0;
   }

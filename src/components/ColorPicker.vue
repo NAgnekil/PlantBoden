@@ -91,7 +91,6 @@
   .accordion-label {
     display: flex;
     justify-content: space-between;
-    font-weight: bold;
     cursor: pointer;
     margin-bottom: -0.2rem;
   }
@@ -105,7 +104,7 @@
     margin-top: 1rem;
   }
   hr {
-    border-top: 2px solid var(--color-dark-grey);
+    border-top: 1px solid var(--color-dark-grey);
     box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
     margin: 0 0 1rem 0;
   }

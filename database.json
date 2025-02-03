@@ -7,7 +7,7 @@
       "height": "60 cm",
       "color": ["Vit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -48,7 +48,7 @@
       "height": "60 cm",
       "color": ["Blå", "Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -88,7 +88,7 @@
       "height": "40 cm",
       "color": ["Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -130,7 +130,7 @@
       "height": "100 cm",
       "color": ["Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -170,7 +170,7 @@
       "height": "50 cm",
       "color": ["Vit", "Rosa"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -211,7 +211,7 @@
       "height": "90 cm",
       "color": ["Vit", "Rosa", "Lila", "Vinröd"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -251,7 +251,7 @@
       "height": "70-120 cm",
       "color": ["Persika", "Rosa", "Lila", "Gul", "Gräddvit", "Vit", "Aprikos"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -292,7 +292,7 @@
       "height": "90 cm",
       "color": ["Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "14",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/2",
@@ -334,7 +334,7 @@
       "height": "60-100 cm",
       "color": ["Grön", "Gul", "Orange"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -375,7 +375,7 @@
       "height": "60 cm",
       "color": ["Grön", "Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -415,7 +415,7 @@
       "height": "90-100 cm",
       "color": ["Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -455,7 +455,7 @@
       "height": "40-50 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -496,7 +496,7 @@
       "height": "40-50 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -520,7 +520,7 @@
         }
       ],
       "chosen": false,
-      "mainImg": "src/assets/flowers/other/jungfrun-missjekyllwhite.webp",
+      "mainImg": "src/assets/flowers/other/jungfrun-missjekyllwhite.jpg",
       "additionalImages": [
         "src/assets/flowers/other/jungfrun-missjekyllwhite2.webp",
         "src/assets/flowers/other/jungfrun-missjekyllwhite3.webp",
@@ -537,7 +537,7 @@
       "height": "40-50 cm",
       "color": ["Blå", "Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -578,7 +578,7 @@
       "height": "40 cm",
       "color": ["Vit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -619,7 +619,7 @@
       "height": "70 cm",
       "color": ["Vit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -659,7 +659,7 @@
       "height": "50-70 cm",
       "color": ["Gul", "Orange", "Röd", "Rosa"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -701,7 +701,7 @@
       "height": "80 cm",
       "color": ["Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -741,7 +741,7 @@
       "height": "70 cm",
       "color": ["Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -782,7 +782,7 @@
       "height": "100 cm",
       "color": ["Rosa"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -822,7 +822,7 @@
       "height": "60-70 cm",
       "color": ["Rosa", "Persika", "Vit", "Gul", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -862,7 +862,7 @@
       "height": "60 cm",
       "color": ["Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -901,7 +901,7 @@
       "height": "70 cm",
       "color": ["Lila", "Blå"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -942,7 +942,7 @@
       "height": "60 cm",
       "color": ["Persika", "Röd"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -984,7 +984,7 @@
       "height": "70 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -1024,7 +1024,7 @@
       "height": "100-150 cm",
       "color": ["Grön"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1065,7 +1065,7 @@
       "height": "80-100 cm",
       "color": ["Brun"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1106,7 +1106,7 @@
       "height": "50 cm",
       "color": ["Brun", "Rosa", "Röd", "Lila", "Persika"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1147,7 +1147,7 @@
       "height": "45 cm",
       "color": ["Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -1187,7 +1187,7 @@
       "height": "100-150 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-      "canPlantInPots": false,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -1228,7 +1228,7 @@
       "height": "50 cm",
       "color": ["Vit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1269,7 +1269,7 @@
       "height": "50 cm",
       "color": ["Vit", "Rosa", "Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1310,7 +1310,7 @@
       "height": "60-90 cm",
       "color": ["Vit", "Blå"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1351,7 +1351,7 @@
       "height": "50 cm",
       "color": ["Vit", "Rosa"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1393,7 +1393,7 @@
       "height": "40-60 cm",
       "color": ["Röd"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1433,7 +1433,7 @@
       "height": "40-60 cm",
       "color": ["Persika", "Laxrosa", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1474,7 +1474,7 @@
       "height": "40-60 cm",
       "color": ["Rosa", "Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1513,7 +1513,7 @@
       "height": "40-60 cm",
       "color": ["Gul", "Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1553,7 +1553,7 @@
       "height": "40-60 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1595,7 +1595,7 @@
       "height": "40-60 cm",
       "color": ["Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1635,7 +1635,7 @@
       "height": "40-60 cm",
       "color": ["Gräddvit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1676,7 +1676,7 @@
       "height": "50-70 cm",
       "color": ["Persika", "Aprikos"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1718,7 +1718,7 @@
       "height": "80-100 cm",
       "color": ["Lila"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1758,7 +1758,7 @@
       "height": "50 cm",
       "color": ["Persika", "Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1799,7 +1799,7 @@
       "height": "25-30 cm",
       "color": ["Persika", "Rosa", "Aprikos"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1840,7 +1840,7 @@
       "height": "70-100 cm",
       "color": ["Vit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1882,7 +1882,7 @@
       "height": "85 cm",
       "color": ["Orange", "Persika"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1922,7 +1922,7 @@
       "height": "90 cm",
       "color": ["Lila"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1963,7 +1963,7 @@
       "height": "75-100 cm",
       "color": ["Rosa"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2003,7 +2003,7 @@
       "height": "75-100 cm",
       "color": ["Röd", "Vinröd"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2046,7 +2046,7 @@
       "height": "25-30 cm",
       "color": ["Persika"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2085,7 +2085,7 @@
       "height": "90 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2127,7 +2127,7 @@
       "height": "90 cm",
       "color": ["Gul"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2167,7 +2167,7 @@
       "height": "70-90 cm",
       "color": ["Vit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2209,7 +2209,7 @@
       "height": "50-70 cm",
       "color": ["Vit", "Rosa"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2250,7 +2250,7 @@
       "height": "90-100 cm",
       "color": ["Laxrosa", "Aprikos"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2290,7 +2290,7 @@
       "height": "60-70 cm",
       "color": ["Persika", "Lila", "Rosa", "Vit", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2332,7 +2332,7 @@
       "height": "60-70 cm",
       "color": ["Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2372,7 +2372,7 @@
       "height": "60-70 cm",
       "color": ["Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2412,7 +2412,7 @@
       "height": "60-70 cm",
       "color": ["Blå", "Lila", "Rosa", "Vit", "Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2452,7 +2452,7 @@
       "height": "60-70 cm",
       "color": ["Lila", "Blå"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2493,7 +2493,7 @@
       "height": "60-70 cm",
       "color": ["Vit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2534,7 +2534,7 @@
       "height": "60-70 cm",
       "color": ["Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2574,7 +2574,7 @@
       "height": "60-70 cm",
       "color": ["Blå", "Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2614,7 +2614,7 @@
       "height": "60-70 cm",
       "color": ["Rosa"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2650,7 +2650,7 @@
       "height": "60-70 cm",
       "color": ["Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2686,7 +2686,7 @@
       "height": "60 cm",
       "color": ["Gräddvit", "Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2726,7 +2726,7 @@
       "height": "60-80 cm",
       "color": ["Rosa", "Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2766,7 +2766,7 @@
       "height": "70 cm",
       "color": ["Laxrosa", "Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2809,7 +2809,7 @@
       "height": "50-65 cm",
       "color": ["Grön", "Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2848,7 +2848,7 @@
       "height": "70-80 cm",
       "color": ["Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2887,7 +2887,7 @@
       "height": "70-80 cm",
       "color": ["Blå"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2926,7 +2926,7 @@
       "height": "70 cm",
       "color": ["Röd"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2965,7 +2965,7 @@
       "height": "60-70 cm",
       "color": ["Rosa", "Magenta"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2989,7 +2989,7 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/aster/aster-cinderella.webp",
+      "mainImg": "src/assets/flowers/aster/aster-cinderella.jpg",
       "additionalImages": ["src/assets/flowers/aster/aster-cinderella2.webp"],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
@@ -3001,7 +3001,7 @@
       "height": "50-60 cm",
       "color": ["Blå"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3041,7 +3041,7 @@
       "height": "50-60 cm",
       "color": ["Rosa"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3065,7 +3065,7 @@
         }
       ],
       "chosen": false,
-      "mainImg": "src/assets/flowers/aster/aster-matsumotopink.webp",
+      "mainImg": "src/assets/flowers/aster/aster-matsumotopink.jpg",
       "additionalImages": [
         "src/assets/flowers/aster/aster-matsumotopink2.webp",
         "src/assets/flowers/aster/aster-matsumotopink3.webp"
@@ -3080,7 +3080,7 @@
       "height": "80-100 cm",
       "color": ["Aprikos", "Gräddvit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3122,7 +3122,7 @@
       "height": "80-100 cm",
       "color": ["Vit", "Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3162,7 +3162,7 @@
       "height": "80-100 cm",
       "color": ["Vit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3204,7 +3204,7 @@
       "height": "65 cm",
       "color": ["Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3240,7 +3240,7 @@
       "height": "50-60 cm",
       "color": ["Vit", "Lila"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3276,7 +3276,7 @@
       "height": "100 cm",
       "color": ["Gräddvit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3312,7 +3312,7 @@
       "height": "70 cm",
       "color": ["Rosa"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3348,7 +3348,7 @@
       "height": "40-60 cm",
       "color": ["Vit", "Rosa", "Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3387,7 +3387,7 @@
       "height": "60-90 cm",
       "color": ["Laxrosa", "Gräddvit"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3427,7 +3427,7 @@
       "height": "100 cm",
       "color": ["Terrakotta", "Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3467,7 +3467,7 @@
       "height": "80-120 cm",
       "color": ["Laxrosa", "Gul", "Persika", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3503,7 +3503,7 @@
       "height": "80-120 cm",
       "color": ["Orange"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3542,7 +3542,7 @@
       "height": "80-120 cm",
       "color": ["Gul", "Vinröd"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3581,7 +3581,7 @@
       "height": "80-120 cm",
       "color": ["Persika", "Rosa", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3622,7 +3622,7 @@
       "height": "80-120 cm",
       "color": ["Gräddvit", "Vit", "Grön", "Gul"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3662,7 +3662,7 @@
       "height": "80-120 cm",
       "color": ["Persika", "Gräddvit", "Aprikos"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3702,7 +3702,7 @@
       "height": "80-120 cm",
       "color": ["Röd", "Vinröd"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3743,7 +3743,7 @@
       "height": "80-120 cm",
       "color": ["Orange"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3785,7 +3785,7 @@
       "height": "80-120 cm",
       "color": ["Orange"],
       "isDryable": true,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3824,7 +3824,7 @@
       "color": ["Persika", "Aprikos", "Rosa"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3861,7 +3861,7 @@
       "color": ["Orange"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3898,7 +3898,7 @@
       "color": ["Lila", "Cerise", "Rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3935,7 +3935,7 @@
       "color": ["Orange", "Aprikos"],
       "type": "Näckros",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3972,7 +3972,7 @@
       "color": ["Rosa", "Aprikos", "Gräddvit"],
       "type": "Näckros",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4009,7 +4009,7 @@
       "color": ["Vit"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4046,7 +4046,7 @@
       "color": ["Rosa", "Persika"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4083,7 +4083,7 @@
       "color": ["Ljusrosa", "Gräddvit", "Aprikos"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4120,7 +4120,7 @@
       "color": ["Persika", "Korall"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4157,7 +4157,7 @@
       "color": ["Rosa", "Aprikos", "Ljusrosa"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4194,7 +4194,7 @@
       "color": ["Terrakotta", "Röd", "Aprikos"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4231,7 +4231,7 @@
       "color": ["Cerise", "Lila"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4268,7 +4268,7 @@
       "color": ["Vit"],
       "type": "Pompon",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4292,7 +4292,7 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-smallworld.webp",
+      "mainImg": "src/assets/flowers/dahlia/dahlia-smallworld.png",
       "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
@@ -4305,7 +4305,7 @@
       "color": ["Röd", "Vit", "Gul"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4342,7 +4342,7 @@
       "color": ["Cerise", "Röd", "Rosa"],
       "type": "Pompon",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4379,7 +4379,7 @@
       "color": ["Cerise", "Rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4416,7 +4416,7 @@
       "color": ["Rosa", "Vit", "Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4453,7 +4453,7 @@
       "color": ["Vit", "Gul"],
       "type": "Näckros",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4490,7 +4490,7 @@
       "color": ["Laxrosa", "Aprikos"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4527,7 +4527,7 @@
       "color": ["Terrakotta", "Röd", "Orange", "Rosa"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4564,7 +4564,7 @@
       "color": ["Aprikos"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4601,7 +4601,7 @@
       "color": ["Rosa", "Ljusrosa", "Gammel-rosa", "Laxrosa"],
       "type": "Kaktus-semi",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4638,7 +4638,7 @@
       "color": ["Ljusrosa", "Gräddvit"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4675,7 +4675,7 @@
       "color": ["Aprikos"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4712,7 +4712,7 @@
       "color": ["Röd", "Gul", "Vinröd"],
       "type": "Kaktus-semi",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4749,7 +4749,7 @@
       "color": ["Rosa", "Aprikos"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4786,7 +4786,7 @@
       "color": ["Rosa", "Lila", "Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4823,7 +4823,7 @@
       "color": ["Rosa", "Lila"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4860,7 +4860,7 @@
       "color": ["Vit"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4884,7 +4884,7 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-whitelove.webp",
+      "mainImg": "src/assets/flowers/dahlia/dahlia-whitelove.png",
       "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
@@ -4897,7 +4897,7 @@
       "color": ["Rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4934,7 +4934,7 @@
       "color": ["Rosa", "Lila"],
       "type": "Boll",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4971,7 +4971,7 @@
       "color": ["Rosa", "Vit"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5008,7 +5008,7 @@
       "color": ["Persika", "Ljusrosa", "Vit", "Orange"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5045,7 +5045,7 @@
       "color": ["Vinröd", "Gammel-rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5082,7 +5082,7 @@
       "color": ["Terrakotta", "Vit", "Rosa"],
       "type": "Dekorativa storblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5119,7 +5119,7 @@
       "color": ["Persika", "Aprikos", "Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5156,7 +5156,7 @@
       "color": ["Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5193,7 +5193,7 @@
       "color": ["Aprikos"],
       "type": "Näckros",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5230,7 +5230,7 @@
       "color": ["Rosa", "Lila"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5266,7 +5266,7 @@
       "height": "200 cm",
       "color": ["Rosa", "Lila"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5307,7 +5307,7 @@
       "height": "200 cm",
       "color": ["Lila"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5343,7 +5343,7 @@
       "height": "200 cm",
       "color": ["Rosa", "Vit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5381,7 +5381,7 @@
       "height": "200 cm",
       "color": ["Blå", "Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5421,7 +5421,7 @@
       "height": "80 cm",
       "color": ["Cerise", "Gräddvit", "Rosa", "Lila"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5467,7 +5467,7 @@
       "height": "200 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5506,7 +5506,7 @@
       "height": "250-300 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5546,7 +5546,7 @@
       "height": "250-300 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5587,7 +5587,7 @@
       "height": "250-300 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5628,7 +5628,7 @@
       "height": "50 cm",
       "color": ["Gul"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5668,11 +5668,11 @@
     {
       "id": "802",
       "name": "Solros “Pro Cut Plum”",
-      "category": "Övrigt",
+      "category": "Solros",
       "height": "150-200 cm",
       "color": ["Gräddvit", "Vinröd"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5710,11 +5710,11 @@
     {
       "id": "803",
       "name": "Solros “Pro Cut Red”",
-      "category": "Övrigt",
+      "category": "Solros",
       "height": "150-200 cm",
       "color": ["Röd", "Vinröd", "Brun"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5749,11 +5749,11 @@
     {
       "id": "804",
       "name": "Solros “Pro Cut White Nite”",
-      "category": "Övrigt",
+      "category": "Solros",
       "height": "150-200 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5794,7 +5794,7 @@
       "height": "40 cm",
       "color": ["Lila", "Rosa", "Vit", "Ljusrosa", "Röd"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5818,7 +5818,7 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/phlox/phlox-tallmixed.webp",
+      "mainImg": "src/assets/flowers/phlox/phlox-tallmixed.jpg",
       "additionalImages": [
         "src/assets/flowers/phlox/phlox-tallmixed2.webp",
         "src/assets/flowers/phlox/phlox-tallmixed3.webp",
@@ -5835,7 +5835,7 @@
       "height": "40-50 cm",
       "color": ["Gräddvit", "Rosa", "Vinröd"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5877,7 +5877,7 @@
       "height": "40-50 cm",
       "color": ["Lila", "Vit"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5917,7 +5917,7 @@
       "height": "40-50 cm",
       "color": ["Rosa", "Vit", "Ljusrosa"],
       "isDryable": false,
-      "canPlantInPots": true,
+
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",

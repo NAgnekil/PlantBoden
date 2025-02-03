@@ -7,7 +7,6 @@
     categories: Array,
     colors: Array,
     cultivationTypes: Array,
-    canPlantInPots: Array
   })
 
   const emit = defineEmits([
@@ -15,14 +14,17 @@
     'update:chosenCategory',
     'update:chosenColor',
     'update:chosenCultivationType',
-    'update:chosenAnswerAboutPots'
   ])
 
   const searchName = ref('')
   const chosenCategory = ref([])
-  const chosenCultivationType = ref('')
+  const chosenCultivationType = ref('all')
   const chosenColor = ref([])
-  const chosenAnswerAboutPots = ref(null)
+  const cultivationTypeNames = {
+    All: 'Alla',
+    SowIndoors: 'Förodlas',
+    SowOutdoors: 'Direktsås'
+  }
 
   watch(searchName, (newValue) => {
     emit('update:searchName', newValue)
@@ -38,10 +40,6 @@
 
   watch(chosenCultivationType, (newValue) => {
     emit('update:chosenCultivationType', newValue)
-  })
-
-  watch(chosenAnswerAboutPots, (newValue) => {
-    emit('update:chosenAnswerAboutPots', newValue)
   })
 </script>
 
@@ -59,29 +57,32 @@
       :categories="categories"
     />
     <ColorPicker v-model:chosenColor="chosenColor" :colors="colors" />
-    <p>Typ av sådd</p>
-    <div class="radios" v-for="type in cultivationTypes" :key="type">
-      <input
-        type="radio"
-        :id="type"
-        :value="type"
-        v-model="chosenCultivationType"
-        name="cultivationType"
-      />
-      <label :for="type">{{ type }}</label>
-    </div>
 
-    <p>Kan planteras i kruka</p>
-    <div class="radios" v-for="answer in canPlantInPots" :key="answer">
-      <input
-        type="radio"
-        :id="answer"
-        :value="answer"
-        v-model="chosenAnswerAboutPots"
-        name="canPlantInPots"
-      />
-      <label v-if="answer === true" :for="answer">Ja</label>
-      <label v-else :for="answer">Nej</label>
+    <div class="cultivation-container">
+      <p>Typ av sådd</p>
+      <div class="radios">
+        <input
+          class="radio-button"
+          type="radio"
+          id="all"
+          value="all"
+          v-model="chosenCultivationType"
+          name="cultivationType"
+        />
+        <label for="all">Alla</label><span class="checkmark"></span>
+      </div>
+      <div class="radios" v-for="type in cultivationTypes" :key="type">
+        <input
+          class="radio-button"
+          type="radio"
+          :id="type"
+          :value="type"
+          v-model="chosenCultivationType"
+          name="cultivationType"
+        />
+        <label :for="type">{{ cultivationTypeNames[type] || type }}</label
+        ><span class="checkmark"></span>
+      </div>
     </div>
   </section>
 </template>
@@ -117,9 +118,75 @@
     border: 2px dashed var(--color-green);
     outline: none;
   }
-  .dropdown-wrapper {
-    position: relative;
-    display: inline-block;
-    width: 100%;
+  .cultivation-container {
+    p {
+      margin: 0 0 1rem 0;
+    }
+    .radios {
+      padding-bottom: 0.6rem;
+      display: block;
+      position: relative;
+      cursor: pointer;
+      .radio-button {
+        display: none;
+      }
+      label {
+        font-size: 1.2rem;
+        margin: 1rem;
+        cursor: pointer;
+        font-size: 1.3rem;
+        padding: 0.2rem 1.5rem;
+        border-radius: 8px;
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+        }
+
+        &:hover input ~ label {
+          background-color: #ccc;
+        }
+
+        input:checked ~ label {
+          background-color: var(--color-green);
+        }
+      }
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+      }
+      &:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+
+      input:checked ~ .checkmark {
+        background-color: var(--color-green);
+      }
+
+      .checkmark:after {
+        content: '';
+        position: absolute;
+        display: none;
+      }
+      input:checked ~ .checkmark:after {
+        display: block;
+      }
+
+      .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+      }
+    }
   }
 </style>

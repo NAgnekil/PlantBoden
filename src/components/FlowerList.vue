@@ -1,29 +1,119 @@
-  <script setup>
-    defineProps({
-      flowers: Array,
-      filteredFlowers: Array,
-      searchQueryExists: Boolean
-    })
-  </script>
-  
+<script setup>
+  import { computed, ref } from 'vue'
+
+  const {
+    flowers,
+    filteredFlowers,
+    searchQueryExists,
+    sortOrder,
+    sortCategory,
+    sortMonth,
+    extractMonth
+  } = defineProps({
+    flowers: Array,
+    filteredFlowers: Array,
+    searchQueryExists: Boolean,
+    sortOrder: String,
+    sortMonth: String,
+    sortCategory: String,
+    extractMonth: Function
+  })
+
+  const groupedByCategory = computed(() => {
+    if (sortCategory !== 'category') return null
+
+    return flowers.reduce((categories, flower) => {
+      if (!categories[flower.category]) {
+        categories[flower.category] = []
+      }
+      categories[flower.category].push(flower)
+      return categories
+    }, {})
+  })
+
+  const groupedByMonth = computed(() => {
+    if (sortMonth !== 'asc') return null
+
+    return flowers.reduce((months, flower) => {
+      const month = extractMonth(flower.sowingDate) // Använd din extractMonth-funktion här
+      if (!months[month]) {
+        months[month] = []
+      }
+      months[month].push(flower)
+      return months
+    }, {})
+  })
+
+  const getMonth = (month) => {
+    const monthMap = {
+      1: 'Januari',
+      2: 'Februari',
+      3: 'Mars',
+      4: 'April',
+      5: 'Maj',
+      6: 'Juni',
+      7: 'Juli',
+      8: 'Augusti',
+      9: 'September',
+      10: 'Oktober',
+      11: 'November',
+      12: 'December'
+    }
+    return monthMap[month] || '???'
+  }
+</script>
+
 <template>
   <section v-if="flowers">
-    <div class="product-cards" v-if="searchQueryExists">
-      <div class="card" v-for="flower in filteredFlowers" :key="flower.id">
-        <img class="product-img" :src="flower.mainImg" alt="" />
-        <h2>{{ flower.name }}</h2>
+    <div class="product-cards-sorted" v-if="sortCategory === 'category'">
+      <div
+        class="cards-by-sort"
+        v-for="(flowers, category) in groupedByCategory"
+        :key="category"
+      >
+        <h1>{{ category }}</h1>
+        <hr />
+        <div class="card-container">
+          <div class="card" v-for="flower in flowers" :key="flower.id">
+            <img class="product-img" :src="flower.mainImg" alt="" />
+            <h2>{{ flower.name }}</h2>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="product-cards" v-else>
-      <div class="card" v-for="flower in flowers" :key="flower.id">
-        <img class="product-img" :src="flower.mainImg" alt="" />
-        <h2>{{ flower.name }}</h2>
+    <div class="product-cards-sorted" v-else-if="sortMonth === 'asc'">
+      <div
+        class="cards-by-sort"
+        v-for="(flowers, month) in groupedByMonth"
+        :key="month"
+      >
+        <h1>{{ getMonth(month) }}</h1>
+        <hr />
+        <div class="card-container">
+          <div class="card" v-for="flower in flowers" :key="flower.id">
+            <img class="product-img" :src="flower.mainImg" alt="" />
+            <h2>{{ flower.name }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-else>
+      <div class="product-cards" v-if="searchQueryExists">
+        <div class="card" v-for="flower in filteredFlowers" :key="flower.id">
+          <img class="product-img" :src="flower.mainImg" alt="" />
+          <h2>{{ flower.name }}</h2>
+        </div>
+      </div>
+      <div class="product-cards" v-else>
+        <div class="card" v-for="flower in flowers" :key="flower.id">
+          <img class="product-img" :src="flower.mainImg" alt="" />
+          <h2>{{ flower.name }}</h2>
+        </div>
       </div>
     </div>
   </section>
   <section v-else>Laddar data...</section>
 </template>
-
 
 <style lang="css" scoped>
   section {
@@ -34,13 +124,51 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 1.5rem;
+    h1,
+    hr {
+      display: none;
+    }
     .card {
       max-width: 220px;
       .product-img {
         height: 220px;
         width: 220px;
+      }
+    }
+  }
+  .product-cards-sorted {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    .cards-by-sort {
+      display: flex;
+      flex-direction: column;
+      .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        .card {
+          max-width: 120px;
+          .product-img {
+            height: 120px;
+            width: 120px;
+          }
+          h2 {
+            font-size: 1rem;
+          }
+        }
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 0;
+      }
+      hr {
+        border-top: 2px solid var(--color-dark-grey);
+        box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+        margin: 0 0 1rem 0;
       }
     }
   }

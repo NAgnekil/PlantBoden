@@ -28,7 +28,6 @@
 <style scoped>
   header {
     width: 100%;
-    padding: 0 3rem;
     background-color: #fdfcfb;
     display: flex;
     flex-direction: row;
