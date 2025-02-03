@@ -11,7 +11,7 @@
   let cultivationTypes = ref([])
   let canPlantInPots = ref(null)
   let searchQuery = ref('')
-  let chosenCategory = ref('')
+  let chosenCategory = ref([])
   let chosenColor = ref([])
   let chosenCultivationType = ref('')
   let chosenAnswerAboutPots = ref(null)
@@ -44,9 +44,9 @@
         flower.name.toLowerCase().includes(searchQuery.value.toLowerCase())
       )
     }
-    if (chosenCategory.value) {
-      result = result.filter(
-        (flower) => flower.category === chosenCategory.value
+    if (chosenCategory.value.length) {
+      result = result.filter((flower) =>
+        chosenCategory.value.includes(flower.category)
       )
     }
     if (chosenCultivationType.value) {

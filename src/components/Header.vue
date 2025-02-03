@@ -59,7 +59,7 @@
       }
     } */
     nav {
-      margin: 0 auto;
+      margin: 0 3rem;
       display: block;
       text-align: center;
       font-size: 0.8rem;

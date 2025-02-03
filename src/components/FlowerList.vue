@@ -1,3 +1,11 @@
+  <script setup>
+    defineProps({
+      flowers: Array,
+      filteredFlowers: Array,
+      searchQueryExists: Boolean
+    })
+  </script>
+  
 <template>
   <section v-if="flowers">
     <div class="product-cards" v-if="searchQueryExists">
@@ -16,26 +24,23 @@
   <section v-else>Laddar data...</section>
 </template>
 
-<script setup>
-  defineProps({
-    flowers: Array,
-    filteredFlowers: Array,
-    searchQueryExists: Boolean
-  })
-</script>
 
 <style lang="css" scoped>
+  section {
+    margin-right: 2rem;
+    width: 100%;
+  }
   .product-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
-    width: 800px;
     .card {
-      max-width: 250px;
+      max-width: 220px;
       .product-img {
-        height: 250px;
-        width: 250px;
+        height: 220px;
+        width: 220px;
       }
     }
   }
