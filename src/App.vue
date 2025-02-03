@@ -1,12 +1,11 @@
 <script setup>
-  import Main from './components/Main.vue'
+  import Start from './components/Start.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <Header />
-  <Main />
+  <router-view></router-view>
   <Footer />
 </template>
 

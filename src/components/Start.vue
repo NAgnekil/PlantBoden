@@ -4,16 +4,17 @@
   import QuerySection from './QuerySection.vue'
   import { fetchFlowers } from '../../fetchFlowers'
   import Sorting from './Sorting.vue'
+import Header from './Header.vue'
 
-  let flowers = ref([])
-  let searchQueryExists = ref(false)
-  let categories = ref([])
-  let colors = ref([])
-  let cultivationTypes = ref([])
-  let searchQuery = ref('')
-  let chosenCategory = ref([])
-  let chosenColor = ref([])
-  let chosenCultivationType = ref('all')
+  const flowers = ref([])
+  const searchQueryExists = ref(false)
+  const categories = ref([])
+  const colors = ref([])
+  const cultivationTypes = ref([])
+  const searchQuery = ref('')
+  const chosenCategory = ref([])
+  const chosenColor = ref([])
+  const chosenCultivationType = ref('all')
   const sortOrder = ref('')
   const sortCategory = ref('')
   const sortMonth = ref('')
@@ -101,6 +102,8 @@
 </script>
 
 <template>
+    <Header :categories="categories"/>
+
   <Sorting
     v-model:sortOrder="sortOrder"
     v-model:sortCategory="sortCategory"

@@ -1,5 +1,9 @@
 <script setup>
-  import { ref } from 'vue'
+  import { ref, watch, defineProps, defineEmits } from 'vue'
+
+  const props = defineProps({
+    categories: Array
+  })
 </script>
 
 <template>
@@ -10,16 +14,22 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Start</a></li>
+        <li><router-link to="/">Start</router-link></li>
         <li>
-          <a href="#">Kategorier</a>
+          <a>Kategorier</a>
           <ul class="dropdown">
-            <li><a href="#">Utvalda</a></li>
+            <li><router-link to="/contact">Utvalda</router-link></li>
           </ul>
         </li>
-        <li><a href="#">Utvalda</a></li>
-        <li><a href="">Trädgårdsöversikt</a></li>
-        <li><a href="#">Kalender</a></li>
+        <li>
+          <router-link to="/articlesandinspo"
+            >Artiklar & Inspiration</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/gardenoverview">Trädgårdsöversikt</router-link>
+        </li>
+        <li><router-link to="/calendar">Kalender</router-link></li>
       </ul>
     </nav>
   </header>

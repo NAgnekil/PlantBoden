@@ -44,7 +44,6 @@
           <li @click="sortByCategory('category')">Kategorier</li>
           <li @click="sortByMonth('asc')">Månad för sådd</li>
           <li>Datum för sådd</li>
-          <li>Höjd</li>
         </ul>
       </div>
     </nav>
