@@ -1,5 +1,6 @@
 <script setup>
   import { ref, watch, defineProps, defineEmits } from 'vue'
+  import ColorPicker from './ColorPicker.vue'
 
   const props = defineProps({
     categories: Array,
@@ -18,43 +19,17 @@
 
   const searchName = ref('')
   const chosenCategory = ref('')
-  const chosenColor = ref([])
   const chosenCultivationType = ref('')
+  const chosenColor = ref([])
   const chosenAnswerAboutPots = ref(null)
-
-  const getHexColor = (color) => {
-    const colorMap = {
-      Aprikos: '#F8AF88',
-      Blå: '#7459D9',
-      Brun: '#51282D',
-      Cerise: '#B3124F',
-      Cream: '#F5F5DC',
-      'Gammel-rosa': '#D27985',
-      Gräddvit: '#ECE9E0',
-      Grön: '#97B13B',
-      Gul: '#FCD008',
-      Korall: '#F97B56',
-      Laxrosa: '#FF7E70',
-      Lila: '#AD50E6',
-      Ljusrosa: '#F7C6E3',
-      Magenta: '#DD27A6',
-      Orange: '#FCA834',
-      Persika: '#F8A351',
-      Rosa: '#F596C8',
-      Röd: '#DB0614',
-      Terrakotta: '#c16b4c',
-      Vinröd: '#8C0029',
-      Vit: '#F7FDF9'
-    }
-    return colorMap[color] || '#000' // Standard svart om ingen färg matchar
-  }
-
-  watch(chosenColor, (newValue) => {
-    emit('update:chosenColor', newValue)
-  })
+  const isOpen = ref(false)
 
   watch(searchName, (newValue) => {
     emit('update:searchName', newValue)
+  })
+
+  watch(chosenColor, (newValue) => {
+    emit('update:chosenColor', newValue)
   })
 
   watch(chosenCategory, (newValue) => {
@@ -72,37 +47,36 @@
 
 <template>
   <section class="query-section">
-    <input
-      class="searchfield-name"
-      v-model="searchName"
-      placeholder="Sök efter en blomma"
-    >Sök efter en blomma</input>
-    <div class="color-checkboxes">
-      <div class="checkbox" v-for="color in colors" :key="color">
-        <input
-          type="checkbox"
-          :id="color"
-          :value="color"
-          v-model="chosenColor"
-          class="hidden-checkbox"
-        />
-        <label
-          :for="color"
-          class="color-label"
-          :style="{ backgroundColor: getHexColor(color) }"
-        >
-          <span v-if="chosenColor.includes(color)" class="check-icon">✔</span>
-        </label>
-        <span class="color-name">{{ color }}</span>
-      </div>
+    <div class="searchfield-wrapper">
+      <input
+        class="searchfield-name"
+        v-model="searchName"
+        placeholder="Sök efter en blomma"
+      />
     </div>
-
-    <select v-model="chosenCategory">
-      <option v-for="category in categories" :key="category" :value="category">
-        {{ category }}
-      </option>
-    </select>
-
+    <div class="dropdown-wrapper">
+      <select
+        class="filter-categories"
+        v-model="chosenCategory"
+        @click="isOpen = !isOpen"
+      >
+        <option class="select-placeholder" value="" disabled hidden selected>
+          Filtrera på kategori
+        </option>
+        <option
+          v-for="category in categories"
+          :key="category"
+          :value="category"
+        >
+          {{ category }}
+        </option>
+      </select>
+      <span class="arrow" :class="{ rotated: isOpen }"
+        ><i class="fas fa-chevron-down"></i
+      ></span>
+    </div>
+    <ColorPicker v-model:chosenColor="chosenColor" :colors="colors" />
+    <p>Typ av sådd</p>
     <div class="radios" v-for="type in cultivationTypes" :key="type">
       <input
         type="radio"
@@ -114,6 +88,7 @@
       <label :for="type">{{ type }}</label>
     </div>
 
+    <p>Kan planteras i kruka</p>
     <div class="radios" v-for="answer in canPlantInPots" :key="answer">
       <input
         type="radio"
@@ -129,54 +104,68 @@
 </template>
 
 <style scoped>
-  .searchfield-name {
-    width: 50%;
-    height: 3rem;
-    border-radius: 8px;
-    border: 1px solid #ece9e0;
-  }
-  .color-checkboxes {
+  section {
+    width: 20%;
+    padding: 0 1rem;
+    margin: 0 1rem;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0 1rem;
-    width: 100%;
-    .checkbox {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin: 0.2rem 0.5rem;
-      max-width: 2.5rem;
-      .hidden-checkbox {
-        display: none;
-      }
-      .color-label {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        position: relative;
-        border: 2px solid #ccc;
-        transition: all 0.3s ease-in-out;
-        margin-bottom: 0.5rem;
-        &:hover {
-          transform: scale(1.1);
-        }
-        .check-icon {
-          font-size: 20px;
-          color: white;
-          font-weight: bold;
-        }
-      }
+    flex-direction: column;
+    gap: 1rem;
+    border-right: 2px solid var(--color-light-grey);
+  }
 
-      .color-name {
-        margin-top: 5px;
-        font-size: 14px;
+  .searchfield-wrapper {
+    margin-right: 2rem;
+    .searchfield-name {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--color-light-grey);
+      box-shadow: 0px 1px 3px -1px #ccc;
+
+      &::placeholder {
+        font-family: Fredoka, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
       }
     }
+  }
+  .searchfield-name:focus {
+    border: 2px dashed var(--color-green);
+    outline: none;
+  }
+  .dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .filter-categories {
+    appearance: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--color-light-grey);
+    box-shadow: 0px 1px 3px -1px #ccc;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    transition: transform 0.4s ease;
+    pointer-events: none;
+  }
+
+  .arrow.rotated {
+    transform: translateY(-50%) rotate(180deg);
   }
 </style>

@@ -1,3 +1,13 @@
+:root {
+  --color-green: #7fb538;
+  --color-dark-grey: #454444;
+  --color-light-grey: #d3d3d3;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Fredoka;
   src: url(assets/Fredoka.ttf);

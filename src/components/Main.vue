@@ -96,10 +96,9 @@
 
 <style scoped>
   .main-content {
-    width: 80%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
   }
 </style>

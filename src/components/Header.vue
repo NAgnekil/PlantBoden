@@ -36,7 +36,7 @@
     align-items: center;
     margin-bottom: 2rem;
     box-shadow: 0px 3px 5px -1px #ccc;
-    border-top: 4px solid #7fb538;
+    border-top: 4px solid var(--color-green);
     h1 {
       font-family: Aboreto, sans-serif;
       font-size: 2.2rem;
@@ -66,7 +66,7 @@
       ul li {
         list-style: none;
         margin: 0 auto;
-        border-left: 2px solid #7fb538;
+        border-left: 2px solid var(--color-green);
         display: inline-block;
         padding: 0 15px;
         position: relative;
@@ -74,13 +74,13 @@
         text-align: center;
         font-family: arvo;
         a {
-          color: #454444;
+          color: var(--color-dark-grey);
           text-decoration: none;
           font-family: 'Aboreto', sans-serif;
           font-weight: 600;
 
           &:hover {
-            color: #7fb538;
+            color: var(--color-green);
           }
         }
         &:hover {
@@ -104,7 +104,7 @@
           margin-top: 10px;
           left: 0;
           display: none;
-          background: white;
+          background: #fff;
           border-radius: 4px;
           li {
             clear: both;
@@ -116,7 +116,7 @@
               transition: all 0.5s ease;
               &:hover {
                 padding-left: 10px;
-                border-left: 2px solid #7fb538;
+                border-left: 2px solid var(--color-green);
                 transition: all 0.3s ease;
               }
             }
