@@ -1,5 +1,13 @@
-export const fetchFlowers = async () => {
-  const response = await fetch('../database.json')
-  const result = await response.json()
-  return result.flowers
+import axios from 'axios'
+
+export const fetchFlowers = () => {
+  return axios
+    .get('../database.json')
+    .then((response) => {
+      return response.data.flowers
+    })
+    .catch((error) => {
+      console.error('Error fetching flowers:', error)
+      throw error
+    })
 }
