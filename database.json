@@ -23,7 +23,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -64,7 +64,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -104,7 +104,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -146,7 +146,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -267,7 +267,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -308,7 +308,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -594,7 +594,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -635,7 +635,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -675,7 +675,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -757,7 +757,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -917,7 +917,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -958,7 +958,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -1000,7 +1000,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1040,7 +1040,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1081,7 +1081,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HP",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1122,7 +1122,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1244,7 +1244,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HP",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1285,7 +1285,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2784,7 +2784,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2824,7 +2824,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2864,7 +2864,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2907,7 +2907,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2946,7 +2946,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2985,7 +2985,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3024,7 +3024,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3063,7 +3063,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3099,7 +3099,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3139,7 +3139,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3178,7 +3178,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3220,7 +3220,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3260,7 +3260,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3302,7 +3302,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3338,7 +3338,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3374,7 +3374,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3410,7 +3410,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3446,7 +3446,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3485,7 +3485,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3525,7 +3525,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3565,7 +3565,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3601,7 +3601,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3640,7 +3640,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3679,7 +3679,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3720,7 +3720,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3760,7 +3760,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3800,7 +3800,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3841,7 +3841,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3883,7 +3883,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3922,7 +3922,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3959,7 +3959,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3996,7 +3996,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4033,7 +4033,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4070,7 +4070,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4107,7 +4107,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4144,7 +4144,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4181,7 +4181,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4218,7 +4218,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4255,7 +4255,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4292,7 +4292,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4329,7 +4329,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4366,7 +4366,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4403,7 +4403,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4440,7 +4440,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4477,7 +4477,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4514,7 +4514,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4551,7 +4551,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4588,7 +4588,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4625,7 +4625,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4662,7 +4662,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4699,7 +4699,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4736,7 +4736,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4773,7 +4773,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4810,7 +4810,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4847,7 +4847,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4884,7 +4884,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4921,7 +4921,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4958,7 +4958,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4995,7 +4995,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5032,7 +5032,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5069,7 +5069,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5106,7 +5106,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5143,7 +5143,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5180,7 +5180,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5217,7 +5217,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5254,7 +5254,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5291,7 +5291,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5328,7 +5328,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": "No",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -6036,31 +6036,58 @@
   ],
   "categoryDescriptions": [
     {
-      "Ranunkel": "<p class='preamble'>Ranunkel är en mycket vacker blomma som trivs i svalare miljöer, vilker gör den perfekt som snittblomma innan trädgården riktigt kommit igång. Dess kronblad utstrålar en känsla av enkelhet och elegans när de ställs mot den livfulla gröna bakgrunden av dess lövverk. Ranunkel fungerar också som en utmärkt källa till långlivade snittblommor, vilket ger mångsidighet till din trädgårds charm.</p><p>Ranunkels popularitet kommer från de vackra och dekorativa blommorna som finns i mängder av olika färger. Blommorna sitter på en kraftig 10-20 cm lång stjälk. Plantera utomhus i rabatten eller ha i kruka inomhus eller utomhus.</p><p>Ranunkel är också väldigt fin och hållbar som snittblomma.</p><h3>Odlingsråd</h3><p>Ranunkler planteras under tidig vår för blomning under vår och tidig sommar. Det tar ca 3 månader från plantering tills dess att de blommar. Det vanligaste är att plantera ut dem i blomsterlandet när jorden reder sig och börjar bli varm i slutet av april till början av maj i södra Sverige. Tänk på att plantorna inte tål frost. Knölarna tål -4 grader.</p><p>Väck knölarna genom att lägga dem i vatten. Detta görs innan plantering. Låt de ligga i ca 15-gradigt syrerikt vatten under 4 - 12 timmar. För syresättning av vattnet kan man till exempel ofta hälla på nytt och byta vatten för syresättning eller blåsa ner tryckluft. Om inget syre tillförs, blöt dem endast i 3-4 timmar för att förhindra att de ruttnar. Ta sedan upp dem och låt dem torka upp lite innan plantering. Du kommer se att knölarna har ökat i storlek, ofta fördubblas storleken.</p><p>Ranunkler kan planteras i rabatter, planteringslådor eller i krukor. Om du ska ha dem planterade i kruka under hela tiden, och inte bara fördriva dem i den, se till att den är tillräckligt stor; gärna 30 cm djup och 15 cm i diameter. Se också till att krukan har dräneringshål. För odling i kruka rekommenderar vi krukor på minst 30 liter för lågväxande sorter och minst 40 liter för högväxande sorter.</p><p>När du planterar är det optimalt att jorden är 15 grader. Se till att ha en väldränerad jord, för rötterna gillar inte att stå i väta. Fram till att plantorna slagit skott är det viktigt att hålla jorden vattnad, men inte övervattnad. Efter att de slagit skott hålls jorden istället fuktig och vattnas när jorden är torr.</p><p>Ranunklerna planteras på ett djup på 2 - 5 cm. Efter plantering är det till en början optimalt att de förvaras i svalare temperaturer under natten, 5 - 10 grader, och inte varmare än 18 grader under dagen. När plantan etablerat sig klarar de varmare temperaturer under dagen, men producerar blommor bäst under 24 grader. Vänta med att gödsla tills plantan etablerat sig.</p><p>Se till att plantera knölarna i en solig rabatt som får sol minst 6 timmar per dag.</p><h3>Skötsel</h3><p>Efter att plantan kommit upp med blad behöver den mer gödning. Gödning finns i köpejord, så det räcker i början men öka på efter ett tag med flytande blomnäring eller mylla ner kompost, hönsgödsel, benmjöl eller strö ut konstgödsel. I trädgårdsland är det bra med kompost inblandat innan plantering.</p><p>Ranunkler kan blomma i flera veckor, särskilt om man ser till att klippa bort gamla blommor eller ta snittblommor för att stimulera ny tillväxt. För att ha en så lång blomningstid av franska ranunkler som möjligt kan man plantera knölar av både sorten Amandine och La Belle, då La Belle blommar 2 - 3 veckor tidigare. Amandine är i sin tur mer värmetålig och blommar därmed under en längre period. För att blomningen ska vara så länge som möjligt är det viktigt att hålla jorden sval, för varm jord triggar igång knölarnas dvala.</p><p>Klipp blommorna när knopparna sväller och börjar visa färg, när de yttersta bladen har separerat på toppen, för längst hållbarhet. Tar man blommorna vid rätt tillfälle, gärna på morgonen, kan de hålla i vas i över 10 dagar.</p><h3>Vinterförvaring</h3><p>Knölarna tas upp, torkas och förvaras som dahlior</p><h4>Informationen tagen från Magnolia Nossebro</h4>"
+      "Ranunkel": {
+        "img": "/src/assets/flowers/ranunkel/ranunkel-banner.webp",
+        "desc": "<p class='preamble'>Ranunkel är en mycket vacker blomma som trivs i svalare miljöer, vilker gör den perfekt som snittblomma innan trädgården riktigt kommit igång. Dess kronblad utstrålar en känsla av enkelhet och elegans när de ställs mot den livfulla gröna bakgrunden av dess lövverk. Ranunkel fungerar också som en utmärkt källa till långlivade snittblommor, vilket ger mångsidighet till din trädgårds charm.</p><p>Ranunkels popularitet kommer från de vackra och dekorativa blommorna som finns i mängder av olika färger. Blommorna sitter på en kraftig 10-20 cm lång stjälk. Plantera utomhus i rabatten eller ha i kruka inomhus eller utomhus.</p><p>Ranunkel är också väldigt fin och hållbar som snittblomma.</p><h3>Odlingsråd</h3><p>Ranunkler planteras under tidig vår för blomning under vår och tidig sommar. Det tar ca 3 månader från plantering tills dess att de blommar. Det vanligaste är att plantera ut dem i blomsterlandet när jorden reder sig och börjar bli varm i slutet av april till början av maj i södra Sverige. Tänk på att plantorna inte tål frost. Knölarna tål -4 grader.</p><p>Väck knölarna genom att lägga dem i vatten. Detta görs innan plantering. Låt de ligga i ca 15-gradigt syrerikt vatten under 4 - 12 timmar. För syresättning av vattnet kan man till exempel ofta hälla på nytt och byta vatten för syresättning eller blåsa ner tryckluft. Om inget syre tillförs, blöt dem endast i 3-4 timmar för att förhindra att de ruttnar. Ta sedan upp dem och låt dem torka upp lite innan plantering. Du kommer se att knölarna har ökat i storlek, ofta fördubblas storleken.</p><p>Ranunkler kan planteras i rabatter, planteringslådor eller i krukor. Om du ska ha dem planterade i kruka under hela tiden, och inte bara fördriva dem i den, se till att den är tillräckligt stor; gärna 30 cm djup och 15 cm i diameter. Se också till att krukan har dräneringshål. För odling i kruka rekommenderar vi krukor på minst 30 liter för lågväxande sorter och minst 40 liter för högväxande sorter.</p><p>När du planterar är det optimalt att jorden är 15 grader. Se till att ha en väldränerad jord, för rötterna gillar inte att stå i väta. Fram till att plantorna slagit skott är det viktigt att hålla jorden vattnad, men inte övervattnad. Efter att de slagit skott hålls jorden istället fuktig och vattnas när jorden är torr.</p><p>Ranunklerna planteras på ett djup på 2 - 5 cm. Efter plantering är det till en början optimalt att de förvaras i svalare temperaturer under natten, 5 - 10 grader, och inte varmare än 18 grader under dagen. När plantan etablerat sig klarar de varmare temperaturer under dagen, men producerar blommor bäst under 24 grader. Vänta med att gödsla tills plantan etablerat sig.</p><p>Se till att plantera knölarna i en solig rabatt som får sol minst 6 timmar per dag.</p><h3>Skötsel</h3><p>Efter att plantan kommit upp med blad behöver den mer gödning. Gödning finns i köpejord, så det räcker i början men öka på efter ett tag med flytande blomnäring eller mylla ner kompost, hönsgödsel, benmjöl eller strö ut konstgödsel. I trädgårdsland är det bra med kompost inblandat innan plantering.</p><p>Ranunkler kan blomma i flera veckor, särskilt om man ser till att klippa bort gamla blommor eller ta snittblommor för att stimulera ny tillväxt. För att ha en så lång blomningstid av franska ranunkler som möjligt kan man plantera knölar av både sorten Amandine och La Belle, då La Belle blommar 2 - 3 veckor tidigare. Amandine är i sin tur mer värmetålig och blommar därmed under en längre period. För att blomningen ska vara så länge som möjligt är det viktigt att hålla jorden sval, för varm jord triggar igång knölarnas dvala.</p><p>Klipp blommorna när knopparna sväller och börjar visa färg, när de yttersta bladen har separerat på toppen, för längst hållbarhet. Tar man blommorna vid rätt tillfälle, gärna på morgonen, kan de hålla i vas i över 10 dagar.</p><h3>Vinterförvaring</h3><p>Knölarna tas upp, torkas och förvaras som dahlior</p><h4>Informationen tagen från Magnolia Nossebro</h4>"
+      }
     },
     {
-      "Dahlia": "<p class='preamble'>Den storslagna dahlian blir trädgårdens blickfång från midsommar till långt in på hösten.</p><p>Dahlia finns i över 50 000 olika varianter. Av dessa uppskattas att det odlas 6000 sorter aktivt i dag. Gula, vita, rosa, röda, lila – från prydliga småplantor på 30 centimeter till högresta bjässar på nästan två meter. Variationen gör dahlia oerhört lätt att matcha med andra växter.</p><p>Dahlior sorteras in i grupper efter hur de blommar. Anemonblommande, Boll, Dekorativa, Enkelblommande, Halskrås, Kaktus, Semi-kaktus, Näckros, Pion och Pompon. Vissa av grupperna har undergrupper som beror på storlek på blomman eller höjd på plantan. Till exempel har gruppen Dekorativa undergrupper som Små, Stora, Jättar och Dvärg.</p><h3>Gödning/h3><p>Ett bra tips är att blanda ner ko- eller hästkompost i jorden under våren. Gör man det varje år får man en humusrik jord som är trevlig att arbeta med och friska plantor som trivs.</p><p>Hönsgödsel och kväverik konstgödsel använder de flesta och göder under vår och sommar. Med detta gödsel är det viktigt att inte lägga på allt för mycket för då blir det frodig grönska men få blommor.</p><p>Konstgödsel som är avsett till potatis som har ett lägre kväveinnehåll är mångas rekommendation av gödsel även för dahlior. Detta för att potatis har samma problem som dahlior vid för mycket kväve; kraftig tillväxt av grönska men inte mycket potatis.</p><p>En del täcker jorden runt plantorna med gräsklipp två gånger under sommaren som gödning. Gräsklippet dras ner och tas om hand av maskar och andra nedbrytare som ventilerar jorden och göder den. Detta är bara ett alternativ för dem som inte har snäckor eller sniglar.</p><p>Dekorativ Jätte och andra stora dahlior kan behöva en extra giva gödning vid midsommartid för bästa möjliga blomning.</p><h3>Solig växtplats</h3><p>Dahlior älskar att stå i soligt läge. För att dahliorna ska växa bra och blomma vill de ha sol minst halva dagen, annars blir det grönska men dåligt med blommor. Det spelar ingen roll om det är vandrande skugga eller skugga på för- eller eftermiddag så länge soltimmarna blir tillräckligt många.</p><h3>Dahlia i kruka</h3><p>Om du inte har odlat i krukor förut rekommenderar jag att börja med de lägre sorterna för det är enklare att göda och vattna. De stora och höga kräver ofta uppbindning för att inte blåsa omkull eller brytas sönder. Ju större blommor och högre de är desto mer vatten krävs precis när de behöver mer om de ska bli frodiga och fina.</p><h3>Direktplantering</h3><p>Jag bor i växtzon 2/3. Räkna med att börja sätta dahliaknölarna runt 1 maj när det blir värme i jorden.Man brukar säga att dahliorna ska ner i jorden samtidigt som potatisen för de vill, precis som potatisen, ha värme. Det går att sätta dem tidigare men de börjar ändå inte växa förrän det blir varmt. Är det för kallt och blött i jorden kan knölarna ruttna.. Det är bättre att röra om eller jordfräsa jorden under varma dagar någon extra gång så ogräs som grott försvinner och plantera ut dahliaknölarna lite senare, för de växer fort bara det blir värme. På så sätt får inte ogräset något försprång.</p><p>En kall och blöt jord känns kompakt och kall i handen och är inte bra att plantera i. När jorden är omrörd och det blir vårvärme värms jorden upp och den känns då varmare och det är då den reder sig som vi säger. Då är det dags för plantering. Knölarna kan sättas fram till slutet av maj utan att bli så mycket senare med blomningen eftersom jorden är varm och de då växer snabbt. Sätts de i mitten av juni blir det normalt bara några få blommor som hinner bildas och knölarna hinner inte alltid bilda nya knölar.<h3>Planteringsdjup och avstånd</h3><p>Planteringsavstånd mellan knölarna är 15 - 25 cm på de lägsta dahliorna, ca 40 cm på de medelhöga och 50 - 60 cm på de höga sorterna. I urnor och vid kanten av rabatten kan dahliorna hänga ut över kanten och därför planteras tätare. Avståndet till rabattkanten bör vara 10 cm för låga dahlior och 15 cm för högre dahlior med ytterligare 10 cm om kanten är mot en husvägg eller om dahliorna inte ska hänga ut över kanten.</p><p>Avstånden kan vara något mindre mellan plantorna om radavståndet är mer eller det bara är en eller två rader.</p><p>Hur många dahlior som får plats i en pallkrage på 80 x 120 cm är en återkommande fråga. Låga sorter får plats 15 - 40 st, medelhöga sorter 6 - 8 st och höga eller storblommiga sorter 4 - 6 st.</p><p>En del planterar lite tätare och det fungerar men allt för tätt gör att dahliorna blir höga och rangliga och måste stöttas. Sidoskotten som kommer med nya blommor har svårt att få plats och växer därför på höjden. När det regnar och blåser bryts lätt de långa skotten av och de måste bindas eller stöttas. Fram till första blomman kommit ser det lite glest ut men när sidoskotten kommer blir det fort praktfullt.</p><p>Vid allt för tät plantering blir det så tätt att dahliorna uppfattar det som att de står i skugga och blommar mindre eller inte alls.</p><h3>Att toppa dahlior</h3><p>Det råder delade meningar om man ska toppa eller inte. En del hävdar att de ska toppas för att generera mer blommor, medan andra hävdar att om man toppar dahliorna tvingar man fram många sidoskott samtidigt vilket gör att den stadiga huvudstammen försvinner och det blir klenare skott som lättare bryts av. När många skott kommer samtidigt blir det tätt och de upplever skugga vilket gör att de blommar mindre eller inte alls.</p><p>Det är alltså en preferens. Testa olika!</p><h3>Vattning</h3><p>Har man små upphöjda land som i pallkragar torkar jorden ut fortare så vattning behövs några extra gånger under sommaren.</p><p>Någon eller några dagar efter vattning eller regn ska jorden luckras för att undvika en tät skorpa på jorden som gör att den torkar ut och inte syresätts. Luckring ger välmående plantor som växer bättre. Luckring av jorden gör också att små ogräsplantor dör precis när de har grott för de är känsliga när jorden torkar upp runt sina små rötter.</p><p>Dahlior som är planterade i krukor och urnor måste vattnas och gödas kontinuerligt. Höga och stora dahlior kräver mycket vatten medan små låga dahlior är enklare.</p><p>En fördel med dahlior jämfört med vissa andra sommarblommor är att de har knölar som gör att om bladen börjar hänga vid en missad vattning, dör inte plantan utan piggnar till när den får vatten igen.</p><p>Plantan ska börja torka upp innan ny vattning.</p><p>Genomvattna hela krukan för att alla rötter ska få vatten. Det är vanligt vid vattning att jorden inte blir helt genomvattnad utan bara blir blöt några centimeter på ytan och då blir uppsugningsförmågan dålig när inte alla rötter kan förse plantan med vatten.</p><p>Om man vattnar för ofta så jorden alltid är blöt ruttnar rötterna och det blir dålig tillväxt.</p><h3>Blomning</h3><p>Det kan variera med två veckor för när dahliorna börjar blomma beroende på hur tidig och varm våren är och hur solig sommaren blir.</p><p>Dahliaplantan växer rakt upp och får först en blomma i toppen. Denna första blomma är ofta  avvikande i färg och/eller form från hur blomman ska se ut. De tre första blommorna kan ha en öppen disk eller ha fel färg. Efter det kommer blommor från alla sidoskott som kommer ut i bladvecken, det är då vi får njuta av ett färghav av fantastiska blommor.</p><p>De låga sorterna är de första att börja blomma, normalt i mitten av juli i växtzon 3. Någon vecka senare börjar de högre blomma och i början till mitten av augusti kommer de första blommorna på Dekorativ Jätte och de riktigt höga sorterna som behöver längre tid på sig att utveckla sina gigantiska blommor.</p><p>Plocka bort överblommade blommor för det ser trevligare ut och ger i viss mån en ökad blomning. En blomma som blir befruktad övergår till frösättning vilket gör att den inte blommar lika länge som en obefruktad blomma. De fyllda och täta dahliablommorna blir inte befruktade medans sorter med öppen disk älskas av insekter och blir befruktade. Dessa behöver klippas bort när de blommat över för att inte ta kraft från ny blomsättning.</p><h4>All information tagen från Magnolia Nossebro</h4>"
+      "Dahlia": {
+        "img": "/src/assets/flowers/dahlia/dahlia-banner.webp",
+        "desc": "<p class='preamble'>Den storslagna dahlian blir trädgårdens blickfång från midsommar till långt in på hösten.</p><p>Dahlia finns i över 50 000 olika varianter. Av dessa uppskattas att det odlas 6000 sorter aktivt i dag. Gula, vita, rosa, röda, lila – från prydliga småplantor på 30 centimeter till högresta bjässar på nästan två meter. Variationen gör dahlia oerhört lätt att matcha med andra växter.</p><p>Dahlior sorteras in i grupper efter hur de blommar. Anemonblommande, Boll, Dekorativa, Enkelblommande, Halskrås, Kaktus, Semi-kaktus, Näckros, Pion och Pompon. Vissa av grupperna har undergrupper som beror på storlek på blomman eller höjd på plantan. Till exempel har gruppen Dekorativa undergrupper som Små, Stora, Jättar och Dvärg.</p><h3>Gödning/h3><p>Ett bra tips är att blanda ner ko- eller hästkompost i jorden under våren. Gör man det varje år får man en humusrik jord som är trevlig att arbeta med och friska plantor som trivs.</p><p>Hönsgödsel och kväverik konstgödsel använder de flesta och göder under vår och sommar. Med detta gödsel är det viktigt att inte lägga på allt för mycket för då blir det frodig grönska men få blommor.</p><p>Konstgödsel som är avsett till potatis som har ett lägre kväveinnehåll är mångas rekommendation av gödsel även för dahlior. Detta för att potatis har samma problem som dahlior vid för mycket kväve; kraftig tillväxt av grönska men inte mycket potatis.</p><p>En del täcker jorden runt plantorna med gräsklipp två gånger under sommaren som gödning. Gräsklippet dras ner och tas om hand av maskar och andra nedbrytare som ventilerar jorden och göder den. Detta är bara ett alternativ för dem som inte har snäckor eller sniglar.</p><p>Dekorativ Jätte och andra stora dahlior kan behöva en extra giva gödning vid midsommartid för bästa möjliga blomning.</p><h3>Solig växtplats</h3><p>Dahlior älskar att stå i soligt läge. För att dahliorna ska växa bra och blomma vill de ha sol minst halva dagen, annars blir det grönska men dåligt med blommor. Det spelar ingen roll om det är vandrande skugga eller skugga på för- eller eftermiddag så länge soltimmarna blir tillräckligt många.</p><h3>Dahlia i kruka</h3><p>Om du inte har odlat i krukor förut rekommenderar jag att börja med de lägre sorterna för det är enklare att göda och vattna. De stora och höga kräver ofta uppbindning för att inte blåsa omkull eller brytas sönder. Ju större blommor och högre de är desto mer vatten krävs precis när de behöver mer om de ska bli frodiga och fina.</p><h3>Direktplantering</h3><p>Jag bor i växtzon 2/3. Räkna med att börja sätta dahliaknölarna runt 1 maj när det blir värme i jorden.Man brukar säga att dahliorna ska ner i jorden samtidigt som potatisen för de vill, precis som potatisen, ha värme. Det går att sätta dem tidigare men de börjar ändå inte växa förrän det blir varmt. Är det för kallt och blött i jorden kan knölarna ruttna.. Det är bättre att röra om eller jordfräsa jorden under varma dagar någon extra gång så ogräs som grott försvinner och plantera ut dahliaknölarna lite senare, för de växer fort bara det blir värme. På så sätt får inte ogräset något försprång.</p><p>En kall och blöt jord känns kompakt och kall i handen och är inte bra att plantera i. När jorden är omrörd och det blir vårvärme värms jorden upp och den känns då varmare och det är då den reder sig som vi säger. Då är det dags för plantering. Knölarna kan sättas fram till slutet av maj utan att bli så mycket senare med blomningen eftersom jorden är varm och de då växer snabbt. Sätts de i mitten av juni blir det normalt bara några få blommor som hinner bildas och knölarna hinner inte alltid bilda nya knölar.<h3>Planteringsdjup och avstånd</h3><p>Planteringsavstånd mellan knölarna är 15 - 25 cm på de lägsta dahliorna, ca 40 cm på de medelhöga och 50 - 60 cm på de höga sorterna. I urnor och vid kanten av rabatten kan dahliorna hänga ut över kanten och därför planteras tätare. Avståndet till rabattkanten bör vara 10 cm för låga dahlior och 15 cm för högre dahlior med ytterligare 10 cm om kanten är mot en husvägg eller om dahliorna inte ska hänga ut över kanten.</p><p>Avstånden kan vara något mindre mellan plantorna om radavståndet är mer eller det bara är en eller två rader.</p><p>Hur många dahlior som får plats i en pallkrage på 80 x 120 cm är en återkommande fråga. Låga sorter får plats 15 - 40 st, medelhöga sorter 6 - 8 st och höga eller storblommiga sorter 4 - 6 st.</p><p>En del planterar lite tätare och det fungerar men allt för tätt gör att dahliorna blir höga och rangliga och måste stöttas. Sidoskotten som kommer med nya blommor har svårt att få plats och växer därför på höjden. När det regnar och blåser bryts lätt de långa skotten av och de måste bindas eller stöttas. Fram till första blomman kommit ser det lite glest ut men när sidoskotten kommer blir det fort praktfullt.</p><p>Vid allt för tät plantering blir det så tätt att dahliorna uppfattar det som att de står i skugga och blommar mindre eller inte alls.</p><h3>Att toppa dahlior</h3><p>Det råder delade meningar om man ska toppa eller inte. En del hävdar att de ska toppas för att generera mer blommor, medan andra hävdar att om man toppar dahliorna tvingar man fram många sidoskott samtidigt vilket gör att den stadiga huvudstammen försvinner och det blir klenare skott som lättare bryts av. När många skott kommer samtidigt blir det tätt och de upplever skugga vilket gör att de blommar mindre eller inte alls.</p><p>Det är alltså en preferens. Testa olika!</p><h3>Vattning</h3><p>Har man små upphöjda land som i pallkragar torkar jorden ut fortare så vattning behövs några extra gånger under sommaren.</p><p>Någon eller några dagar efter vattning eller regn ska jorden luckras för att undvika en tät skorpa på jorden som gör att den torkar ut och inte syresätts. Luckring ger välmående plantor som växer bättre. Luckring av jorden gör också att små ogräsplantor dör precis när de har grott för de är känsliga när jorden torkar upp runt sina små rötter.</p><p>Dahlior som är planterade i krukor och urnor måste vattnas och gödas kontinuerligt. Höga och stora dahlior kräver mycket vatten medan små låga dahlior är enklare.</p><p>En fördel med dahlior jämfört med vissa andra sommarblommor är att de har knölar som gör att om bladen börjar hänga vid en missad vattning, dör inte plantan utan piggnar till när den får vatten igen.</p><p>Plantan ska börja torka upp innan ny vattning.</p><p>Genomvattna hela krukan för att alla rötter ska få vatten. Det är vanligt vid vattning att jorden inte blir helt genomvattnad utan bara blir blöt några centimeter på ytan och då blir uppsugningsförmågan dålig när inte alla rötter kan förse plantan med vatten.</p><p>Om man vattnar för ofta så jorden alltid är blöt ruttnar rötterna och det blir dålig tillväxt.</p><h3>Blomning</h3><p>Det kan variera med två veckor för när dahliorna börjar blomma beroende på hur tidig och varm våren är och hur solig sommaren blir.</p><p>Dahliaplantan växer rakt upp och får först en blomma i toppen. Denna första blomma är ofta  avvikande i färg och/eller form från hur blomman ska se ut. De tre första blommorna kan ha en öppen disk eller ha fel färg. Efter det kommer blommor från alla sidoskott som kommer ut i bladvecken, det är då vi får njuta av ett färghav av fantastiska blommor.</p><p>De låga sorterna är de första att börja blomma, normalt i mitten av juli i växtzon 3. Någon vecka senare börjar de högre blomma och i början till mitten av augusti kommer de första blommorna på Dekorativ Jätte och de riktigt höga sorterna som behöver längre tid på sig att utveckla sina gigantiska blommor.</p><p>Plocka bort överblommade blommor för det ser trevligare ut och ger i viss mån en ökad blomning. En blomma som blir befruktad övergår till frösättning vilket gör att den inte blommar lika länge som en obefruktad blomma. De fyllda och täta dahliablommorna blir inte befruktade medans sorter med öppen disk älskas av insekter och blir befruktade. Dessa behöver klippas bort när de blommat över för att inte ta kraft från ny blomsättning.</p><h4>All information tagen från Magnolia Nossebro</h4>"
+      }
     },
     {
-      "Aster": "<p class='preamble'>Aster blommar rikligt och finns i en mängd färger. Med sin gula mittpunkt liknar den en karamell. Denna senblommande växt ger trädgården färg till långt in på höstkanten.</p><p>Det är smidigt att peta in sommaraster på flera ställen i trädgården, eftersom den finns i varianter mellan 20-80 cm. De höga sorterna fyller ut rabatten fint och blir dunderfina snittblommor. De lägre sorterna är snygga i utekrukor, balkonglådor och som kantväxt.</p><p>Den klassiska asterfärgen är blått, men blommorna finns nu i många olika färger – från vitt och gult till mer klatschiga nyanser av lila, rosa och rött.</p><h3>Förodla aster</h3><p>Aster förodlas så att den ska hinna utvecklas och blomma så tidigt som möjligt. Så dem inomhus i mars-april. Fröna gror bra i rumstemperatur. Täck dem med ca 0,5 cm jord och håll såytan fuktigt. När astrarna tittat upp trivs de bäst på en ljus och sval plats.</p><p>Aster kan också sås direkt på växtplatsen under hösten. Se till att jorden är fri från ogräs innan sådd. Då får småplantorna en riktigt bra start när de gror under våren.</p><h3>Skötsel</h3><p>Aster är lika härlig att odla på friland som i kruka. Särskilt snyggt blir det att plantera flera stycken tillsammans i grupp eller att samplantera aster med dekorativa bladväxter.</p><p>Allra bäst trivs aster i näringsrik mulljord. Den funkar bra i soligt till halvskuggigt läge.</p><p>Aster är överlag en problemfri växt. Ge den näring regelbundet och vattna vid torka, så kommer den att växa bra och blomma rikligt.</p><p>Aster blommar från juli månad. Om du plockar bort vissna blommor, så bildas fler knoppar efter hand. Aster kan blomma en bra bit in på hösten. Det är så tacksamt med de där blommorna som håller trädgården igång, när sommarblommorna Rödan packat ihop för säsongen.</p><h3>Snittblomma och eternell</h3><p>Aster är praktfull i buketter och hållbar i vas. Plocka av bladen från de stadiga stjälkarna, annars blir det klibbigt i vattnet efter några dagar. Sommaraster kan även torkas till eternell. Häng buketten upp och ned till dess att den är torr. Då håller sig färgerna bäst.</p><h4>Information från Florea</h4>"
+      "Aster": {
+        "img": "/src/assets/flowers/aster/Aster-banner.webp",
+        "desc": "<p class='preamble'>Aster blommar rikligt och finns i en mängd färger. Med sin gula mittpunkt liknar den en karamell. Denna senblommande växt ger trädgården färg till långt in på höstkanten.</p><p>Det är smidigt att peta in sommaraster på flera ställen i trädgården, eftersom den finns i varianter mellan 20-80 cm. De höga sorterna fyller ut rabatten fint och blir dunderfina snittblommor. De lägre sorterna är snygga i utekrukor, balkonglådor och som kantväxt.</p><p>Den klassiska asterfärgen är blått, men blommorna finns nu i många olika färger – från vitt och gult till mer klatschiga nyanser av lila, rosa och rött.</p><h3>Förodla aster</h3><p>Aster förodlas så att den ska hinna utvecklas och blomma så tidigt som möjligt. Så dem inomhus i mars-april. Fröna gror bra i rumstemperatur. Täck dem med ca 0,5 cm jord och håll såytan fuktigt. När astrarna tittat upp trivs de bäst på en ljus och sval plats.</p><p>Aster kan också sås direkt på växtplatsen under hösten. Se till att jorden är fri från ogräs innan sådd. Då får småplantorna en riktigt bra start när de gror under våren.</p><h3>Skötsel</h3><p>Aster är lika härlig att odla på friland som i kruka. Särskilt snyggt blir det att plantera flera stycken tillsammans i grupp eller att samplantera aster med dekorativa bladväxter.</p><p>Allra bäst trivs aster i näringsrik mulljord. Den funkar bra i soligt till halvskuggigt läge.</p><p>Aster är överlag en problemfri växt. Ge den näring regelbundet och vattna vid torka, så kommer den att växa bra och blomma rikligt.</p><p>Aster blommar från juli månad. Om du plockar bort vissna blommor, så bildas fler knoppar efter hand. Aster kan blomma en bra bit in på hösten. Det är så tacksamt med de där blommorna som håller trädgården igång, när sommarblommorna Rödan packat ihop för säsongen.</p><h3>Snittblomma och eternell</h3><p>Aster är praktfull i buketter och hållbar i vas. Plocka av bladen från de stadiga stjälkarna, annars blir det klibbigt i vattnet efter några dagar. Sommaraster kan även torkas till eternell. Häng buketten upp och ned till dess att den är torr. Då håller sig färgerna bäst.</p><h4>Information från Florea</h4>"
+      }
     },
     {
-      "Risp": "<p class='preamble'>Risp heter egentligen Blårisp. Namnet till trots finns blårisp i andra färger än blått – lila, rosa, vitt, gult och aprikos. De små blommorna växer i täta, färgglada kluster. Blårisp är en tjusig snittblomma som också kan torkas till eternell.</p><p>Beroende på sort blir blårisp från 20-90 cm hög. I varma klimat är växten perenn, men här i Sverige odlas den som annuell, då den inte tål frost. Blårisp har ett dekorativt bladverk som bildar rosetter kring de stadiga stjälkarnas bas. Blomningen kommer igång i juli och fortsätter långt in på senhösten.</p><h3>Odlingråd</h3><p>Blårisp kan direktsås på varma och skyddade lägen, men förkultivering är den säkraste metoden. Blötlägg fröna 1-2 dygn, så gror de snabbare. Placera fröna glest på jordytan. Täck med ett mycket tunt lager av jord, vattna och håll fuktigt. Använd gärna en sprayflaska eller vattna på fatet. Då slipper plantorna stå med rötterna i blöt. Blårisp gror bra i rumstemperatur. När de första bladen tittat upp trivs blårispen bäst på en ljus och sval plats.</p><p>När frostrisken är över, så är det dags att sätta ut blårisp på den slutliga växtplatsen. Avhärda plantorna genom att ha dem utomhus längre och längre tid under några dagar. Använd gärna fiberduk under avhärdningen för att skydda mot vind, kyla och alltför stark sol. Gräv sedan ner blårispplantorna i landet med ett plantavstånd på 30-40 cm. Välj en solig plats med grundgödslad jord. Blårisp trivs bra i väldränerad, gärna sandblandad jord. Blårisp är även fin att odla i en stor kruka.</p><p>När blårisp väl rotat sig på en plats tål växten torka bra och klarar sig för det mesta på det vatten som faller som regn. Men den första tiden är det viktigt att ge småplantorna vatten regelbundet.</p><p>Blårisp behöver oftast inte någon extra näring under säsongen. Plocka regelbundet bort vissna blommor. Då stimuleras växten att bilda nya blommor istället för att lägga energi på frön.</p><h3>Som snittblomma och eternell</h3><p>Blårisp kan plockas in som snittblomma under hela sommaren. Den har en tilltalande blandning av vildblomma och elegans. Blårisp som skördas för färska buketter bör plockas när blommorna är helt utslagna – annars riskerar de att vissna i förtid. Dra av bladen från stjälken, sätt i en vas och njut. En rejäl bunt med blårisp blir supersnyggt på egen hand. Blårisp är också en utmärkt utfyllnadsväxt i en blandad bukett. Stjälkarna är stadiga och blommorna är anmärkningsvärt hållbara.</p><p>Vill man njuta av blårisp som eternell, plockas blommorna då de är nästan helt utslagna. Häng buketterna upp och ner för torkning. Under torkningen kommer blommorna att öppna sig helt. Låt blommorna torka ungefär en vecka. Blårispens färger håller sig i flera år. Alltra bäst bevaras eternellernas färg ifall de inte placeras i direkt solljus.</p><h4>Information från Florea</h4>"
+      "Risp": {
+        "img": "/src/assets/flowers/risp/risp-banner.webp",
+        "desc": "<p class='preamble'>Risp heter egentligen Blårisp. Namnet till trots finns blårisp i andra färger än blått – lila, rosa, vitt, gult och aprikos. De små blommorna växer i täta, färgglada kluster. Blårisp är en tjusig snittblomma som också kan torkas till eternell.</p><p>Beroende på sort blir blårisp från 20-90 cm hög. I varma klimat är växten perenn, men här i Sverige odlas den som annuell, då den inte tål frost. Blårisp har ett dekorativt bladverk som bildar rosetter kring de stadiga stjälkarnas bas. Blomningen kommer igång i juli och fortsätter långt in på senhösten.</p><h3>Odlingråd</h3><p>Blårisp kan direktsås på varma och skyddade lägen, men förkultivering är den säkraste metoden. Blötlägg fröna 1-2 dygn, så gror de snabbare. Placera fröna glest på jordytan. Täck med ett mycket tunt lager av jord, vattna och håll fuktigt. Använd gärna en sprayflaska eller vattna på fatet. Då slipper plantorna stå med rötterna i blöt. Blårisp gror bra i rumstemperatur. När de första bladen tittat upp trivs blårispen bäst på en ljus och sval plats.</p><p>När frostrisken är över, så är det dags att sätta ut blårisp på den slutliga växtplatsen. Avhärda plantorna genom att ha dem utomhus längre och längre tid under några dagar. Använd gärna fiberduk under avhärdningen för att skydda mot vind, kyla och alltför stark sol. Gräv sedan ner blårispplantorna i landet med ett plantavstånd på 30-40 cm. Välj en solig plats med grundgödslad jord. Blårisp trivs bra i väldränerad, gärna sandblandad jord. Blårisp är även fin att odla i en stor kruka.</p><p>När blårisp väl rotat sig på en plats tål växten torka bra och klarar sig för det mesta på det vatten som faller som regn. Men den första tiden är det viktigt att ge småplantorna vatten regelbundet.</p><p>Blårisp behöver oftast inte någon extra näring under säsongen. Plocka regelbundet bort vissna blommor. Då stimuleras växten att bilda nya blommor istället för att lägga energi på frön.</p><h3>Som snittblomma och eternell</h3><p>Blårisp kan plockas in som snittblomma under hela sommaren. Den har en tilltalande blandning av vildblomma och elegans. Blårisp som skördas för färska buketter bör plockas när blommorna är helt utslagna – annars riskerar de att vissna i förtid. Dra av bladen från stjälken, sätt i en vas och njut. En rejäl bunt med blårisp blir supersnyggt på egen hand. Blårisp är också en utmärkt utfyllnadsväxt i en blandad bukett. Stjälkarna är stadiga och blommorna är anmärkningsvärt hållbara.</p><p>Vill man njuta av blårisp som eternell, plockas blommorna då de är nästan helt utslagna. Häng buketterna upp och ner för torkning. Under torkningen kommer blommorna att öppna sig helt. Låt blommorna torka ungefär en vecka. Blårispens färger håller sig i flera år. Alltra bäst bevaras eternellernas färg ifall de inte placeras i direkt solljus.</p><h4>Information från Florea</h4>"
+      }
     },
     {
-      "Lejongap": "<p class='preamble'>Lejongap är en sommarblomma som sprakar av färg. Den har lång blomningstid och de raka, stadiga stjälkarna är som gjorda för buketter.</p><p>Olika sorters lejongap blommar vid olika tillfällen. T.ex. Chantillilly, Costa och Legend-serierna är tidigblommande. Madame Butterfly och Potomac blommar över hela säsongen, men som bäst när det är lite svalare, alltså tidigt på säsongen och sedan senare på hösten.</p><p>Det finns låga varianter på 20-50 cm. Dessa är perfekta för krukor och som kantväxt. De högre sorterna kan bli över en meter och är eleganta i rabatter och som snittblomma. Du kan odla olika färger tillsammans i en blomsterbädd. Det blir ett hav av lejongap som lyser i glada kulörer.</p><p>Lejongap tål en del kyla. Den klarar till och med lite frost. Det är härligt att ha något som blommar i trädgården, när högsommarens växter har lagt av för säsongen.</p><h3>Odlingsråd</h3><p>Lejongap behöver förodlas. Så fröna tidigt, i feb-april. Beräkna sådden till ungefär 12-14 veckor före sista nattfrosten.</p><p>Fröna är riktigt, riktigt små. Så dem därför i såjord. Den är lättare för späda rötter att ta sig igenom. Ett bra tips är att lägga planteringsjord i botten av krukan och såjord överst. Då kommer rötterna ner i det mer näringsrika lagret när växten är stor nog för att använda en skjuts med gödsel.</p><p>De ljusgroende fröna ska inte täckas med jord. Strö dem över såytan och håll fuktigt under groning. Skydda dem gärna från torka med ett genomskinligt lock eller plast med lufthål. Spraya på vatten ifall jorden blir torr.</p><p>Fröna gror bäst i 20-22 grader. Därefter trivs de i lite svalare temperatur. Ju tidigare på året lejongap sås, desto mer ljus vill de ha för att inte bli gängliga.</p><p>När plantorna vuxit till sig i 6-8 veckor är det tags att plantera ut i välgödslade bäddar med ett plantavstånd på 15x15 cm, men gärna lite mer, 20x20 t.ex. De klarar frost. För att lejongapen ska förgrena sig och få flera stänglar är det bra att toppa dem. Gör det när de är 8-10 cm.</p>Lejongap är lika vacker i kruka som i rabatt. De lägre sorterna har ofta ett buskigt och kompakt växtsätt. Dessa är superfina som kantväxt eller marktäckare. De högre sorterna gör sig allra bäst planterade i grupper med ett avstånd på ca 40 cm mellan varje planta.</p><p>Ett soligt läge ger rikligast blomning, men halvskugga fungerar också bra. Plantera i näringsrik jord och vattna regelbundet.</p>"
+      "Lejongap": {
+        "img": "/src/assets/flowers/lejongap/Lejongap-banner.webp",
+        "desc": "<p class='preamble'>Lejongap är en sommarblomma som sprakar av färg. Den har lång blomningstid och de raka, stadiga stjälkarna är som gjorda för buketter.</p><p>Olika sorters lejongap blommar vid olika tillfällen. T.ex. Chantillilly, Costa och Legend-serierna är tidigblommande. Madame Butterfly och Potomac blommar över hela säsongen, men som bäst när det är lite svalare, alltså tidigt på säsongen och sedan senare på hösten.</p><p>Det finns låga varianter på 20-50 cm. Dessa är perfekta för krukor och som kantväxt. De högre sorterna kan bli över en meter och är eleganta i rabatter och som snittblomma. Du kan odla olika färger tillsammans i en blomsterbädd. Det blir ett hav av lejongap som lyser i glada kulörer.</p><p>Lejongap tål en del kyla. Den klarar till och med lite frost. Det är härligt att ha något som blommar i trädgården, när högsommarens växter har lagt av för säsongen.</p><h3>Odlingsråd</h3><p>Lejongap behöver förodlas. Så fröna tidigt, i feb-april. Beräkna sådden till ungefär 12-14 veckor före sista nattfrosten.</p><p>Fröna är riktigt, riktigt små. Så dem därför i såjord. Den är lättare för späda rötter att ta sig igenom. Ett bra tips är att lägga planteringsjord i botten av krukan och såjord överst. Då kommer rötterna ner i det mer näringsrika lagret när växten är stor nog för att använda en skjuts med gödsel.</p><p>De ljusgroende fröna ska inte täckas med jord. Strö dem över såytan och håll fuktigt under groning. Skydda dem gärna från torka med ett genomskinligt lock eller plast med lufthål. Spraya på vatten ifall jorden blir torr.</p><p>Fröna gror bäst i 20-22 grader. Därefter trivs de i lite svalare temperatur. Ju tidigare på året lejongap sås, desto mer ljus vill de ha för att inte bli gängliga.</p><p>När plantorna vuxit till sig i 6-8 veckor är det tags att plantera ut i välgödslade bäddar med ett plantavstånd på 15x15 cm, men gärna lite mer, 20x20 t.ex. De klarar frost. För att lejongapen ska förgrena sig och få flera stänglar är det bra att toppa dem. Gör det när de är 8-10 cm.</p>Lejongap är lika vacker i kruka som i rabatt. De lägre sorterna har ofta ett buskigt och kompakt växtsätt. Dessa är superfina som kantväxt eller marktäckare. De högre sorterna gör sig allra bäst planterade i grupper med ett avstånd på ca 40 cm mellan varje planta.</p><p>Ett soligt läge ger rikligast blomning, men halvskugga fungerar också bra. Plantera i näringsrik jord och vattna regelbundet.</p>"
+      }
     },
     {
-      "Celosia": "<p class='preamble'>Kärt barn har många namn! Celosia är ett samlingsnamn på ett antal olika sorter som bland annat tuppkam, axamarant, amarant och plymört.</p><p>Celosia passar utmärkt som snittblomma och kan användas både färsk och torkad.</p><p>Färsk - Skörda när blommorna är fullt utvecklade och stjälkarna är fasta vid basen av blomningen.<br />Torkad - Skörda i samma tillväxtstadium som för färska blommor. Ta bort allt löv och häng på en mörk och torr plats för att torka.</p><p>Celosian är ljusgroende och förkultiveras inomhus 6-8 veckor innan sista frosten. Utplanteras efter avhärdning när frostrisken är över.</p><p>Celosian älskar värme och bor gärna i växthuset. Toppa gärna plantan för att uppmuntra förgrening.</p>"
+      "Celosia": {
+        "img": "/src/assets/flowers/celosia/Celosia-banner.webp",
+        "desc": "<p class='preamble'>Kärt barn har många namn! Celosia är ett samlingsnamn på ett antal olika sorter som bland annat tuppkam, axamarant, amarant och plymört.</p><p>Celosia passar utmärkt som snittblomma och kan användas både färsk och torkad.</p><p>Färsk - Skörda när blommorna är fullt utvecklade och stjälkarna är fasta vid basen av blomningen.<br />Torkad - Skörda i samma tillväxtstadium som för färska blommor. Ta bort allt löv och häng på en mörk och torr plats för att torka.</p><p>Celosian är ljusgroende och förkultiveras inomhus 6-8 veckor innan sista frosten. Utplanteras efter avhärdning när frostrisken är över.</p><p>Celosian älskar värme och bor gärna i växthuset. Toppa gärna plantan för att uppmuntra förgrening.</p>"
+      }
     },
     {
-      "Luktart": "<p class='preamble'>Tacksam och väldoftande snittblomma. Luktärt är en stor favorit i många trädgårdar tack vare att den är så lättodlad och blommar rikligt - faktiskt mer och mer ju mer du plockar!</p><p>De vackra blommorna har historiskt sett lockat till sig många entusiaster som har experimenterat fram nya varianter av luktärt. Idag finns det därför en stor variation i färg och höjd. De minsta luktärterna blir bara 20 cm, medan riktigt resliga sorter kan bli runt 3 m höga.</p><p></p><h3>Odlingsråd</h3><p>De flesta sätter igång med sådden i vecka 12. Du kan så i t.ex. toarullar. Klipp ett par skåror i ena änden och vik till en enkel botten. Fyll planteringsjord i botten och såjord överst. Det går också utmärkt att så i vanliga krukor eller att bredså i ett odlingstråg. Tryck till jorden och vattna igenom ordentligt.</p><p>Placera fröna mot jordytan och tryck till dem så de kommer i kontakt med den blöta jorden. Täck med ca 2 cm planteringsjord och tryck till. Vattna på jorden försiktigt så att du inte rör om bland fröerna. Ställ krukan i en plastpåse som är öppen upptill och placera på fönsterbrädan., (men ej i direkt sol)</p><p>När plantorna har kommit upp 10-15 cm, det tar cirka 14 dagar, får de flytta ut utomhus, om det inte är alldeles för kallt ute. Det tål temperaturer ner till -8°. Plantorna blir tjocka, knubbiga och fina om de får växa svalt.</p><p>Toppa plantorna när det börjar komma fler bladpar. Då förgrenar de sig mer. Omplantering krävs inte, och undanråds från då luktärternas rötter är känsliga, utan sätt ut dem direkt på sin växtplats i samband med sista frosten. Det går även bra att direktså luktärter när jorden reder sig i maj.</p><h3>Skötsel</h3><p>Om du vill odla i kruka så bör den innehålla minst 50 liter jord och max 6-7 plantor. Det är viktigt att plantorna erbjuds stöd när de drar iväg på höjden så att de kan bilda stora fina blommor på stadiga stjälkar. Staket, husvägg, spaljé eller pergola är bra alternativ. Det är också lätt att själv göra en rundel av långa kvistar som sticks ned i jorden i cirkelform. När det gäller vattning vill luktärt inte stå i blöt jord, ej heller i torka under längre perioder. Om det blir en torr sommar vattnar du dina luktärter då och då. Den intensiva blomning kräver energi. Vattna då och då med flytande gödningsmedel, t.ex. guldvatten, nässelvatten eller pelletterad hönsgödsel upplöst i vatten. Vattna på jorden, ej på plantorna.</p><p>Rensa plantorna från vissna blad; då kommer mer ljus och luft in i plantan. Det är viktigt att inte låta blommor vissna ner och bilda ärtskidor. Detta kan ge en signal till plantan att dra ner på blomningen eftersom fruktbildningen har inletts. Klipp därför bort vissna blommor.</p><h3>Fyller sommarens buketter</h3><p>Luktärter är oerhört generösa och tacksamma att odla. De blommar villigt och ju mer du plockar desto mer intensivt blommar de. Odlar du några olika sorters luktärter i trädgården eller på balkongen har du en riktig bukettsommar och -höst framför dig. En mild höst kan blomningen fortsätta in i oktober.</p>"
+      "Luktärt": {
+        "img": "/src/assets/flowers/luktart/luktart-banner-wow.webp",
+        "desc": "<p class='preamble'>Tacksam och väldoftande snittblomma. Luktärt är en stor favorit i många trädgårdar tack vare att den är så lättodlad och blommar rikligt - faktiskt mer och mer ju mer du plockar!</p><p>De vackra blommorna har historiskt sett lockat till sig många entusiaster som har experimenterat fram nya varianter av luktärt. Idag finns det därför en stor variation i färg och höjd. De minsta luktärterna blir bara 20 cm, medan riktigt resliga sorter kan bli runt 3 m höga.</p><p></p><h3>Odlingsråd</h3><p>De flesta sätter igång med sådden i vecka 12. Du kan så i t.ex. toarullar. Klipp ett par skåror i ena änden och vik till en enkel botten. Fyll planteringsjord i botten och såjord överst. Det går också utmärkt att så i vanliga krukor eller att bredså i ett odlingstråg. Tryck till jorden och vattna igenom ordentligt.</p><p>Placera fröna mot jordytan och tryck till dem så de kommer i kontakt med den blöta jorden. Täck med ca 2 cm planteringsjord och tryck till. Vattna på jorden försiktigt så att du inte rör om bland fröerna. Ställ krukan i en plastpåse som är öppen upptill och placera på fönsterbrädan., (men ej i direkt sol)</p><p>När plantorna har kommit upp 10-15 cm, det tar cirka 14 dagar, får de flytta ut utomhus, om det inte är alldeles för kallt ute. Det tål temperaturer ner till -8°. Plantorna blir tjocka, knubbiga och fina om de får växa svalt.</p><p>Toppa plantorna när det börjar komma fler bladpar. Då förgrenar de sig mer. Omplantering krävs inte, och undanråds från då luktärternas rötter är känsliga, utan sätt ut dem direkt på sin växtplats i samband med sista frosten. Det går även bra att direktså luktärter när jorden reder sig i maj.</p><h3>Skötsel</h3><p>Om du vill odla i kruka så bör den innehålla minst 50 liter jord och max 6-7 plantor. Det är viktigt att plantorna erbjuds stöd när de drar iväg på höjden så att de kan bilda stora fina blommor på stadiga stjälkar. Staket, husvägg, spaljé eller pergola är bra alternativ. Det är också lätt att själv göra en rundel av långa kvistar som sticks ned i jorden i cirkelform. När det gäller vattning vill luktärt inte stå i blöt jord, ej heller i torka under längre perioder. Om det blir en torr sommar vattnar du dina luktärter då och då. Den intensiva blomning kräver energi. Vattna då och då med flytande gödningsmedel, t.ex. guldvatten, nässelvatten eller pelletterad hönsgödsel upplöst i vatten. Vattna på jorden, ej på plantorna.</p><p>Rensa plantorna från vissna blad; då kommer mer ljus och luft in i plantan. Det är viktigt att inte låta blommor vissna ner och bilda ärtskidor. Detta kan ge en signal till plantan att dra ner på blomningen eftersom fruktbildningen har inletts. Klipp därför bort vissna blommor.</p><h3>Fyller sommarens buketter</h3><p>Luktärter är oerhört generösa och tacksamma att odla. De blommar villigt och ju mer du plockar desto mer intensivt blommar de. Odlar du några olika sorters luktärter i trädgården eller på balkongen har du en riktig bukettsommar och -höst framför dig. En mild höst kan blomningen fortsätta in i oktober.</p>"
+      }
     },
     {
-      "Solros": "<p class='preamble'>Solrosor är den ultimata sommarblomman. Höga och kraftiga sorter är värda att odla till snitt, liksom småblommiga sorter som blir så vackra i buketter. Att odla solrosor är också något av det enklaste i odlingsväg man kan göra. De gror fort, växer fort och kan bli otroligt stora på bara en säsong.</p><p>Det finns otaliga sorters solrosor i olika färger och former. Högväxande solrosor kan bli över 3 meter höga, så om du odlar på balkong eller i fönstret bör du nog välja en lågväxande sort. Att blanda sorter med olika färg på samma plats kan bli mycket vackert.\n\nOm du direktsår bör du tänka till ordentligt innan, så att solrosorna inte riskerar att skugga andra soltörstiga växter. Solrosen passar dock bra att samodla med andra blommor och med grönsaker, till exempel gurka och potatis.</p><h3>Odlingråd</h3><p>Solrosor kan både förkultiveras inomhus och direktsås utomhus. Solrosor är lätta att odla och kräver minimalt med ansträngning. En klassiker är att sätta ner ett par frön i ett avsågat mjölkpaket (eller en kruka) och se dem ta fart inomhus. Fördelen med förkultivering inomhus är att solrosorna kommer att blomma tidigare under säsongen än annars. Tänk på läget, att solrosen gärna vill ha det soligt och att näringsrik och lucker jord ger högre och ståtligare plantor.</p><h3>Skötsel</h3><p>Solrosor kräver inte mycket skötsel, men det är viktigt att vattna kontinuerligt. Höga sorter kräver ofta någon typ av stöd, för att inte brytas av eller falla ihop när de börjar skjuta i höjden. Använd växtstöd eller vad du har till hands.</p>"
+      "Solros": {
+        "img": "/src/assets/flowers/solros/solros-banner1.webp",
+        "desc": "<p class='preamble'>Solrosor är den ultimata sommarblomman. Höga och kraftiga sorter är värda att odla till snitt, liksom småblommiga sorter som blir så vackra i buketter. Att odla solrosor är också något av det enklaste i odlingsväg man kan göra. De gror fort, växer fort och kan bli otroligt stora på bara en säsong.</p><p>Det finns otaliga sorters solrosor i olika färger och former. Högväxande solrosor kan bli över 3 meter höga, så om du odlar på balkong eller i fönstret bör du nog välja en lågväxande sort. Att blanda sorter med olika färg på samma plats kan bli mycket vackert.\n\nOm du direktsår bör du tänka till ordentligt innan, så att solrosorna inte riskerar att skugga andra soltörstiga växter. Solrosen passar dock bra att samodla med andra blommor och med grönsaker, till exempel gurka och potatis.</p><h3>Odlingråd</h3><p>Solrosor kan både förkultiveras inomhus och direktsås utomhus. Solrosor är lätta att odla och kräver minimalt med ansträngning. En klassiker är att sätta ner ett par frön i ett avsågat mjölkpaket (eller en kruka) och se dem ta fart inomhus. Fördelen med förkultivering inomhus är att solrosorna kommer att blomma tidigare under säsongen än annars. Tänk på läget, att solrosen gärna vill ha det soligt och att näringsrik och lucker jord ger högre och ståtligare plantor.</p><h3>Skötsel</h3><p>Solrosor kräver inte mycket skötsel, men det är viktigt att vattna kontinuerligt. Höga sorter kräver ofta någon typ av stöd, för att inte brytas av eller falla ihop när de börjar skjuta i höjden. Använd växtstöd eller vad du har till hands.</p>"
+      }
     },
     {
-      "Phlox": "<p class='preamble'>Sommarflox med sina färgglada små blomklasar är en otroligt söt sommarblomma. Samtidigt är den en riktig tuffing i trädgården. Den klarar regn, blåst och lite frost. Sommarflox blommar rikligt och länge. Med sin härliga doft lockar den till sig pollinatörer som fjärilar och bin.</p><p>“Flox” betyder flamma. Det är ett passande namn eftersom blommorna ibland är mycket färgstarka. De kan vara enfärgade eller tvåfärgade. Idag finns sommarflox i såväl milda som intensiva nyanser i blått, lila, rosa, crèmefärgat och vitt. Beroende på sort blir sommarflox ca 10-40 cm hög. Den blommar under juli till september – ibland ännu längre in på hösten och under den tidiga vintern.</p><p>Sommarflox är en allsidig och användbar växt. Tack vare att den har ett buskigt växtsätt och låg höjd, så är sommarflox perfekt som kantväxt, i krukor, amplar, balkonglådor och stenpartier. Den är tålig mot blåst och regn och finner sig därför väl tillrätta på platser som andra blommor kanske inte klarar.</p><h3>Odlingsråd</h3><p>I södra Sverige kan sommarflox direktsås i trädgårdslandet. I övriga landet är det bäst att förodla. Så fröna inomhus i mars-april. Beräkna sådden till 12-14 veckor före utplantering.</p><p>Sommarflox är mörkergroende. Håll fuktigt och lufta ibland. Låt sådden stå i ca 18 grader.</p><p>Efter 2-3 veckor, då de första bladen tittar upp, tas ljusskyddet bort. Ställ då sådden ljust och svalt. När plantorna är stora nog att hanteras flyttas de till varsin kruka fylld med planteringsjord. Gallra bort de minsta plantorna. För att få ett buskigare växtsätt, så är det bra att toppa sommarflox en gång före utplantering.</p><p>När risken för nattfrost är över är det dags för sommarfloxen att få komma ut i trädgården. Täck gärna med fiberduk den första veckan. Då skyddas plantorna från sol och vind. Välj en solig eller halvskuggig plats. Håll ca 20 cm avstånd mellan plantorna.</p><h3>Skötsel</h3><p>Sommarflox gillar näring. Gödselvattna nån gång per månad. Som alla växter trivs sommarflox extra bra ifall man skämmer bort den med nässelvatten. Ta bort vissna blommor efterhand. Då kommer växten att fortsätta flöda över med nya blommor under hela säsongen. Vattna vid torka, men se till att det inte blir alltför blött i jorden.</p><p>Sommarflox kan råka ut för bladlöss. Duscha gärna plantan med en mjuk stråle för att förebygga och mota angrepp. Om bladlöss får fäste, så kan en såpaspray göra underverk. Blanda ut 0,5-1 dl grönsåpa i en liter vatten och spraya dagligen till dess att lössen är borta.</p><h3>Somrigt ljuv snittblomma</h3><p>Sommarflox är mycket fin att plocka in i buketter. Den har en ljuv utstrålning och passar bra både på egen hand och i arrangemang med andra blommor. Som snittblomma har sommarfllox en bra hållbarhet. Dessutom blir plantorna buskigare om man då och då klipper av några stjälkar.</p><h4>Informationen från Florea</h4>"
+      "Phlox": {
+        "img": "/src/assets/flowers/phlox/phlox-banner.jpg",
+        "desc": "<p class='preamble'>Sommarflox med sina färgglada små blomklasar är en otroligt söt sommarblomma. Samtidigt är den en riktig tuffing i trädgården. Den klarar regn, blåst och lite frost. Sommarflox blommar rikligt och länge. Med sin härliga doft lockar den till sig pollinatörer som fjärilar och bin.</p><p>“Flox” betyder flamma. Det är ett passande namn eftersom blommorna ibland är mycket färgstarka. De kan vara enfärgade eller tvåfärgade. Idag finns sommarflox i såväl milda som intensiva nyanser i blått, lila, rosa, crèmefärgat och vitt. Beroende på sort blir sommarflox ca 10-40 cm hög. Den blommar under juli till september – ibland ännu längre in på hösten och under den tidiga vintern.</p><p>Sommarflox är en allsidig och användbar växt. Tack vare att den har ett buskigt växtsätt och låg höjd, så är sommarflox perfekt som kantväxt, i krukor, amplar, balkonglådor och stenpartier. Den är tålig mot blåst och regn och finner sig därför väl tillrätta på platser som andra blommor kanske inte klarar.</p><h3>Odlingsråd</h3><p>I södra Sverige kan sommarflox direktsås i trädgårdslandet. I övriga landet är det bäst att förodla. Så fröna inomhus i mars-april. Beräkna sådden till 12-14 veckor före utplantering.</p><p>Sommarflox är mörkergroende. Håll fuktigt och lufta ibland. Låt sådden stå i ca 18 grader.</p><p>Efter 2-3 veckor, då de första bladen tittar upp, tas ljusskyddet bort. Ställ då sådden ljust och svalt. När plantorna är stora nog att hanteras flyttas de till varsin kruka fylld med planteringsjord. Gallra bort de minsta plantorna. För att få ett buskigare växtsätt, så är det bra att toppa sommarflox en gång före utplantering.</p><p>När risken för nattfrost är över är det dags för sommarfloxen att få komma ut i trädgården. Täck gärna med fiberduk den första veckan. Då skyddas plantorna från sol och vind. Välj en solig eller halvskuggig plats. Håll ca 20 cm avstånd mellan plantorna.</p><h3>Skötsel</h3><p>Sommarflox gillar näring. Gödselvattna nån gång per månad. Som alla växter trivs sommarflox extra bra ifall man skämmer bort den med nässelvatten. Ta bort vissna blommor efterhand. Då kommer växten att fortsätta flöda över med nya blommor under hela säsongen. Vattna vid torka, men se till att det inte blir alltför blött i jorden.</p><p>Sommarflox kan råka ut för bladlöss. Duscha gärna plantan med en mjuk stråle för att förebygga och mota angrepp. Om bladlöss får fäste, så kan en såpaspray göra underverk. Blanda ut 0,5-1 dl grönsåpa i en liter vatten och spraya dagligen till dess att lössen är borta.</p><h3>Somrigt ljuv snittblomma</h3><p>Sommarflox är mycket fin att plocka in i buketter. Den har en ljuv utstrålning och passar bra både på egen hand och i arrangemang med andra blommor. Som snittblomma har sommarfllox en bra hållbarhet. Dessutom blir plantorna buskigare om man då och då klipper av några stjälkar.</p><h4>Informationen från Florea</h4>"
+      }
     }
   ],
   "hardinessDescription": [
