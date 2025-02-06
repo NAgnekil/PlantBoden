@@ -1670,6 +1670,88 @@
       "description": "Beskrivning av växten"
     },
     {
+      "id": "107",
+      "name": "Ranunkel “Elegance Salmone”",
+      "category": "Ranunkel",
+      "height": "40-60 cm",
+      "color": ["Laxrosa", "Aprikos"],
+      "isDryable": true,
+
+      "sowWeeksBeforeFrost": "10",
+      "cultivationType": "SowIndoors",
+      "sowingDate": "16/3",
+      "lightGermination": true,
+      "plantOut": "16/4",
+      "plantOutComment": "4-6 veckor före sista frost",
+      "plantDistanceInCm": "5",
+      "plantDistanceImg": "src/assets/plantdistance/5cm.webp",
+      "plantSupport": false,
+      "fitForGreenhouse": false,
+      "toppedOff": false,
+      "pests": [],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "HA",
+      "harvestPeriod": [
+        {
+          "start": "May",
+          "end": "September"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/ranunkel/ranunkel-elegancesalmone.webp",
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone5.webp"
+      ],
+      "additionalComments": "Vill ha det svalt.",
+      "description": "Beskrivning av växten"
+    },
+    {
+      "id": "107",
+      "name": "Ranunkel “Elegance Crema",
+      "category": "Ranunkel",
+      "height": "40-60 cm",
+      "color": ["Gräddvit"],
+      "isDryable": true,
+
+      "sowWeeksBeforeFrost": "10",
+      "cultivationType": "SowIndoors",
+      "sowingDate": "16/3",
+      "lightGermination": true,
+      "plantOut": "16/4",
+      "plantOutComment": "4-6 veckor före sista frost",
+      "plantDistanceInCm": "5",
+      "plantDistanceImg": "src/assets/plantdistance/5cm.webp",
+      "plantSupport": false,
+      "fitForGreenhouse": false,
+      "toppedOff": false,
+      "pests": [],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "HA",
+      "harvestPeriod": [
+        {
+          "start": "May",
+          "end": "September"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/ranunkel/ranunkel-elegancecrema.webp",
+      "additionalImages": [
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema2.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema3.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema5.webp"
+      ],
+      "additionalComments": "Vill ha det svalt.",
+      "description": "Beskrivning av växten"
+    },
+    {
       "id": "201",
       "name": "Lejongap “Snapstar Champagne II”",
       "category": "Lejongap",
