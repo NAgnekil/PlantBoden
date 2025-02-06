@@ -15,6 +15,21 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2",
     "vite": "^6.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }

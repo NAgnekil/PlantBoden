@@ -1,101 +1,101 @@
 <script setup>
-  import { ref, onMounted, computed } from 'vue'
-  import { fetchFlowers } from '../../fetchFlowers'
-  import FlowerList from '../components/FlowerList.vue'
-  import QuerySection from '../components/QuerySection.vue'
-  import Sorting from '../components/Sorting.vue'
+import { ref, onMounted, computed } from "vue";
+import { fetchFlowers } from "../../fetchFlowers";
+import FlowerList from "../components/FlowerList.vue";
+import QuerySection from "../components/QuerySection.vue";
+import Sorting from "../components/Sorting.vue";
 
-  const flowers = ref([])
-  const searchQueryExists = ref(false)
-  const categories = ref([])
-  const colors = ref([])
-  const cultivationTypes = ref([])
-  const searchQuery = ref('')
-  const chosenCategory = ref([])
-  const chosenColor = ref([])
-  const chosenCultivationType = ref('all')
-  const sortOrder = ref('')
-  const sortCategory = ref('')
-  const sortMonth = ref('')
+const flowers = ref([]);
+const searchQueryExists = ref(false);
+const categories = ref([]);
+const colors = ref([]);
+const cultivationTypes = ref([]);
+const searchQuery = ref("");
+const chosenCategory = ref([]);
+const chosenColor = ref([]);
+const chosenCultivationType = ref("all");
+const sortOrder = ref("");
+const sortCategory = ref("");
+const sortMonth = ref("");
 
-  onMounted(async () => {
-    flowers.value = await fetchFlowers()
-    flowers.value = flowers.value.sort((a, b) => a.name.localeCompare(b.name))
-    categories.value = [
-      ...new Set(flowers.value.map((flower) => flower.category))
-    ].sort()
-    cultivationTypes.value = [
-      ...new Set(flowers.value.map((flower) => flower.cultivationType))
-    ]
-    colors.value = [
-      ...new Set(flowers.value.flatMap((flower) => flower.color))
-    ].sort()
-    //NOTE TO SELF:
-    // Set är en datastruktur som tar bort dubbletter.
-    // Set skapar en unik uppsättning, men den måste konverteras tillbaka till en vanlig array. spread-operatorn (...) gör det = "sprider ut" värdena och skapar en ny array.
-    // flatMap() går igenom varje blomma (flower) i flowers.value och samlar ihop alla färger från varje blomma i en enda enkel lista. Vi använder flatMap här för att colors är en array i databasen. Hade det varit en enkel string, som category är, hade vi bara använt map().
-  })
+onMounted(async () => {
+  flowers.value = await fetchFlowers();
+  flowers.value = flowers.value.sort((a, b) => a.name.localeCompare(b.name));
+  categories.value = [
+    ...new Set(flowers.value.map((flower) => flower.category)),
+  ].sort();
+  cultivationTypes.value = [
+    ...new Set(flowers.value.map((flower) => flower.cultivationType)),
+  ];
+  colors.value = [
+    ...new Set(flowers.value.flatMap((flower) => flower.color)),
+  ].sort();
+  //NOTE TO SELF:
+  // Set är en datastruktur som tar bort dubbletter.
+  // Set skapar en unik uppsättning, men den måste konverteras tillbaka till en vanlig array. spread-operatorn (...) gör det = "sprider ut" värdena och skapar en ny array.
+  // flatMap() går igenom varje blomma (flower) i flowers.value och samlar ihop alla färger från varje blomma i en enda enkel lista. Vi använder flatMap här för att colors är en array i databasen. Hade det varit en enkel string, som category är, hade vi bara använt map().
+});
 
-  const extractMonth = (dateString) => {
-    const splitString = dateString.split('/')
-    if (splitString.length === 2) {
-      const month = parseInt(splitString[1])
-      return isNaN(month) ? 0 : month
-    }
-    return 0
+const extractMonth = (dateString) => {
+  const splitString = dateString.split("/");
+  if (splitString.length === 2) {
+    const month = parseInt(splitString[1]);
+    return isNaN(month) ? 0 : month;
   }
+  return 0;
+};
 
-  //NOTE TO SELF: För att Övrigt-kategorin ska hamna sist måste jag göra en fallback då Ö har ett högre Unicode-värde än de andra bokstäverna i det svenska alfabetet. Sorteringsfunktionen i JavaScript använder sig av Unicode-värden för att jämföra strängar, så Ö kommer hamna först i en stigande sortering (A-Z). Den här funktionen säger att om någon av kategorierna är "Övrigt", placera den sist
-  const customSort = (a, b) => {
-    if (a === 'Övrigt') return 1 // "Övrigt" ska hamna efter andra kategorier
-    if (b === 'Övrigt') return -1 // Andra kategorier ska hamna före "Övrigt"
-    return a.localeCompare(b, 'sv')
+//NOTE TO SELF: För att Övrigt-kategorin ska hamna sist måste jag göra en fallback då Ö har ett högre Unicode-värde än de andra bokstäverna i det svenska alfabetet. Sorteringsfunktionen i JavaScript använder sig av Unicode-värden för att jämföra strängar, så Ö kommer hamna först i en stigande sortering (A-Z). Den här funktionen säger att om någon av kategorierna är "Övrigt", placera den sist
+const customSort = (a, b) => {
+  if (a === "Övrigt") return 1; // "Övrigt" ska hamna efter andra kategorier
+  if (b === "Övrigt") return -1; // Andra kategorier ska hamna före "Övrigt"
+  return a.localeCompare(b, "sv");
+};
+
+const updateFilteredFlowers = computed(() => {
+  let result = flowers.value;
+  if (searchQuery.value) {
+    result = result.filter((flower) =>
+      flower.name.toLowerCase().includes(searchQuery.value.toLowerCase()),
+    );
+    searchQueryExists.value = true;
   }
-
-  const updateFilteredFlowers = computed(() => {
-    let result = flowers.value
-    if (searchQuery.value) {
-      result = result.filter((flower) =>
-        flower.name.toLowerCase().includes(searchQuery.value.toLowerCase())
-      )
-      searchQueryExists.value = true
-    }
-    if (chosenCategory.value.length) {
-      result = result.filter((flower) =>
-        chosenCategory.value.includes(flower.category)
-      )
-      searchQueryExists.value = true
-    }
-    if (chosenCultivationType.value !== 'all') {
-      result = result.filter(
-        (flower) => flower.cultivationType === chosenCultivationType.value
-      )
-      searchQueryExists.value = true
-    }
-    if (chosenColor.value.length) {
-      result = result.filter((flower) =>
-        chosenColor.value.some((color) => flower.color.includes(color))
-      )
-      //NOTE TO SELF: some() kollar om NÅGOT element i en array uppfyller ett villkor. Den returnerar true om den hittar minst ett element som matchar, annars false.
-      searchQueryExists.value = true
-    }
-    if (sortOrder.value === 'desc') {
-      result = result.sort((a, b) => b.name.localeCompare(a.name)) // Z-A
-    } else if (sortOrder.value === 'asc') {
-      result.sort((a, b) => a.name.localeCompare(b.name))
-    }
-    if (sortCategory.value === 'category') {
-      result.sort((a, b) => customSort(a.category, b.category))
-    }
-    if (sortMonth.value === 'asc') {
-      return [...flowers.value].sort((a, b) => {
-        const monthA = extractMonth(a.sowingDate)
-        const monthB = extractMonth(b.sowingDate)
-        return monthA - monthB // Jämför månaden numeriskt
-      })
-    }
-    return result
-  })
+  if (chosenCategory.value.length) {
+    result = result.filter((flower) =>
+      chosenCategory.value.includes(flower.category),
+    );
+    searchQueryExists.value = true;
+  }
+  if (chosenCultivationType.value !== "all") {
+    result = result.filter(
+      (flower) => flower.cultivationType === chosenCultivationType.value,
+    );
+    searchQueryExists.value = true;
+  }
+  if (chosenColor.value.length) {
+    result = result.filter((flower) =>
+      chosenColor.value.some((color) => flower.color.includes(color)),
+    );
+    //NOTE TO SELF: some() kollar om NÅGOT element i en array uppfyller ett villkor. Den returnerar true om den hittar minst ett element som matchar, annars false.
+    searchQueryExists.value = true;
+  }
+  if (sortOrder.value === "desc") {
+    result = result.sort((a, b) => b.name.localeCompare(a.name)); // Z-A
+  } else if (sortOrder.value === "asc") {
+    result.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  if (sortCategory.value === "category") {
+    result.sort((a, b) => customSort(a.category, b.category));
+  }
+  if (sortMonth.value === "asc") {
+    return [...flowers.value].sort((a, b) => {
+      const monthA = extractMonth(a.sowingDate);
+      const monthB = extractMonth(b.sowingDate);
+      return monthA - monthB; // Jämför månaden numeriskt
+    });
+  }
+  return result;
+});
 </script>
 
 <template>
@@ -127,11 +127,11 @@
 </template>
 
 <style scoped>
-  .main-content {
-    margin-top: 1rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.main-content {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 </style>
