@@ -7,7 +7,6 @@
       "height": "60 cm",
       "color": ["Vit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -24,6 +23,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -48,7 +48,6 @@
       "height": "60 cm",
       "color": ["Blå", "Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -65,6 +64,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -88,7 +88,6 @@
       "height": "40 cm",
       "color": ["Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -105,6 +104,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -130,7 +130,6 @@
       "height": "100 cm",
       "color": ["Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -147,6 +146,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -170,7 +170,6 @@
       "height": "50 cm",
       "color": ["Vit", "Rosa"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -187,6 +186,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -211,7 +211,6 @@
       "height": "90 cm",
       "color": ["Vit", "Rosa", "Lila", "Vinröd"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -228,6 +227,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -251,7 +251,6 @@
       "height": "70-120 cm",
       "color": ["Persika", "Rosa", "Lila", "Gul", "Gräddvit", "Vit", "Aprikos"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -268,6 +267,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -292,7 +292,6 @@
       "height": "90 cm",
       "color": ["Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "14",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/2",
@@ -309,6 +308,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -332,9 +332,8 @@
       "name": "Färgtistel “White Grenade”",
       "category": "Övrigt",
       "height": "60-100 cm",
-      "color": ["Grön", "Gul", "Orange"],
+      "color": ["Grön", "Gul", "Orange", "Gräddvit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -351,6 +350,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -375,7 +375,6 @@
       "height": "60 cm",
       "color": ["Grön", "Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -392,6 +391,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -415,7 +415,6 @@
       "height": "90-100 cm",
       "color": ["Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -432,6 +431,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -455,7 +455,6 @@
       "height": "40-50 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -472,6 +471,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -496,7 +496,6 @@
       "height": "40-50 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -513,6 +512,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -537,7 +537,6 @@
       "height": "40-50 cm",
       "color": ["Blå", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -554,6 +553,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -578,7 +578,6 @@
       "height": "40 cm",
       "color": ["Vit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -595,6 +594,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -619,7 +619,6 @@
       "height": "70 cm",
       "color": ["Vit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -636,6 +635,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -659,7 +659,6 @@
       "height": "50-70 cm",
       "color": ["Gul", "Orange", "Röd", "Rosa"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -676,6 +675,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -701,7 +701,6 @@
       "height": "80 cm",
       "color": ["Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -718,6 +717,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -741,7 +741,6 @@
       "height": "70 cm",
       "color": ["Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -758,6 +757,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -782,7 +782,6 @@
       "height": "100 cm",
       "color": ["Rosa"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -799,6 +798,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -822,7 +822,6 @@
       "height": "60-70 cm",
       "color": ["Rosa", "Persika", "Vit", "Gul", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -839,6 +838,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HP",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -862,7 +862,6 @@
       "height": "60 cm",
       "color": ["Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -879,6 +878,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -901,7 +901,6 @@
       "height": "70 cm",
       "color": ["Lila", "Blå"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -918,6 +917,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -942,7 +942,6 @@
       "height": "60 cm",
       "color": ["Persika", "Röd"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -959,6 +958,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "June",
@@ -984,7 +984,6 @@
       "height": "70 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "4/5",
@@ -1001,6 +1000,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1024,7 +1024,6 @@
       "height": "100-150 cm",
       "color": ["Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1041,6 +1040,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1065,7 +1065,6 @@
       "height": "80-100 cm",
       "color": ["Brun"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1082,6 +1081,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HP",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1106,7 +1106,6 @@
       "height": "50 cm",
       "color": ["Brun", "Rosa", "Röd", "Lila", "Persika"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1123,6 +1122,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1147,7 +1147,6 @@
       "height": "45 cm",
       "color": ["Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -1164,6 +1163,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1187,7 +1187,6 @@
       "height": "100-150 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -1204,6 +1203,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1228,7 +1228,6 @@
       "height": "50 cm",
       "color": ["Vit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1245,6 +1244,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HP",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1269,7 +1269,6 @@
       "height": "50 cm",
       "color": ["Vit", "Rosa", "Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1286,6 +1285,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1310,7 +1310,6 @@
       "height": "60-90 cm",
       "color": ["Vit", "Blå"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1327,6 +1326,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1351,7 +1351,6 @@
       "height": "50 cm",
       "color": ["Vit", "Rosa"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -1368,6 +1367,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -1393,7 +1393,6 @@
       "height": "40-60 cm",
       "color": ["Röd"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1410,6 +1409,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1433,7 +1433,6 @@
       "height": "40-60 cm",
       "color": ["Persika", "Laxrosa", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1450,6 +1449,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1474,7 +1474,6 @@
       "height": "40-60 cm",
       "color": ["Rosa", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1491,6 +1490,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1513,7 +1513,6 @@
       "height": "40-60 cm",
       "color": ["Gul", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1530,6 +1529,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1553,7 +1553,6 @@
       "height": "40-60 cm",
       "color": ["Vit", "Grön"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1570,6 +1569,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1595,7 +1595,6 @@
       "height": "40-60 cm",
       "color": ["Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1612,6 +1611,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1635,7 +1635,6 @@
       "height": "40-60 cm",
       "color": ["Gräddvit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1652,6 +1651,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1676,7 +1676,6 @@
       "height": "40-60 cm",
       "color": ["Laxrosa", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1693,6 +1692,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1717,7 +1717,6 @@
       "height": "40-60 cm",
       "color": ["Gräddvit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -1734,6 +1733,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "May",
@@ -1758,7 +1758,6 @@
       "height": "50-70 cm",
       "color": ["Persika", "Aprikos"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1775,6 +1774,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -1800,7 +1800,6 @@
       "height": "80-100 cm",
       "color": ["Lila"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1817,6 +1816,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -1840,7 +1840,6 @@
       "height": "50 cm",
       "color": ["Persika", "Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1857,6 +1856,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -1881,7 +1881,6 @@
       "height": "25-30 cm",
       "color": ["Persika", "Rosa", "Aprikos"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1898,6 +1897,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -1922,7 +1922,6 @@
       "height": "70-100 cm",
       "color": ["Vit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1939,6 +1938,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -1964,7 +1964,6 @@
       "height": "85 cm",
       "color": ["Orange", "Persika"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -1981,6 +1980,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2004,7 +2004,6 @@
       "height": "90 cm",
       "color": ["Lila"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2021,6 +2020,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2045,7 +2045,6 @@
       "height": "75-100 cm",
       "color": ["Rosa"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2062,6 +2061,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2085,7 +2085,6 @@
       "height": "75-100 cm",
       "color": ["Röd", "Vinröd"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2102,6 +2101,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2128,7 +2128,6 @@
       "height": "25-30 cm",
       "color": ["Persika"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2145,6 +2144,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2167,7 +2167,6 @@
       "height": "90 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2184,6 +2183,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2209,7 +2209,6 @@
       "height": "90 cm",
       "color": ["Gul"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2226,6 +2225,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2249,7 +2249,6 @@
       "height": "70-90 cm",
       "color": ["Vit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2266,6 +2265,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2291,7 +2291,6 @@
       "height": "50-70 cm",
       "color": ["Vit", "Rosa"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2308,6 +2307,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2332,7 +2332,6 @@
       "height": "90-100 cm",
       "color": ["Laxrosa", "Aprikos"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2349,6 +2348,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -2372,7 +2372,6 @@
       "height": "60-70 cm",
       "color": ["Persika", "Lila", "Rosa", "Vit", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2389,6 +2388,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2414,7 +2414,6 @@
       "height": "60-70 cm",
       "color": ["Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2431,6 +2430,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2454,7 +2454,6 @@
       "height": "60-70 cm",
       "color": ["Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2471,6 +2470,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2494,7 +2494,6 @@
       "height": "60-70 cm",
       "color": ["Blå", "Lila", "Rosa", "Vit", "Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2511,6 +2510,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2534,7 +2534,6 @@
       "height": "60-70 cm",
       "color": ["Lila", "Blå"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2551,6 +2550,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2575,7 +2575,6 @@
       "height": "60-70 cm",
       "color": ["Vit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2592,6 +2591,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2616,7 +2616,6 @@
       "height": "60-70 cm",
       "color": ["Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2633,6 +2632,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2656,7 +2656,6 @@
       "height": "60-70 cm",
       "color": ["Blå", "Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2673,6 +2672,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2696,7 +2696,6 @@
       "height": "60-70 cm",
       "color": ["Rosa"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2713,6 +2712,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2732,7 +2732,6 @@
       "height": "60-70 cm",
       "color": ["Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "12",
       "cultivationType": "SowIndoors",
       "sowingDate": "2/3",
@@ -2749,6 +2748,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2768,7 +2768,6 @@
       "height": "60 cm",
       "color": ["Gräddvit", "Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2785,6 +2784,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2808,7 +2808,6 @@
       "height": "60-80 cm",
       "color": ["Rosa", "Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2825,6 +2824,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2848,7 +2848,6 @@
       "height": "70 cm",
       "color": ["Laxrosa", "Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2865,6 +2864,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2891,7 +2891,6 @@
       "height": "50-65 cm",
       "color": ["Grön", "Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2908,6 +2907,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2930,7 +2930,6 @@
       "height": "70-80 cm",
       "color": ["Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2947,6 +2946,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -2969,7 +2969,6 @@
       "height": "70-80 cm",
       "color": ["Blå"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -2986,6 +2985,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3008,7 +3008,6 @@
       "height": "70 cm",
       "color": ["Röd"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3025,6 +3024,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3047,7 +3047,6 @@
       "height": "60-70 cm",
       "color": ["Rosa", "Magenta"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3064,6 +3063,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3083,7 +3083,6 @@
       "height": "50-60 cm",
       "color": ["Blå"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3100,6 +3099,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3123,7 +3123,6 @@
       "height": "50-60 cm",
       "color": ["Rosa"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3140,6 +3139,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3162,7 +3162,6 @@
       "height": "80-100 cm",
       "color": ["Aprikos", "Gräddvit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3179,6 +3178,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3204,7 +3204,6 @@
       "height": "80-100 cm",
       "color": ["Vit", "Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3221,6 +3220,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3244,7 +3244,6 @@
       "height": "80-100 cm",
       "color": ["Vit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3261,6 +3260,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3286,7 +3286,6 @@
       "height": "65 cm",
       "color": ["Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3303,6 +3302,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3322,7 +3322,6 @@
       "height": "50-60 cm",
       "color": ["Vit", "Lila"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3339,6 +3338,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3358,7 +3358,6 @@
       "height": "100 cm",
       "color": ["Gräddvit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3375,6 +3374,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3394,7 +3394,6 @@
       "height": "70 cm",
       "color": ["Rosa"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3411,6 +3410,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3430,7 +3430,6 @@
       "height": "40-60 cm",
       "color": ["Vit", "Rosa", "Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "8",
       "cultivationType": "SowIndoors",
       "sowingDate": "30/3",
@@ -3447,6 +3446,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3469,7 +3469,6 @@
       "height": "60-90 cm",
       "color": ["Laxrosa", "Gräddvit"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3486,6 +3485,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3509,7 +3509,6 @@
       "height": "100 cm",
       "color": ["Terrakotta", "Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3526,6 +3525,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3549,7 +3549,6 @@
       "height": "80-120 cm",
       "color": ["Laxrosa", "Gul", "Persika", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3566,6 +3565,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3585,7 +3585,6 @@
       "height": "80-120 cm",
       "color": ["Orange"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3602,6 +3601,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3624,7 +3624,6 @@
       "height": "80-120 cm",
       "color": ["Gul", "Vinröd"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3641,6 +3640,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3663,7 +3663,6 @@
       "height": "80-120 cm",
       "color": ["Persika", "Rosa", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3680,6 +3679,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3704,7 +3704,6 @@
       "height": "80-120 cm",
       "color": ["Gräddvit", "Vit", "Grön", "Gul"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3721,6 +3720,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3744,7 +3744,6 @@
       "height": "80-120 cm",
       "color": ["Persika", "Gräddvit", "Aprikos"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3761,6 +3760,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3784,7 +3784,6 @@
       "height": "80-120 cm",
       "color": ["Röd", "Vinröd"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3801,6 +3800,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3825,7 +3825,6 @@
       "height": "80-120 cm",
       "color": ["Orange"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3842,6 +3841,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3867,7 +3867,6 @@
       "height": "80-120 cm",
       "color": ["Orange"],
       "isDryable": true,
-
       "sowWeeksBeforeFrost": "6",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/4",
@@ -3884,6 +3883,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3906,7 +3906,6 @@
       "color": ["Persika", "Aprikos", "Rosa"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3923,6 +3922,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3943,7 +3943,6 @@
       "color": ["Orange"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3960,6 +3959,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -3980,7 +3980,6 @@
       "color": ["Lila", "Cerise", "Rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -3997,6 +3996,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4017,7 +4017,6 @@
       "color": ["Orange", "Aprikos"],
       "type": "Näckros",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4034,6 +4033,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4054,7 +4054,6 @@
       "color": ["Rosa", "Aprikos", "Gräddvit"],
       "type": "Näckros",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4071,6 +4070,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4091,7 +4091,6 @@
       "color": ["Vit"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4108,6 +4107,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4128,7 +4128,6 @@
       "color": ["Rosa", "Persika"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4145,6 +4144,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4165,7 +4165,6 @@
       "color": ["Ljusrosa", "Gräddvit", "Aprikos"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4182,6 +4181,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4202,7 +4202,6 @@
       "color": ["Persika", "Korall"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4219,6 +4218,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4239,7 +4239,6 @@
       "color": ["Rosa", "Aprikos", "Ljusrosa"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4256,6 +4255,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4276,7 +4276,6 @@
       "color": ["Terrakotta", "Röd", "Aprikos"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4293,6 +4292,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4313,7 +4313,6 @@
       "color": ["Cerise", "Lila"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4330,6 +4329,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4350,7 +4350,6 @@
       "color": ["Vit"],
       "type": "Pompon",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4367,6 +4366,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4387,7 +4387,6 @@
       "color": ["Röd", "Vit", "Gul"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4404,6 +4403,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4424,7 +4424,6 @@
       "color": ["Cerise", "Röd", "Rosa"],
       "type": "Pompon",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4441,6 +4440,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4461,7 +4461,6 @@
       "color": ["Cerise", "Rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4478,6 +4477,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4498,7 +4498,6 @@
       "color": ["Rosa", "Vit", "Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4515,6 +4514,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4535,7 +4535,6 @@
       "color": ["Vit", "Gul"],
       "type": "Näckros",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4552,6 +4551,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4572,7 +4572,6 @@
       "color": ["Laxrosa", "Aprikos"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4589,6 +4588,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4609,7 +4609,6 @@
       "color": ["Terrakotta", "Röd", "Orange", "Rosa"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4626,6 +4625,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4646,7 +4646,6 @@
       "color": ["Aprikos"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4663,6 +4662,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4683,7 +4683,6 @@
       "color": ["Rosa", "Ljusrosa", "Gammel-rosa", "Laxrosa"],
       "type": "Kaktus-semi",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4700,6 +4699,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4720,7 +4720,6 @@
       "color": ["Ljusrosa", "Gräddvit"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4737,6 +4736,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4757,7 +4757,6 @@
       "color": ["Aprikos"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4774,6 +4773,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4794,7 +4794,6 @@
       "color": ["Röd", "Gul", "Vinröd"],
       "type": "Kaktus-semi",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4811,6 +4810,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4831,7 +4831,6 @@
       "color": ["Rosa", "Aprikos"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4848,6 +4847,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4868,7 +4868,6 @@
       "color": ["Rosa", "Lila", "Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4885,6 +4884,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4905,7 +4905,6 @@
       "color": ["Rosa", "Lila"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4922,6 +4921,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4942,7 +4942,6 @@
       "color": ["Vit"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4959,6 +4958,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -4979,7 +4979,6 @@
       "color": ["Rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -4996,6 +4995,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5016,7 +5016,6 @@
       "color": ["Rosa", "Lila"],
       "type": "Boll",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5033,6 +5032,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5053,7 +5053,6 @@
       "color": ["Rosa", "Vit"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5070,6 +5069,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5090,7 +5090,6 @@
       "color": ["Persika", "Ljusrosa", "Vit", "Orange"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5107,6 +5106,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5127,7 +5127,6 @@
       "color": ["Vinröd", "Gammel-rosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5144,6 +5143,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5164,7 +5164,6 @@
       "color": ["Terrakotta", "Vit", "Rosa"],
       "type": "Dekorativa storblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5181,6 +5180,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5201,7 +5201,6 @@
       "color": ["Persika", "Aprikos", "Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5218,6 +5217,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5238,7 +5238,6 @@
       "color": ["Ljusrosa"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5255,6 +5254,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5275,7 +5275,6 @@
       "color": ["Aprikos"],
       "type": "Näckros",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5292,6 +5291,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5312,7 +5312,6 @@
       "color": ["Rosa", "Lila"],
       "type": "Dekorativa småblommiga",
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "10/5",
@@ -5329,6 +5328,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
+      "canBeColdPlanted": false,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5348,7 +5348,6 @@
       "height": "200 cm",
       "color": ["Rosa", "Lila"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5365,6 +5364,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5389,7 +5389,6 @@
       "height": "200 cm",
       "color": ["Lila"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5406,6 +5405,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5425,7 +5425,6 @@
       "height": "200 cm",
       "color": ["Rosa", "Vit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5442,6 +5441,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5463,7 +5463,6 @@
       "height": "200 cm",
       "color": ["Blå", "Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5480,6 +5479,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5503,7 +5503,6 @@
       "height": "80 cm",
       "color": ["Cerise", "Gräddvit", "Rosa", "Lila"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5520,6 +5519,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5549,7 +5549,6 @@
       "height": "200 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5566,6 +5565,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5588,7 +5588,6 @@
       "height": "250-300 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5605,6 +5604,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5628,7 +5628,6 @@
       "height": "250-300 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5645,6 +5644,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5669,7 +5669,6 @@
       "height": "250-300 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5686,6 +5685,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5710,7 +5710,6 @@
       "height": "50 cm",
       "color": ["Gul"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5727,6 +5726,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HHA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5754,7 +5754,6 @@
       "height": "150-200 cm",
       "color": ["Gräddvit", "Vinröd"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5771,6 +5770,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HHA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5796,7 +5796,6 @@
       "height": "150-200 cm",
       "color": ["Röd", "Vinröd", "Brun"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5813,6 +5812,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HHA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5835,7 +5835,6 @@
       "height": "150-200 cm",
       "color": ["Gräddvit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": null,
       "cultivationType": "SowOutdoors",
       "sowingDate": "1/6",
@@ -5852,6 +5851,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HHA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "July",
@@ -5876,7 +5876,6 @@
       "height": "40 cm",
       "color": ["Lila", "Rosa", "Vit", "Ljusrosa", "Röd"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5893,6 +5892,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5917,7 +5917,6 @@
       "height": "40-50 cm",
       "color": ["Gräddvit", "Rosa", "Vinröd"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5934,6 +5933,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5959,7 +5959,6 @@
       "height": "40-50 cm",
       "color": ["Lila", "Vit"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -5976,6 +5975,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -5999,7 +5999,6 @@
       "height": "40-50 cm",
       "color": ["Rosa", "Vit", "Ljusrosa"],
       "isDryable": false,
-
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -6016,6 +6015,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
+      "canBeColdPlanted": true,
       "harvestPeriod": [
         {
           "start": "June",
@@ -6072,6 +6072,11 @@
     },
     {
       "TA": "<p class='ta-description'>Ömtåliga annueller är riktiga värmeälskare! De klarar inte temperaturer under nollan och bör inte planteras ut förrän jorden och luften har värmts upp. De allra flesta förkultiveras inomhus för att plantan ska hinna blomma och ge tidigare skörd under säsongen. Så inte dess älsklingar för tidigt. Ta reda på vad förkultiveringstiden är och räkna bakåt från det datum du har tillräckligt varmt där du odlar. Växer de ur sina krukor, bildar rotsnurr och får kämpa om utrymme och ljus så tar de flera veckor innan tillväxten kommer i gång efter utplantering.</p><p class='sowing-time'>Sås inomhus 4-8 veckor innan sista frost</p><p class='plant-out'>Planteras ut (eller direktsås) när all frostrisk är över och nattemperaturen är stabilt över 5°C</p>"
+    }
+  ],
+  "articles": [
+    {
+      "WinterPlanting": "<h3>Vad är vintersådd?</h3><p>Kallsådd, som också kallas vintersådd, är en spännande metod för att så fröer utomhus på vintern. Kylan hjälper fröerna att förbereda sig för att gro. Under vintermånaderna vilar de i jorden. När våren kommer och temperaturen stiger, vet fröerna att det är dags att växa. Det här är naturens sätt att se till att fröerna gror vid rätt tidpunkt.</p><p>Varför vintersådd?</h3></p><p>Vintersådd kan göras på en liten utvald plats, en bytta eller kruka, men också direkt ute i landet eller i en pallkrage. Ofta görs vintersådd av grönsaker för att odlaren vill ha en supertidig skörd av till exempel bladgrönsaker. Då är det extra bra att skydda sådden och kanske göra den i ett växthus eller i en pallkrage täckt med genomskinligt lock, en så kallad kallbänk.</p><p>En del tycker att det låter jättekonstigt att så på vintern men de flesta som provar blir så nöjda att de aldrig kan tänka sig skippa vintersådden.</p><h3>Gör så här</h3><p>Det är mycket enkelt att vinterså. Gör sådderna från december och framåt, tidigare (innan snön kommer) om du odlar långt norröver och vill så i pallkragar eller land på friland.</p><p>Så som vanligt i tråg eller krukor, täck med lite jord men undvik att vattna. Om du vill kan du ställa sådden utomhus i en vecka eller så, då fuktas jorden lite av vinterns nederbörd. Ställ sedan i växthus, en pallkrage med lock, kallt uterum eller på en plats ute där sådden inte dränks av vårregn eller stora snöfall. En plastback med hål i locket är en bra plats om du inte har växthus.</p><p>Vattna mycket sparsamt, kanske inte ens alls i början. Det är dock bra att fukta jorden lätt genom att pudra över lite snö då och då om det finns, eller spraya över lite vatten om det är milt ute.</p><p>I februari-mars brukar sådden gro, beroende på var du har din sådd. Då är det också dags att se till att jorden inte torkar ut så att sådden förstörs. Fortsätt att fukta jorden lätt. Groningen blir senare om du odlar i kallare klimat norröver.</p><p>Om du vill så i landen utomhus är det bäst att välja platser som du kan skydda på olika vis, till exempel med galler eller olika slags fiberdukar eller nät. Det är lätt hänt att katter och andra djur krafsar i landen och förstör sådden under vintern. Så när det är barmark, innan snön kommer på senhösten (bra för er som odlar norröver) eller under vintern i en period då det inte är snö. Använd gärna en pallkrage eller liknande som lätt kan skyddas med kompostgaller.</p>"
     }
   ],
   "links": ["https://library.floretflowers.com/", "https://botania.dk/"],
