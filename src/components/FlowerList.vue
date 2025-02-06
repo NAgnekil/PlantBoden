@@ -1,11 +1,10 @@
 <script setup>
-  import { computed, ref } from 'vue'
+  import { computed } from 'vue'
 
   const {
     flowers,
     filteredFlowers,
     searchQueryExists,
-    sortOrder,
     sortCategory,
     sortMonth,
     extractMonth
@@ -44,6 +43,21 @@
     }, {})
   })
 
+  const getName = (name) => {
+    const match = name.match(/^(.*?)\s*“(.*?)”$/)
+    if (match) {
+      return {
+        name: match[1],
+        subname: match[2]
+      }
+    } else {
+      return {
+        main: name,
+        quoted: ''
+      }
+    }
+  }
+
   const getMonth = (month) => {
     const monthMap = {
       1: 'Januari',
@@ -76,7 +90,8 @@
         <div class="card-container">
           <div class="card" v-for="flower in flowers" :key="flower.id">
             <img class="product-img" :src="flower.mainImg" alt="" />
-            <h2>{{ flower.name }}</h2>
+            <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
+            <span>"{{ getName(flower.name).subname }}"</span>
           </div>
         </div>
       </div>
@@ -92,7 +107,8 @@
         <div class="card-container">
           <div class="card" v-for="flower in flowers" :key="flower.id">
             <img class="product-img" :src="flower.mainImg" alt="" />
-            <h2>{{ flower.name }}</h2>
+            <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
+            <span>"{{ getName(flower.name).subname }}"</span>
           </div>
         </div>
       </div>
@@ -101,13 +117,15 @@
       <div class="product-cards" v-if="searchQueryExists">
         <div class="card" v-for="flower in filteredFlowers" :key="flower.id">
           <img class="product-img" :src="flower.mainImg" alt="" />
-          <h2>{{ flower.name }}</h2>
+          <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
+          <span>"{{ getName(flower.name).subname }}"</span>
         </div>
       </div>
       <div class="product-cards" v-else>
         <div class="card" v-for="flower in flowers" :key="flower.id">
           <img class="product-img" :src="flower.mainImg" alt="" />
-          <h2>{{ flower.name }}</h2>
+          <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
+          <span>"{{ getName(flower.name).subname }}"</span>
         </div>
       </div>
     </div>
@@ -131,9 +149,13 @@
     }
     .card {
       max-width: 220px;
+      margin-bottom: 0.5rem;
       .product-img {
         height: 220px;
         width: 220px;
+      }
+      .name-headline {
+        margin: 0.3rem 0;
       }
     }
   }
@@ -152,12 +174,17 @@
         gap: 1rem;
         .card {
           max-width: 120px;
+          display: flex;
+          flex-direction: column;
           .product-img {
             height: 120px;
             width: 120px;
           }
-          h2 {
-            font-size: 1rem;
+          .name-headline {
+            margin-bottom: 0;
+          }
+          span {
+            font-size: 0.7rem;
           }
         }
       }

@@ -61,54 +61,50 @@
     display: block;
     text-align: center;
     font-size: 0.8rem;
-  }
+    .dropdown-trigger {
+      position: relative;
+      display: inline-block;
+      font-size: 1rem;
+      font-family: 'Fredoka', sans-serif;
+      p {
+        cursor: pointer;
+        margin: 0;
+      }
+      &:hover .dropdown {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        min-width: 180px;
+        text-align: left;
+        box-shadow: 0px 3px 5px -1px #ccc;
+      }
+    }
 
-  .dropdown-trigger {
-    position: relative;
-    display: inline-block;
-    font-size: 1rem;
-    font-family: 'Fredoka', sans-serif;
-  }
-
-  .dropdown-trigger p {
-    cursor: pointer;
-    margin: 0;
-  }
-
-  .dropdown-trigger:hover .dropdown {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-    min-width: 180px;
-    text-align: left;
-    box-shadow: 0px 3px 5px -1px #ccc;
-  }
-
-  .dropdown {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    padding-left: 0;
-    top: 100%; /* Sätter dropdown direkt under p-elementet */
-    right: 0;
-    margin: 0;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0px 3px 5px -1px #ccc;
-    z-index: 10;
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-  }
-
-  .dropdown li {
-    clear: both;
-    text-align: left;
-    border-style: none;
-    padding: 0.7rem;
-    list-style-type: none;
-    cursor: pointer;
-  }
-
-  .dropdown li:hover {
-    background-color: #f0f0f0; /* Lägg till en hover-effekt för listobjekt */
+    .dropdown {
+      visibility: hidden;
+      min-width: 180px;
+      opacity: 0;
+      position: absolute;
+      padding-left: 0;
+      top: 100%;
+      right: 0;
+      margin: 0;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 3px 5px -1px #ccc;
+      z-index: 10;
+      transition: opacity 0.3s linear, visibility 0.3s linear;
+      li {
+        clear: both;
+        text-align: left;
+        border-style: none;
+        padding: 0.7rem;
+        list-style-type: none;
+        cursor: pointer;
+        &:hover {
+          background-color: #f0f0f0; /* Lägg till en hover-effekt för listobjekt */
+        }
+      }
+    }
   }
 </style>

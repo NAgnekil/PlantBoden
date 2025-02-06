@@ -2882,7 +2882,7 @@
     },
     {
       "id": "406",
-      "name": "Aster “Tower Blue",
+      "name": "Aster “Tower Blue”",
       "category": "Aster",
       "height": "70-80 cm",
       "color": ["Blå"],
@@ -5992,6 +5992,6 @@
       "TA": "<p class='ta-description'>Ömtåliga annueller är riktiga värmeälskare! De klarar inte temperaturer under nollan och bör inte planteras ut förrän jorden och luften har värmts upp. De allra flesta förkultiveras inomhus för att plantan ska hinna blomma och ge tidigare skörd under säsongen. Så inte dess älsklingar för tidigt. Ta reda på vad förkultiveringstiden är och räkna bakåt från det datum du har tillräckligt varmt där du odlar. Växer de ur sina krukor, bildar rotsnurr och får kämpa om utrymme och ljus så tar de flera veckor innan tillväxten kommer i gång efter utplantering.</p><p class='sowing-time'>Sås inomhus 4-8 veckor innan sista frost</p><p class='plant-out'>Planteras ut (eller direktsås) när all frostrisk är över och nattemperaturen är stabilt över 5°C</p>"
     }
   ],
-  "links": ["https://library.floretflowers.com/"],
+  "links": ["https://library.floretflowers.com/", "https://botania.dk/"],
   "vegetables": {}
 }

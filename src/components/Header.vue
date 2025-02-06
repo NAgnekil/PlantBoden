@@ -1,8 +1,15 @@
 <script setup>
-  import { ref, watch, defineProps, defineEmits } from 'vue'
+  import { ref, onMounted } from 'vue'
+  import { fetchFlowers } from '../../fetchFlowers'
 
-  const props = defineProps({
-    categories: Array
+  const flowers = ref([])
+  const categories = ref([])
+
+  onMounted(async () => {
+    flowers.value = await fetchFlowers()
+    categories.value = [
+      ...new Set(flowers.value.map((flower) => flower.category))
+    ].sort()
   })
 </script>
 
@@ -13,12 +20,18 @@
       <div class="image-overlay"></div>
     </div>
     <nav>
-      <ul>
+      <ul class="menu-container">
         <li><router-link to="/">Start</router-link></li>
-        <li>
+        <li class="dropdown-trigger">
           <a>Kategorier</a>
           <ul class="dropdown">
-            <li><router-link to="/contact">Utvalda</router-link></li>
+            <li
+              v-for="category in categories"
+              :key="category"
+              class="dropdown-item"
+            >
+              <router-link :to="`/${category}`"> {{ category }}</router-link>
+            </li>
           </ul>
         </li>
         <li>
@@ -52,27 +65,12 @@
       letter-spacing: 0.2rem;
       margin: 1.5rem 3rem;
     }
-    /* .image {
-      width: 100%;
-      height: 100%;
-      background-position: center;
-      background-size: cover;
-      background-image: url(../assets/header-background.jpg);
-      .image-overlay {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(249, 245, 242, 0.6);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    } */
     nav {
       margin: 0 3rem;
       display: block;
       text-align: center;
       font-size: 0.8rem;
-      ul li {
+      .menu-container li {
         list-style: none;
         margin: 0 auto;
         border-left: 2px solid var(--color-green);
@@ -81,7 +79,6 @@
         position: relative;
         text-decoration: none;
         text-align: center;
-        font-family: arvo;
         a {
           color: var(--color-dark-grey);
           text-decoration: none;
@@ -100,22 +97,44 @@
           visibility: visible;
           opacity: 1;
           display: block;
-          min-width: 200px;
+          min-width: 120px;
           text-align: left;
           padding-top: 20px;
           box-shadow: 0px 3px 5px -1px #ccc;
         }
-        ul {
+        .dropdown-trigger {
+          position: relative;
+          display: inline-block;
+          a {
+            cursor: pointer;
+            margin: 0;
+          }
+          &:hover .dropdown {
+            visibility: visible;
+            opacity: 1;
+            display: block;
+            min-width: 180px;
+            text-align: left;
+            box-shadow: 0px 3px 5px -1px #ccc;
+          }
+        }
+        .dropdown {
+          margin-top: 10px;
+          min-width: 120px;
+          left: 0;
+          display: block;
           visibility: hidden;
           opacity: 0;
           position: absolute;
           padding-left: 0;
-          margin-top: 10px;
-          left: 0;
-          display: none;
+          top: 100%;
+          margin: 0;
           background: #fff;
-          border-radius: 4px;
-          li {
+          border-radius: 8px;
+          box-shadow: 0px 3px 5px -1px #ccc;
+          z-index: 10;
+          transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+          .dropdown-item {
             clear: both;
             width: 100%;
             text-align: left;
@@ -133,5 +152,13 @@
         }
       }
     }
+  }
+
+  .dropdown li {
+    clear: both;
+    text-align: left;
+    border-style: none;
+    list-style-type: none;
+    cursor: pointer;
   }
 </style>

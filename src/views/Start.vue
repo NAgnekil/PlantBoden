@@ -1,10 +1,9 @@
 <script setup>
   import { ref, onMounted, computed } from 'vue'
-  import FlowerList from './FlowerList.vue'
-  import QuerySection from './QuerySection.vue'
   import { fetchFlowers } from '../../fetchFlowers'
-  import Sorting from './Sorting.vue'
-import Header from './Header.vue'
+  import FlowerList from '../components/FlowerList.vue'
+  import QuerySection from '../components/QuerySection.vue'
+  import Sorting from '../components/Sorting.vue'
 
   const flowers = ref([])
   const searchQueryExists = ref(false)
@@ -50,8 +49,6 @@ import Header from './Header.vue'
   const customSort = (a, b) => {
     if (a === 'Övrigt') return 1 // "Övrigt" ska hamna efter andra kategorier
     if (b === 'Övrigt') return -1 // Andra kategorier ska hamna före "Övrigt"
-
-    // Använd localeCompare för att sortera svenska bokstäver korrekt
     return a.localeCompare(b, 'sv')
   }
 
@@ -102,8 +99,6 @@ import Header from './Header.vue'
 </script>
 
 <template>
-    <Header :categories="categories"/>
-
   <Sorting
     v-model:sortOrder="sortOrder"
     v-model:sortCategory="sortCategory"

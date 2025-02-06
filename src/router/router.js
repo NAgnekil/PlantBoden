@@ -1,6 +1,6 @@
 // router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
-import Start from './components/Start.vue' // Importera dina vyer
+import Start from '../views/Start.vue' // Importera dina vyer
 // import About from '../views/About.vue'
 // import Contact from '../views/Contact.vue'
 
