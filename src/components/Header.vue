@@ -7,8 +7,13 @@
 
   onMounted(async () => {
     flowers.value = await fetchFlowers()
+
     categories.value = [
-      ...new Set(flowers.value.map((flower) => flower.category))
+      ...new Set(
+        flowers.value
+          .map((flower) => flower.category)
+          .filter((category) => category !== 'Övrigt')
+      )
     ].sort()
   })
 </script>
@@ -28,7 +33,7 @@
             <li
               v-for="category in categories"
               :key="category"
-              class="dropdown-item"
+              class="dropdown-item cursor-box text"
             >
               <router-link :to="`/category/${category}`">
                 {{ category }}</router-link
@@ -61,6 +66,9 @@
     margin-bottom: 2rem;
     box-shadow: 0px 3px 5px -1px #ccc;
     border-top: 4px solid var(--color-green);
+    z-index: 10;
+    position: sticky;
+    top: 0;
     h1 {
       font-family: Aboreto, sans-serif;
       font-size: 2.2rem;
@@ -101,7 +109,7 @@
           display: block;
           min-width: 120px;
           text-align: left;
-          padding-top: 20px;
+          padding: 10px 0;
           box-shadow: 0px 3px 5px -1px #ccc;
         }
         .dropdown-trigger {
@@ -142,15 +150,16 @@
             clear: both;
             width: 100%;
             text-align: left;
-            margin-bottom: 20px;
+            padding: 10px 0 10px 20px;
             border-style: none;
-            a {
+            transition: all 0.5s ease;
+            &:hover {
+              margin-left: 10px;
+              padding-left: 15px;
+              border-left: 2px solid var(--color-green);
               transition: all 0.5s ease;
-              &:hover {
-                padding-left: 10px;
-                border-left: 2px solid var(--color-green);
-                transition: all 0.3s ease;
-              }
+            }
+            a {
             }
           }
         }
@@ -164,5 +173,14 @@
     border-style: none;
     list-style-type: none;
     cursor: pointer;
+  }
+
+  .text {
+    cursor: text;
+    border: 2px solid #ffc107;
+  }
+  .text:hover {
+    transform: scale(1.05);
+    letter-spacing: 2px;
   }
 </style>
