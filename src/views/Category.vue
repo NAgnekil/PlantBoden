@@ -98,8 +98,8 @@
 
 <style>
   .category-container {
+    margin-top: 0;
     width: 100%;
-    margin-top: -2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,17 +186,16 @@
     .cards-container {
       display: flex;
       justify-content: center;
-      align-items: center;
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
       margin-bottom: 2rem;
       height: unset;
       .card {
-        max-width: 220px;
+        max-width: 180px;
         .image-wrapper {
-          width: 200px;
-          height: 220px;
+          width: 180px;
+          height: 180px;
         }
       }
     }

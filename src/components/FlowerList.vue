@@ -125,12 +125,12 @@
   }
 
   .product-cards .card {
-    max-width: 180px;
+    max-width: 150px;
   }
 
   .product-cards .image-wrapper {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
 
   /* SPECIFIKA STILAR FÖR PRODUCT-CARDS-SORTED */

@@ -62,7 +62,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
     box-shadow: 0px 3px 5px -1px #ccc;
     border-top: 4px solid var(--color-green);
     z-index: 10;
@@ -73,6 +72,7 @@
       font-size: 2.2rem;
       letter-spacing: 0.2rem;
       margin: 1.5rem 3rem;
+      color: #000;
     }
     a {
       text-decoration: none;

@@ -116,7 +116,6 @@
 
 <style scoped>
   .main-content {
-    margin-top: 1rem;
     width: 100%;
     height: 100vh;
     display: flex;
