@@ -1,6 +1,7 @@
 <script setup>
   import { ref, computed } from 'vue'
   import FlowerCard from './FlowerCard.vue'
+  import Sorting from './Sorting.vue'
 
   const {
     flowers,
@@ -70,7 +71,12 @@
 </script>
 
 <template>
-  <div v-if="sortedFlowers">
+  <div v-if="sortedFlowers" class="cards-container" id="cards-container">
+    <Sorting
+      :sortOrder="sortOrder"
+      :sortCategory="sortCategory"
+      :sortMonth="sortMonth"
+    />
     <template v-if="sortCategory === 'category' || sortMonth === 'asc'">
       <div
         class="cards-by-sort"
@@ -102,8 +108,13 @@
 
 <style lang="css">
   section {
-    margin-right: 2rem;
     width: 100%;
+  }
+
+  .cards-container {
+    width: 70%;
+    height: 100vh;
+    margin-bottom: 2rem;
   }
 
   /* SPECIFIKA STILAR FÖR PRODUCT-CARDS */
@@ -114,12 +125,12 @@
   }
 
   .product-cards .card {
-    max-width: 220px;
+    max-width: 180px;
   }
 
   .product-cards .image-wrapper {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
   }
 
   /* SPECIFIKA STILAR FÖR PRODUCT-CARDS-SORTED */

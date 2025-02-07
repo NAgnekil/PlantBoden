@@ -176,6 +176,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
+
     .varieties-header {
       font-size: 2.5rem;
       margin-bottom: 1.5rem;
@@ -188,6 +190,8 @@
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
+      margin-bottom: 2rem;
+      height: unset;
       .card {
         max-width: 220px;
         .image-wrapper {

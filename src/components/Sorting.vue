@@ -32,8 +32,8 @@
 </script>
 
 <template>
-  <div>
-    <nav>
+  <div class="sorting-container">
+    <nav class="sorting-menu">
       <div class="dropdown-trigger">
         <p>Sortera</p>
         <ul class="dropdown">
@@ -52,10 +52,10 @@
   div {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    margin-top: 1rem;
   }
   nav {
-    margin: 0 3rem;
+    margin: 0;
     display: block;
     text-align: center;
     font-size: 0.8rem;
@@ -85,7 +85,7 @@
       position: absolute;
       padding-left: 0;
       top: 100%;
-      right: 0;
+      left: 0;
       margin: 0;
       background: #fff;
       border-radius: 8px;

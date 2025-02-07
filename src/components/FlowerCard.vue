@@ -33,6 +33,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .card {

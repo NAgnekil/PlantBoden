@@ -56,89 +56,108 @@
 </script>
 
 <template>
-  <section class="query-section">
-    <div class="searchfield-wrapper">
-      <input
-        class="searchfield-name"
-        v-model="searchName"
-        placeholder="Sök efter fröer"
+  <section class="query-section-wrapper">
+    <div class="query-section">
+      <div class="searchfield-wrapper">
+        <input
+          class="searchfield-name"
+          v-model="searchName"
+          placeholder="Sök efter fröer"
+        />
+      </div>
+      <CategoryPicker
+        v-model:chosenCategory="chosenCategory"
+        :categories="categories"
       />
-    </div>
-    <CategoryPicker
-      v-model:chosenCategory="chosenCategory"
-      :categories="categories"
-    />
-    <ColorPicker v-model:chosenColor="chosenColor" :colors="colors" />
+      <ColorPicker v-model:chosenColor="chosenColor" :colors="colors" />
 
-    <div class="cultivation-container">
-      <p>Typ av sådd</p>
-      <div class="radios">
-        <input
-          class="radio-button"
-          type="radio"
-          id="allCultivationTypes"
-          value="allCultivationTypes"
-          v-model="chosenCultivationType"
-          name="cultivationType"
-        />
-        <label for="allCultivationTypes">Alla</label
-        ><span class="checkmark"></span>
+      <div class="cultivation-container">
+        <p>Typ av sådd</p>
+        <div class="radios">
+          <input
+            class="radio-button"
+            type="radio"
+            id="allCultivationTypes"
+            value="allCultivationTypes"
+            v-model="chosenCultivationType"
+            name="cultivationType"
+          />
+          <label for="allCultivationTypes">Alla</label
+          ><span class="checkmark"></span>
+        </div>
+        <div
+          class="radios"
+          v-for="cultivationType in cultivationTypes"
+          :key="cultivationType"
+        >
+          <input
+            class="radio-button"
+            type="radio"
+            :id="cultivationType"
+            :value="cultivationType"
+            v-model="chosenCultivationType"
+            name="cultivationType"
+          />
+          <label :for="cultivationType">{{
+            cultivationTypeNames[cultivationType] || cultivationType
+          }}</label
+          ><span class="checkmark"></span>
+        </div>
       </div>
-      <div
-        class="radios"
-        v-for="cultivationType in cultivationTypes"
-        :key="cultivationType"
-      >
-        <input
-          class="radio-button"
-          type="radio"
-          :id="cultivationType"
-          :value="cultivationType"
-          v-model="chosenCultivationType"
-          name="cultivationType"
-        />
-        <label :for="cultivationType">{{
-          cultivationTypeNames[cultivationType] || cultivationType
-        }}</label
-        ><span class="checkmark"></span>
-      </div>
-    </div>
-    <div class="coldplant-container">
-      <p>Passar för vintersådd</p>
-      <div class="radios">
-        <input
-          class="radio-button"
-          type="radio"
-          id="allColdPlantingTypes"
-          value="allColdPlantingTypes"
-          v-model="chosenColdPlantingType"
-          name="coldPlantingType"
-        />
-        <label for="allColdPlantingTypes">Alla</label
-        ><span class="checkmark"></span>
-      </div>
-      <div class="radios" v-for="type in coldPlantingTypes" :key="type">
-        <input
-          class="radio-button"
-          type="radio"
-          :id="type"
-          :value="type"
-          v-model="chosenColdPlantingType"
-          name="coldPlantingType"
-        />
-        <label :for="type">{{ coldPlantingNames[type] || type }}</label
-        ><span class="checkmark"></span>
+      <div class="coldplant-container">
+        <p>Passar för vintersådd</p>
+        <div class="radios">
+          <input
+            class="radio-button"
+            type="radio"
+            id="allColdPlantingTypes"
+            value="allColdPlantingTypes"
+            v-model="chosenColdPlantingType"
+            name="coldPlantingType"
+          />
+          <label for="allColdPlantingTypes">Alla</label
+          ><span class="checkmark"></span>
+        </div>
+        <div class="radios" v-for="type in coldPlantingTypes" :key="type">
+          <input
+            class="radio-button"
+            type="radio"
+            :id="type"
+            :value="type"
+            v-model="chosenColdPlantingType"
+            name="coldPlantingType"
+          />
+          <label :for="type">{{ coldPlantingNames[type] || type }}</label
+          ><span class="checkmark"></span>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-  section {
-    width: 30%;
+  .query-section-wrapper {
+    width: 300px;
+    position: sticky;
+    top: 140px;
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .query-section {
+    height: 150vh;
     padding: 0 1rem;
-    margin: 0 1rem;
+    margin: 0 0 0 1rem;
     display: flex;
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
     flex-direction: column;
     gap: 1rem;
     border-right: 2px solid var(--color-light-grey);

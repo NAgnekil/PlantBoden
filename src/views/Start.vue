@@ -90,11 +90,6 @@
 </script>
 
 <template>
-  <Sorting
-    v-model:sortOrder="sortOrder"
-    v-model:sortCategory="sortCategory"
-    v-model:sortMonth="sortMonth"
-  />
   <div class="main-content">
     <QuerySection
       v-model:searchName="searchQuery"
@@ -123,8 +118,24 @@
   .main-content {
     margin-top: 1rem;
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex: 1;
+  }
+
+  #cards-container {
+    overflow: auto;
+    padding-left: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &::after {
+      content: '';
+      display: block;
+      height: 150px;
+    }
   }
 </style>
