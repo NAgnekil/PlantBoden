@@ -23,7 +23,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "June",
@@ -64,7 +64,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "June",
@@ -74,8 +74,8 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/other/ageratum-tallblueplanet.webp",
       "additionalImages": [
-        "src/assets/flowers/other/ageratum-tallblueplanet2.webp",
         "src/assets/flowers/other/ageratum-tallblueplanet3.webp",
+        "src/assets/flowers/other/ageratum-tallblueplanet2.webp",
         "src/assets/flowers/other/ageratum-tallblueplanet4.webp"
       ],
       "additionalComments": "Är giftig, både plantorna och fröerna!",
@@ -104,7 +104,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -146,7 +146,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -267,7 +267,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -308,7 +308,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -594,7 +594,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -635,7 +635,7 @@
       "mediumProducer": false,
       "oneAndDone": true,
       "hardiness": "HA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "June",
@@ -675,7 +675,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -757,7 +757,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -917,7 +917,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -958,7 +958,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "June",
@@ -1000,7 +1000,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -1040,7 +1040,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -1081,7 +1081,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HP",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -1122,7 +1122,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -1244,7 +1244,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HP",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -1285,7 +1285,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -2784,7 +2784,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -2794,7 +2794,6 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-balloonchamois.webp",
       "additionalImages": [
-        "src/assets/flowers/aster/aster-balloonchamois2.webp",
         "src/assets/flowers/aster/aster-balloonchamois3.webp",
         "src/assets/flowers/aster/aster-balloonchamois4.webp"
       ],
@@ -2824,7 +2823,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -2864,7 +2863,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -2907,7 +2906,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -2946,7 +2945,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -2985,7 +2984,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3024,7 +3023,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3063,7 +3062,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3099,7 +3098,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3139,7 +3138,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3178,7 +3177,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3220,7 +3219,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3260,7 +3259,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3302,7 +3301,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3338,7 +3337,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3374,7 +3373,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3410,7 +3409,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3446,7 +3445,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "HHA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3485,7 +3484,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3525,7 +3524,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3565,7 +3564,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3601,7 +3600,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3640,7 +3639,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3679,7 +3678,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3720,7 +3719,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3760,7 +3759,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3800,7 +3799,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3841,7 +3840,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3883,7 +3882,7 @@
       "mediumProducer": true,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3922,7 +3921,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3959,7 +3958,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -3996,7 +3995,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4033,7 +4032,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4070,7 +4069,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4107,7 +4106,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4144,7 +4143,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4181,7 +4180,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4218,7 +4217,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4255,7 +4254,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4292,7 +4291,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4329,7 +4328,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4366,7 +4365,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4403,7 +4402,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4440,7 +4439,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4477,7 +4476,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4514,7 +4513,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4551,7 +4550,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4588,7 +4587,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4625,7 +4624,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4662,7 +4661,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4699,7 +4698,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4736,7 +4735,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4773,7 +4772,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4810,7 +4809,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4847,7 +4846,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4884,7 +4883,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4921,7 +4920,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4958,7 +4957,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -4995,7 +4994,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5032,7 +5031,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5069,7 +5068,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5106,7 +5105,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5143,7 +5142,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5180,7 +5179,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5217,7 +5216,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5254,7 +5253,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5291,7 +5290,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",
@@ -5328,7 +5327,7 @@
       "mediumProducer": false,
       "oneAndDone": false,
       "hardiness": "TA",
-      "canBeColdPlanted": false,
+      "canBeColdPlanted": "No",
       "harvestPeriod": [
         {
           "start": "July",

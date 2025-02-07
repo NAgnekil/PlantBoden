@@ -19,7 +19,7 @@
 
 <template>
   <header>
-    <h1>Fröboden</h1>
+    <router-link to="/"><h1>Fröboden</h1></router-link>
     <div class="image">
       <div class="image-overlay"></div>
     </div>
@@ -73,6 +73,10 @@
       font-size: 2.2rem;
       letter-spacing: 0.2rem;
       margin: 1.5rem 3rem;
+    }
+    a {
+      text-decoration: none;
+      color: var(--color-dark-grey);
     }
     nav {
       margin: 0 3rem;
@@ -157,6 +161,8 @@
               padding-left: 15px;
               border-left: 2px solid var(--color-green);
               transition: all 0.5s ease;
+              transform: scale(1.05);
+              letter-spacing: 2px;
             }
           }
         }
@@ -170,14 +176,5 @@
     border-style: none;
     list-style-type: none;
     cursor: pointer;
-  }
-
-  .text {
-    cursor: text;
-    border: 2px solid #ffc107;
-  }
-  .text:hover {
-    transform: scale(1.05);
-    letter-spacing: 2px;
   }
 </style>

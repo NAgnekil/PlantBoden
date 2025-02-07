@@ -1,5 +1,5 @@
 <script setup>
-  import { computed } from 'vue'
+  import { ref, computed } from 'vue'
 
   const {
     flowers,
@@ -17,6 +17,8 @@
     sortCategory: String,
     extractMonth: Function
   })
+
+  const hoveredFlower = ref(null)
 
   const groupedByCategory = computed(() => {
     if (sortCategory !== 'category') return null
@@ -90,7 +92,19 @@
         <hr />
         <div class="card-container">
           <div class="card" v-for="flower in flowers" :key="flower.id">
-            <img class="product-img" :src="flower.mainImg" alt="" />
+            <div class="image-wrapper">
+              <img
+                class="product-img main-img"
+                :src="`/${flower.mainImg}`"
+                alt=""
+              />
+              <img
+                class="product-img hover-img"
+                v-if="flower.additionalImages?.[0]"
+                :src="`/${flower.additionalImages[0]}`"
+                alt=""
+              />
+            </div>
             <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
             <span>"{{ getName(flower.name).subname }}"</span>
           </div>
@@ -107,7 +121,19 @@
         <hr />
         <div class="card-container">
           <div class="card" v-for="flower in flowers" :key="flower.id">
-            <img class="product-img" :src="flower.mainImg" alt="" />
+            <div class="image-wrapper">
+              <img
+                class="product-img main-img"
+                :src="`/${flower.mainImg}`"
+                alt=""
+              />
+              <img
+                class="product-img hover-img"
+                v-if="flower.additionalImages?.[0]"
+                :src="`/${flower.additionalImages[0]}`"
+                alt=""
+              />
+            </div>
             <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
             <span>"{{ getName(flower.name).subname }}"</span>
           </div>
@@ -117,14 +143,38 @@
     <div v-else>
       <div class="product-cards" v-if="searchQueryExists">
         <div class="card" v-for="flower in filteredFlowers" :key="flower.id">
-          <img class="product-img" :src="flower.mainImg" alt="" />
+          <div class="image-wrapper">
+            <img
+              class="product-img main-img"
+              :src="`/${flower.mainImg}`"
+              alt=""
+            />
+            <img
+              class="product-img hover-img"
+              v-if="flower.additionalImages?.[0]"
+              :src="`/${flower.additionalImages[0]}`"
+              alt=""
+            />
+          </div>
           <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
           <span>"{{ getName(flower.name).subname }}"</span>
         </div>
       </div>
       <div class="product-cards" v-else>
         <div class="card" v-for="flower in flowers" :key="flower.id">
-          <img class="product-img" :src="flower.mainImg" alt="" />
+          <div class="image-wrapper">
+            <img
+              class="product-img main-img"
+              :src="`/${flower.mainImg}`"
+              alt=""
+            />
+            <img
+              class="product-img hover-img"
+              v-if="flower.additionalImages?.[0]"
+              :src="`/${flower.additionalImages[0]}`"
+              alt=""
+            />
+          </div>
           <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
           <span>"{{ getName(flower.name).subname }}"</span>
         </div>
@@ -151,12 +201,43 @@
     .card {
       max-width: 220px;
       margin-bottom: 0.5rem;
-      .product-img {
-        height: 220px;
+      .image-wrapper {
+        position: relative;
+        display: inline-block;
         width: 220px;
-      }
-      .name-headline {
-        margin: 0.3rem 0;
+        height: 220px;
+        .product-img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 8px;
+          transition:
+            opacity 0.5s ease-in-out,
+            transform 0.3s ease;
+          object-fit: cover;
+          &:hover {
+            transform: scale(1.15);
+          }
+        }
+        .main-img {
+          opacity: 1;
+        }
+
+        .hover-img {
+          opacity: 0;
+        }
+        &:hover .hover-img {
+          opacity: 1;
+        }
+
+        &:hover .main-img {
+          opacity: 0;
+        }
+        &:not(:has(.hover-img)):hover .main-img {
+          opacity: 1;
+        }
       }
     }
   }
@@ -177,15 +258,43 @@
           max-width: 120px;
           display: flex;
           flex-direction: column;
-          .product-img {
-            height: 120px;
+          .image-wrapper {
+            position: relative;
+            display: inline-block;
             width: 120px;
-          }
-          .name-headline {
-            margin-bottom: 0;
-          }
-          span {
-            font-size: 0.7rem;
+            height: 120px;
+            .product-img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border-radius: 8px;
+              transition:
+                opacity 0.5s ease-in-out,
+                transform 0.3s ease;
+              object-fit: cover;
+              &:hover {
+                transform: scale(1.15);
+              }
+            }
+            .main-img {
+              opacity: 1;
+            }
+
+            .hover-img {
+              opacity: 0;
+            }
+            &:hover .hover-img {
+              opacity: 1;
+            }
+
+            &:hover .main-img {
+              opacity: 0;
+            }
+            &:not(:has(.hover-img)):hover .main-img {
+              opacity: 1;
+            }
           }
         }
       }
@@ -198,6 +307,37 @@
         box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
         margin: 0 0 1rem 0;
       }
+    }
+  }
+
+  .image-wrapper {
+    position: relative;
+    .product-img {
+      border-radius: 8px;
+      transition:
+        transform 0.3s ease,
+        opacity 0.4s ease-in-out;
+      background: linear-gradient(145deg, #2a2a2a, #383838);
+
+      &:hover {
+        transform: scale(1.15);
+      }
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 8px;
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+      pointer-events: none;
+    }
+    &:hover .overlay {
+      opacity: 1;
+      transform: scale(1.15);
     }
   }
 </style>
