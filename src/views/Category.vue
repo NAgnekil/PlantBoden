@@ -1,19 +1,23 @@
 <script setup>
-  import { defineProps, ref, onMounted, watch } from 'vue'
+  import { defineProps, ref, onMounted, watch, computed } from 'vue'
   import axios from 'axios'
   import { useFlowerStore } from '../stores/flowerStore.js'
+  import FlowerCard from '../components/FlowerCard.vue'
+  import { storeToRefs } from 'pinia'
 
   const props = defineProps({
-    categoryName: String
+    categoryName: String,
+    flowers: Array
   })
 
   const flowerStore = useFlowerStore()
+  const { flowers } = storeToRefs(flowerStore)
 
   const chosenCategoryObject = ref(null)
   const chosenCategoryDescription = ref('')
   const chosenCategoryImg = ref('')
   const categoryList = ref([])
-  const hoveredFlower = ref(null)
+  // const flowers = ref([])
 
   const fetchCategoryDescription = async () => {
     const allDescriptions = await fetchAllCategoryDescriptions()
@@ -30,13 +34,23 @@
   }
 
   const updateCategoryList = () => {
-    categoryList.value = flowerStore.getFlowersByCategory(props.categoryName)
+    console.log('Alla blommor i store:', flowers.value)
+    console.log('categoryName från props:', props.categoryName)
+
+    categoryList.value = [
+      ...flowers.value.filter((flower) => {
+        const flowerCategory = flower.category.trim().toLowerCase()
+        const selectedCategory = props.categoryName.trim().toLowerCase()
+        return flowerCategory === selectedCategory
+      })
+    ]
   }
 
   onMounted(async () => {
     await flowerStore.loadFlowers()
     await fetchCategoryDescription()
     updateCategoryList()
+    console.log('Blommor i categoryList:', categoryList.value)
   })
 
   watch(
@@ -57,13 +71,6 @@
       throw error
     }
   }
-
-  const getName = (name) => {
-    const match = name.match(/^(.*?)\s*["“](.*?)["”]\s*(.*?)$/)
-    return match
-      ? { name: match[1].trim(), subname: match[2].trim() }
-      : { name: name.trim(), subname: '' }
-  }
 </script>
 
 <template>
@@ -79,26 +86,12 @@
   </section>
   <section class="flowerlist-container">
     <h1 class="varieties-header">Dina sorter</h1>
-    <div class="product-cards">
-      <div class="card-container">
-        <div class="card" v-for="flower in categoryList" :key="flower.id">
-          <div class="image-wrapper">
-            <img
-              class="product-img main-img"
-              :src="`/${flower.mainImg}`"
-              alt=""
-            />
-            <img
-              class="product-img hover-img"
-              v-if="flower.additionalImages?.[0]"
-              :src="`/${flower.additionalImages[0]}`"
-              alt=""
-            />
-          </div>
-          <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
-          <span>"{{ getName(flower.name).subname }}"</span>
-        </div>
-      </div>
+    <div class="cards-container">
+      <FlowerCard
+        v-for="flower in categoryList"
+        :key="flower.id"
+        :flower="flower"
+      />
     </div>
   </section>
 </template>
@@ -188,59 +181,18 @@
       margin-bottom: 1.5rem;
       margin-top: 0;
     }
-    .product-cards {
-      .card-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-      }
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
       .card {
         max-width: 220px;
-        margin-bottom: 0.5rem;
-
         .image-wrapper {
-          position: relative;
-          display: inline-block;
-          width: 220px;
+          width: 200px;
           height: 220px;
-          .product-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 8px;
-            transition:
-              opacity 0.5s ease-in-out,
-              transform 0.3s ease;
-            object-fit: cover;
-            &:hover {
-              transform: scale(1.15);
-            }
-          }
-          .main-img {
-            opacity: 1;
-          }
-
-          .hover-img {
-            opacity: 0;
-          }
-          &:hover .hover-img {
-            opacity: 1;
-          }
-
-          &:hover .main-img {
-            opacity: 0;
-          }
-          &:not(:has(.hover-img)):hover .main-img {
-            opacity: 1;
-          }
-        }
-
-        .name-headline {
-          margin: 0.3rem 0;
         }
       }
     }
