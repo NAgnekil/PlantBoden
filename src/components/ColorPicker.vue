@@ -34,7 +34,7 @@ const getHexColor = (color) => {
     Vinröd: "#8C0029",
     Vit: "#F7FDF9",
   };
-  return colorMap[color] || "#000"; // Standard svart om ingen färg matchar
+  return colorMap[color] || "#000";
 };
 
 watch(chosenColor, (newValue) => {

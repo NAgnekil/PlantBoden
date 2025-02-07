@@ -1,16 +1,15 @@
 <script setup>
-  import { ref, onMounted } from 'vue'
-  import { fetchFlowers } from '../../fetchFlowers'
+  import { onMounted, ref } from 'vue'
+  import { useFlowerStore } from '../stores/flowerStore'
 
-  const flowers = ref([])
+  const flowerStore = useFlowerStore()
   const categories = ref([])
 
   onMounted(async () => {
-    flowers.value = await fetchFlowers()
-
+    await flowerStore.loadFlowers()
     categories.value = [
       ...new Set(
-        flowers.value
+        flowerStore.flowers
           .map((flower) => flower.category)
           .filter((category) => category !== 'Övrigt')
       )
@@ -158,8 +157,6 @@
               padding-left: 15px;
               border-left: 2px solid var(--color-green);
               transition: all 0.5s ease;
-            }
-            a {
             }
           }
         }

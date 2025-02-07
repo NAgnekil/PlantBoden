@@ -1,17 +1,17 @@
 <script setup>
   import { defineProps, ref, onMounted, watch } from 'vue'
   import axios from 'axios'
-  import { fetchFlowers } from '../../fetchFlowers'
+  import { useFlowerStore } from '../stores/flowerStore.js'
 
   const props = defineProps({
     categoryName: String
   })
 
+  const flowerStore = useFlowerStore()
+
   const chosenCategoryObject = ref(null)
   const chosenCategoryDescription = ref('')
   const chosenCategoryImg = ref('')
-  const flowers = ref([])
-  const categories = ref([])
   const categoryList = ref([])
 
   const fetchCategoryDescription = async () => {
@@ -20,6 +20,7 @@
     const categoryObject = allDescriptions.find(
       (item) => Object.keys(item)[0] === props.categoryName
     )
+
     if (categoryObject) {
       chosenCategoryObject.value = categoryObject[props.categoryName]
       chosenCategoryDescription.value = chosenCategoryObject.value.desc
@@ -27,28 +28,22 @@
     }
   }
 
-  const fetchFlowerCategories = async () => {
-    flowers.value = await fetchFlowers()
-
-    flowers.value.sort((a, b) => a.name.localeCompare(b.name))
-
-    categoryList.value = flowers.value.filter(
-      (flower) => flower.category === props.categoryName
-    )
-    console.log(categoryList.value[0].name)
+  const updateCategoryList = () => {
+    categoryList.value = flowerStore.getFlowersByCategory(props.categoryName)
   }
 
-  // Använd en funktion inuti onMounted
   onMounted(async () => {
+    await flowerStore.loadFlowers()
     await fetchCategoryDescription()
-    await fetchFlowerCategories()
+    updateCategoryList()
   })
 
   watch(
     () => props.categoryName,
     async () => {
+      await flowerStore.loadFlowers()
       await fetchCategoryDescription()
-      await fetchFlowerCategories()
+      updateCategoryList()
     }
   )
 
@@ -64,18 +59,9 @@
 
   const getName = (name) => {
     const match = name.match(/^(.*?)\s*["“](.*?)["”]\s*(.*?)$/)
-
-    if (match) {
-      return {
-        name: match[1].trim(),
-        subname: match[2].trim()
-      }
-    } else {
-      return {
-        name: name.trim(),
-        subname: ''
-      }
-    }
+    return match
+      ? { name: match[1].trim(), subname: match[2].trim() }
+      : { name: name.trim(), subname: '' }
   }
 </script>
 
