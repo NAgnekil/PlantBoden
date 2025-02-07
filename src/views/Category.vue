@@ -1,6 +1,7 @@
 <script setup>
   import { defineProps, ref, onMounted, watch } from 'vue'
   import axios from 'axios'
+  import { fetchFlowers } from '../../fetchFlowers'
 
   const props = defineProps({
     categoryName: String
@@ -9,6 +10,9 @@
   const chosenCategoryObject = ref(null)
   const chosenCategoryDescription = ref('')
   const chosenCategoryImg = ref('')
+  const flowers = ref([])
+  const categories = ref([])
+  const categoryList = ref([])
 
   const fetchCategoryDescription = async () => {
     const allDescriptions = await fetchAllCategoryDescriptions()
@@ -23,12 +27,28 @@
     }
   }
 
-  onMounted(fetchCategoryDescription)
+  const fetchFlowerCategories = async () => {
+    flowers.value = await fetchFlowers()
+
+    flowers.value.sort((a, b) => a.name.localeCompare(b.name))
+
+    categoryList.value = flowers.value.filter(
+      (flower) => flower.category === props.categoryName
+    )
+    console.log(categoryList.value[0].name)
+  }
+
+  // Använd en funktion inuti onMounted
+  onMounted(async () => {
+    await fetchCategoryDescription()
+    await fetchFlowerCategories()
+  })
 
   watch(
     () => props.categoryName,
-    () => {
-      fetchCategoryDescription()
+    async () => {
+      await fetchCategoryDescription()
+      await fetchFlowerCategories()
     }
   )
 
@@ -39,6 +59,22 @@
     } catch (error) {
       console.error('Error fetching categories:', error)
       throw error
+    }
+  }
+
+  const getName = (name) => {
+    const match = name.match(/^(.*?)\s*["“](.*?)["”]\s*(.*?)$/)
+
+    if (match) {
+      return {
+        name: match[1].trim(),
+        subname: match[2].trim()
+      }
+    } else {
+      return {
+        name: name.trim(),
+        subname: ''
+      }
     }
   }
 </script>
@@ -52,6 +88,19 @@
       <h1 class="category-name">{{ categoryName }}</h1>
     </div>
     <div class="description-container" v-html="chosenCategoryDescription"></div>
+    <hr />
+  </section>
+  <section class="flowerlist-container">
+    <h1 class="varieties-header">Dina sorter</h1>
+    <div class="product-cards">
+      <div class="card-container">
+        <div class="card" v-for="flower in categoryList" :key="flower.id">
+          <img class="product-img" :src="`/${flower.mainImg}`" alt="" />
+          <h2 class="name-headline">{{ getName(flower.name).name }}</h2>
+          <span>"{{ getName(flower.name).subname }}"</span>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -125,6 +174,43 @@
         margin-top: 1.4rem;
         + p {
           margin-top: 0;
+        }
+      }
+    }
+    hr {
+      border-top: 1px solid var(--color-dark-grey);
+      box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+      margin: 3rem 0;
+      width: 60%;
+    }
+  }
+  .flowerlist-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .varieties-header {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      margin-top: 0;
+    }
+    .product-cards {
+      .card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+      }
+      .card {
+        max-width: 220px;
+        margin-bottom: 0.5rem;
+        .product-img {
+          height: 220px;
+          width: 220px;
+        }
+        .name-headline {
+          margin: 0.3rem 0;
         }
       }
     }

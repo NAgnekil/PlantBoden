@@ -34,7 +34,7 @@
     if (sortMonth !== 'asc') return null
 
     return flowers.reduce((months, flower) => {
-      const month = extractMonth(flower.sowingDate) // Använd din extractMonth-funktion här
+      const month = extractMonth(flower.sowingDate)
       if (!months[month]) {
         months[month] = []
       }
