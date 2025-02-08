@@ -235,9 +235,9 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/other/blomstermorot-dara.webp",
+      "mainImg": "src/assets/flowers/other/blomstermorot-dara2.webp",
       "additionalImages": [
-        "src/assets/flowers/other/blomstermorot-dara2.webp",
+        "src/assets/flowers/other/blomstermorot-dara.webp",
         "src/assets/flowers/other/blomstermorot-dara3.webp"
       ],
       "additionalComments": "Kan direktsås efter sista frost, men är osäker på när den blommar då, hinner den blomma samma år?",
@@ -1007,9 +1007,9 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/other/stjarnvadd-papermoon.webp",
+      "mainImg": "src/assets/flowers/other/stjarnvadd-papermoon2.webp",
       "additionalImages": [
-        "src/assets/flowers/other/stjarnvadd-papermoon2.webp",
+        "src/assets/flowers/other/stjarnvadd-papermoon.webp",
         "src/assets/flowers/other/stjarnvadd-papermoon3.webp",
         "src/assets/flowers/other/stjarnvadd-papermoon4.webp"
       ],
@@ -1210,9 +1210,9 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/other/tandpetarsilja.webp",
+      "mainImg": "src/assets/flowers/other/tandpetarsilja2.webp",
       "additionalImages": [
-        "src/assets/flowers/other/tandpetarsilja2.webp",
+        "src/assets/flowers/other/tandpetarsilja.webp",
         "src/assets/flowers/other/tandpetarsilja3.webp",
         "src/assets/flowers/other/tandpetarsilja4.webp",
         "src/assets/flowers/other/tandpetarsilja5.webp"
@@ -2029,7 +2029,6 @@
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-costasummerlavender.webp",
       "additionalImages": [
-        "src/assets/flowers/lejongap/lejongap-costasummerlavender2.webp",
         "src/assets/flowers/lejongap/lejongap-costasummerlavender3.webp",
         "src/assets/flowers/lejongap/lejongap-costasummerlavender4.webp",
         "src/assets/flowers/lejongap/lejongap-costasummerlavender5.webp"
@@ -2192,10 +2191,10 @@
       "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-costasilver.webp",
       "additionalImages": [
-        "src/assets/flowers/lejongap/lejongap-costasilver2.webp",
+        "src/assets/flowers/lejongap/lejongap-costasilver5.webp",
         "src/assets/flowers/lejongap/lejongap-costasilver3.webp",
         "src/assets/flowers/lejongap/lejongap-costasilver4.webp",
-        "src/assets/flowers/lejongap/lejongap-costasilver5.webp",
+        "src/assets/flowers/lejongap/lejongap-costasilver2.webp",
         "src/assets/flowers/lejongap/lejongap-costasilver6.webp"
       ],
       "additionalComments": "Inga.",
@@ -2234,8 +2233,8 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/lejongap/lejongap-canarybird.webp",
       "additionalImages": [
-        "src/assets/flowers/lejongap/lejongap-canarybird2.webp",
         "src/assets/flowers/lejongap/lejongap-canarybird3.webp",
+        "src/assets/flowers/lejongap/lejongap-canarybird2.webp",
         "src/assets/flowers/lejongap/lejongap-canarybird4.webp"
       ],
       "additionalComments": "Inga.",
@@ -2517,10 +2516,10 @@
         }
       ],
       "chosen": false,
-      "mainImg": "src/assets/flowers/risp/risp-pacificmix.webp",
+      "mainImg": "src/assets/flowers/risp/risp-pacificmix2.webp",
       "additionalImages": [
-        "src/assets/flowers/risp/risp-pacificmix2.webp",
         "src/assets/flowers/risp/risp-pacificmix4.webp",
+        "src/assets/flowers/risp/risp-pacificmix.webp",
         "src/assets/flowers/risp/risp-pacificmix5.webp"
       ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
@@ -2598,9 +2597,9 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/risp/risp-iceberg.webp",
+      "mainImg": "src/assets/flowers/risp/risp-iceberg2.webp",
       "additionalImages": [
-        "src/assets/flowers/risp/risp-iceberg.2webp",
+        "src/assets/flowers/risp/risp-iceberg.webp",
         "src/assets/flowers/risp/risp-iceberg3.webp",
         "src/assets/flowers/risp/risp-iceberg4.webp",
         "src/assets/flowers/risp/risp-iceberg5.webp"
@@ -2761,6 +2760,46 @@
       "description": "Beskrivning av växten"
     },
     {
+      "id": "311",
+      "name": "Risp “Forever Happy”",
+      "category": "Risp",
+      "height": "60-70 cm",
+      "color": ["Lila"],
+      "isDryable": true,
+      "sowWeeksBeforeFrost": "12",
+      "cultivationType": "SowIndoors",
+      "sowingDate": "2/3",
+      "lightGermination": true,
+      "plantOut": "27/4",
+      "plantOutComment": "4 veckor innan sista frost",
+      "plantDistanceInCm": "15",
+      "plantDistanceImg": "src/assets/plantdistance/15cm.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": false,
+      "toppedOff": false,
+      "pests": [],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "HA",
+      "canBeColdPlanted": "Yes",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "September"
+        }
+      ],
+      "chosen": false,
+      "mainImg": "src/assets/flowers/risp/risp-foreverhappy.webp",
+      "additionalImages": [
+        "src/assets/flowers/risp/risp-foreverhappy2.webp",
+        "src/assets/flowers/risp/risp-foreverhappy1.webp",
+        "src/assets/flowers/risp/risp-foreverhappy3.webp"
+      ],
+      "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
+      "description": "Beskrivning av växten"
+    },
+    {
       "id": "401",
       "name": "Aster “Balloon Chamois”",
       "category": "Aster",
@@ -2872,12 +2911,12 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-ladycoralsalmon.webp",
       "additionalImages": [
-        "src/assets/flowers/aster/aster-ladycoralsalmon2.webp",
+        "src/assets/flowers/aster/aster-ladycoralsalmon7.webp",
         "src/assets/flowers/aster/aster-ladycoralsalmon3.webp",
         "src/assets/flowers/aster/aster-ladycoralsalmon4.webp",
         "src/assets/flowers/aster/aster-ladycoralsalmon5.webp",
         "src/assets/flowers/aster/aster-ladycoralsalmon6.webp",
-        "src/assets/flowers/aster/aster-ladycoralsalmon7.webp"
+        "src/assets/flowers/aster/aster-ladycoralsalmon2.webp"
       ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
@@ -3147,8 +3186,8 @@
       "chosen": false,
       "mainImg": "src/assets/flowers/aster/aster-matsumotopink.jpg",
       "additionalImages": [
-        "src/assets/flowers/aster/aster-matsumotopink2.webp",
-        "src/assets/flowers/aster/aster-matsumotopink3.webp"
+        "src/assets/flowers/aster/aster-matsumotopink3.webp",
+        "src/assets/flowers/aster/aster-matsumotopink2.webp"
       ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
@@ -3268,11 +3307,11 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/aster/aster-kingsizewhite.webp",
       "additionalImages": [
-        "src/assets/flowers/aster/aster-kingsizewhite2.webp",
+        "src/assets/flowers/aster/aster-kingsizewhite6.jpg",
         "src/assets/flowers/aster/aster-kingsizewhite3.webp",
         "src/assets/flowers/aster/aster-kingsizewhite4.webp",
         "src/assets/flowers/aster/aster-kingsizewhite5.webp",
-        "src/assets/flowers/aster/aster-kingsizewhite6.jpg"
+        "src/assets/flowers/aster/aster-kingsizewhite2.webp"
       ],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
@@ -3380,8 +3419,8 @@
         }
       ],
       "chosen": false,
-      "mainImg": "src/assets/flowers/aster/aster-silveryrose.webp",
-      "additionalImages": ["src/assets/flowers/aster/aster-silveryrose2.webp"],
+      "mainImg": "src/assets/flowers/aster/aster-silveryrose2.webp",
+      "additionalImages": ["src/assets/flowers/aster/aster-silveryrose.webp"],
       "additionalComments": "Kan direktsås när jorden blivit uppvärmd.",
       "description": "Beskrivning av växten"
     },
@@ -3493,9 +3532,9 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/celosia/axamarant-flamingofeather.webp",
       "additionalImages": [
-        "src/assets/flowers/celosia/axamarant-flamingofeather2.webp",
         "src/assets/flowers/celosia/axamarant-flamingofeather3.webp",
-        "src/assets/flowers/celosia/axamarant-flamingofeather4.webp"
+        "src/assets/flowers/celosia/axamarant-flamingofeather4.webp",
+        "src/assets/flowers/celosia/axamarant-flamingofeather2.webp"
       ],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
@@ -3531,11 +3570,11 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/celosia/axamarant-terracotta.png",
+      "mainImg": "src/assets/flowers/celosia/axamarant-terracotta.webp",
       "additionalImages": [
-        "src/assets/flowers/celosia/axamarant-terracotta2.webp",
+        "src/assets/flowers/celosia/axamarant-terracotta4.webp",
         "src/assets/flowers/celosia/axamarant-terracotta3.webp",
-        "src/assets/flowers/celosia/axamarant-terracotta4.webp"
+        "src/assets/flowers/celosia/axamarant-terracotta2.webp"
       ],
       "additionalComments": "Bor gärna i växthus - gillar värme",
       "description": "Beskrivning av växten"
@@ -5412,7 +5451,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-perfumepromisejustjulia.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia2.webp",
+        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia3.webp",
+        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia3.webp"
+      ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärt ’Just Julia’ har vackert mellanblå, blommor med stora och vågiga kronblad. Stark och behaglig doft. Skörda blommorna i knoppstadiet."
     },

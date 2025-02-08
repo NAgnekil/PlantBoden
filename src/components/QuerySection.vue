@@ -194,7 +194,11 @@
       position: relative;
       cursor: pointer;
       .radio-button {
-        display: none;
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
       }
       label {
         font-size: 1.2rem;
