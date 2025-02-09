@@ -3,7 +3,6 @@
   import { useFlowerStore } from '../stores/flowerStore'
   import FlowerList from '../components/FlowerList.vue'
   import QuerySection from '../components/QuerySection.vue'
-  import Sorting from '../components/Sorting.vue'
 
   const flowerStore = useFlowerStore()
 

@@ -238,7 +238,13 @@
       "mainImg": "src/assets/flowers/other/blomstermorot-dara2.webp",
       "additionalImages": [
         "src/assets/flowers/other/blomstermorot-dara.webp",
-        "src/assets/flowers/other/blomstermorot-dara3.webp"
+        "src/assets/flowers/other/blomstermorot-dara3.webp",
+        "src/assets/flowers/other/blomstermorot-dara4.webp",
+        "src/assets/flowers/other/blomstermorot-dara5.webp",
+        "src/assets/flowers/other/blomstermorot-dara6.webp",
+        "src/assets/flowers/other/blomstermorot-dara7.webp",
+        "src/assets/flowers/other/blomstermorot-dara8.webp",
+        "src/assets/flowers/other/blomstermorot-dara9.webp"
       ],
       "additionalComments": "Kan direktsås efter sista frost, men är osäker på när den blommar då, hinner den blomma samma år?",
       "description": "Blomstermorot blommar under hela sommaren med sina stora, vackra och skira flockblommor i gammelrosa, vinröda och chokladfärgade nyanser. Bladverket är finflikigt. Blommar Rödan första året vid tidig sådd. Upp till tusen små blommor produceras i delikata, spetsiga, platta, 5-10 cm stora klasar. De är vackra och passar bra med nästan allt i trädgården eller i vasen.\n\nBra snittblomma som gör sig otroligt bra som utfyllnad i buketter eller för att binda ihop rabatter och krukor. Skapar också stor effekt som solitär och ger effekt av ett fluffigt moln i vasen. Kan även användas torkad i buketter och arrangemang. Blommorna håller i upp till 10 dagar i vas och ger en dramatisk, luftig kvalitet till färdiga arrangemang.\n\nBra dragväxt för pollinerare.\n\nDaucus carota är en bra växt för landskapsplanering och kan användas på ängar och vilda trädgårdar, där den älskas av bin och ger en underbar värdväxt för fjärilar. Växterna växer till en höjd av cirka 120 cm med en spridning på 40 cm.\n\nBlomningen fortsätter vanligtvis långt in på hösten, även efter att blommorna har dött ut och fröskidor börjat bildas. När fröna mognar krullas fröhuvudet inåt för att bilda en 'fågelbo'-form och blir brunt. Ett litet borstigt frö produceras i slutet av varje blomstjälk, och när de är torra hakar de lätt fast i päls eller fjädrar för att spridas bortom där fröna annars skulle falla."
@@ -728,7 +734,8 @@
       "additionalImages": [
         "src/assets/flowers/other/musselsyska2.webp",
         "src/assets/flowers/other/musselsyska3.webp",
-        "src/assets/flowers/other/musselsyska4.webp"
+        "src/assets/flowers/other/musselsyska4.webp",
+        "src/assets/flowers/other/musselsyska5.webp"
       ],
       "additionalComments": "Måste stratifieras. Placera fröna i frysen. Om de inte gror, placera sådden i kylskåp ca 2 veckor.",
       "description": "Musselsyska, även känd som Bells of Ireland, är en fascinerande och dekorativ ettårig växt som hör till familjen kransblommiga växter. Den utmärker sig med sina limegröna spiror och små, klockformade foderblad som omsluter de faktiska blommorna. Dessa blad skapar ett unikt och iögonfallande utseende som är mycket uppskattat i blomsterarrangemang, buketter och rabatter. Dess hållbarhet gör den även idealisk för torkning och längre användning i dekorationer."
@@ -888,7 +895,9 @@
       "mainImg": "src/assets/flowers/other/solboll-drumstick.webp",
       "additionalImages": [
         "src/assets/flowers/other/solboll-drumstick2.webp",
-        "src/assets/flowers/other/solboll-drumstick3.webp"
+        "src/assets/flowers/other/solboll-drumstick3.webp",
+        "src/assets/flowers/other/solboll-drumstick4.webp",
+        "src/assets/flowers/other/solboll-drumstick5.webp"
       ],
       "additionalComments": "Inga.",
       "description": "Unika, bollformade blommor på stadiga stjälkar. En effektfull och användbar snittblomma som även passar för torkning och odling i rabatter."
@@ -1420,7 +1429,9 @@
       "additionalImages": [
         "src/assets/flowers/ranunkel/ranunkel-amandinescarlet2.webp",
         "src/assets/flowers/ranunkel/ranunkel-amandinescarlet3.webp",
-        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet4.webp"
+        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-amandinescarlet6.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -1461,7 +1472,8 @@
         "src/assets/flowers/ranunkel/ranunkel-labellesalmon2.webp",
         "src/assets/flowers/ranunkel/ranunkel-labellesalmon3.webp",
         "src/assets/flowers/ranunkel/ranunkel-labellesalmon4.webp",
-        "src/assets/flowers/ranunkel/ranunkel-labellesalmon5.webp"
+        "src/assets/flowers/ranunkel/ranunkel-labellesalmon5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-labellesalmon6.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -1582,7 +1594,8 @@
         "src/assets/flowers/ranunkel/ranunkel-supergreenwhite3.webp",
         "src/assets/flowers/ranunkel/ranunkel-supergreenwhite4.webp",
         "src/assets/flowers/ranunkel/ranunkel-supergreenwhite5.webp",
-        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite6.webp"
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite6.webp",
+        "src/assets/flowers/ranunkel/ranunkel-supergreenwhite7.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -1622,7 +1635,11 @@
       "additionalImages": [
         "src/assets/flowers/ranunkel/ranunkel-malva2.webp",
         "src/assets/flowers/ranunkel/ranunkel-malva3.webp",
-        "src/assets/flowers/ranunkel/ranunkel-malva4.webp"
+        "src/assets/flowers/ranunkel/ranunkel-malva4.webp",
+        "src/assets/flowers/ranunkel/ranunkel-malva5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-malva6.webp",
+        "src/assets/flowers/ranunkel/ranunkel-malva7.webp",
+        "src/assets/flowers/ranunkel/ranunkel-malva8.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -1663,7 +1680,10 @@
         "src/assets/flowers/ranunkel/ranunkel-pastellostriato2.webp",
         "src/assets/flowers/ranunkel/ranunkel-pastellostriato3.webp",
         "src/assets/flowers/ranunkel/ranunkel-pastellostriato4.webp",
-        "src/assets/flowers/ranunkel/ranunkel-pastellostriato5.webp"
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato6.webp",
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato7.webp",
+        "src/assets/flowers/ranunkel/ranunkel-pastellostriato8.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -1704,7 +1724,11 @@
         "src/assets/flowers/ranunkel/ranunkel-elegancesalmone2.webp",
         "src/assets/flowers/ranunkel/ranunkel-elegancesalmone3.webp",
         "src/assets/flowers/ranunkel/ranunkel-elegancesalmone4.webp",
-        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone5.webp"
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone6.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone7.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone8.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancesalmone9.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -1745,7 +1769,9 @@
         "src/assets/flowers/ranunkel/ranunkel-elegancecrema2.webp",
         "src/assets/flowers/ranunkel/ranunkel-elegancecrema3.webp",
         "src/assets/flowers/ranunkel/ranunkel-elegancecrema4.webp",
-        "src/assets/flowers/ranunkel/ranunkel-elegancecrema5.webp"
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema5.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema6.webp",
+        "src/assets/flowers/ranunkel/ranunkel-elegancecrema7.webp"
       ],
       "additionalComments": "Vill ha det svalt.",
       "description": "Beskrivning av växten"
@@ -3936,43 +3962,6 @@
       "description": "Utgått ur sortimentet hos Natalies blommor och ting. Beskrivning av växten"
     },
     {
-      "id": "601",
-      "name": "Dahlia “Jowey Nicky”",
-      "category": "Dahlia",
-      "height": "100-120 cm",
-      "color": ["Persika", "Aprikos", "Rosa"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
-      ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-joweynicky.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
       "id": "602",
       "name": "Dahlia “Bizon Bronze”",
       "category": "Dahlia",
@@ -4005,7 +3994,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-bizonbronze.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-bizonbronze2.webp",
+        "src/assets/flowers/dahlia/dahlia-bizonbronze3.webp",
+        "src/assets/flowers/dahlia/dahlia-bizonbronze4.webp",
+        "src/assets/flowers/dahlia/dahlia-bizonbronze5.webp",
+        "src/assets/flowers/dahlia/dahlia-bizonbronze6.webp",
+        "src/assets/flowers/dahlia/dahlia-bizonbronze7.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4042,7 +4038,16 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-tanita.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-tanita2.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita3.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita4.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita5.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita6.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita7.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita8.webp",
+        "src/assets/flowers/dahlia/dahlia-tanita12.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4079,7 +4084,12 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-salmonette.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-salmonette2.webp",
+        "src/assets/flowers/dahlia/dahlia-salmonette3.webp",
+        "src/assets/flowers/dahlia/dahlia-salmonette4.webp",
+        "src/assets/flowers/dahlia/dahlia-salmonette5.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4088,7 +4098,7 @@
       "name": "Dahlia “Apricot Desirée”",
       "category": "Dahlia",
       "height": "100-120 cm",
-      "color": ["Rosa", "Aprikos", "Gräddvit"],
+      "color": ["Aprikos", "Gräddvit", "Korall"],
       "type": "Näckros",
       "isDryable": false,
       "sowWeeksBeforeFrost": null,
@@ -4116,7 +4126,19 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-apricotdesiree.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree2.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree3.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree4.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree5.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree6.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree7.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree8.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree9.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree14.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree15.webp",
+        "src/assets/flowers/dahlia/dahlia-apricotdesiree17.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4153,44 +4175,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-ryecroftjan.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "607",
-      "name": "Dahlia “Chapeau Bas”",
-      "category": "Dahlia",
-      "height": "100-120 cm",
-      "color": ["Rosa", "Persika"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-ryecroftjan3.webp",
+        "src/assets/flowers/dahlia/dahlia-ryecroftjan6.webp",
+        "src/assets/flowers/dahlia/dahlia-ryecroftjan7.webp",
+        "src/assets/flowers/dahlia/dahlia-ryecroftjan9.webp",
+        "src/assets/flowers/dahlia/dahlia-ryecroftjan10.webp"
       ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-chapeaubas.webp",
-      "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4227,7 +4218,16 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-nathalieg.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-nathalieg2.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg4.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg7.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg9.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg10.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg11.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg12.webp",
+        "src/assets/flowers/dahlia/dahlia-nathalieg14.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4264,81 +4264,16 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-zundertmysteryfox.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "610",
-      "name": "Dahlia “Moderato”",
-      "category": "Dahlia",
-      "height": "100-120 cm",
-      "color": ["Rosa", "Aprikos", "Ljusrosa"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox2.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox4.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox5.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox6.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox7.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox8.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox10.webp",
+        "src/assets/flowers/dahlia/dahlia-zundertmysteryfox11.webp"
       ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-moderato.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "611",
-      "name": "Dahlia “High Fidelity”",
-      "category": "Dahlia",
-      "height": "80-100 cm",
-      "color": ["Terrakotta", "Röd", "Aprikos"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
-      ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-highfidelity.webp",
-      "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4375,7 +4310,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-cryfieldharmony.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-cryfieldharmony2.webp",
+        "src/assets/flowers/dahlia/dahlia-cryfieldharmony4.webp",
+        "src/assets/flowers/dahlia/dahlia-cryfieldharmony6.webp",
+        "src/assets/flowers/dahlia/dahlia-cryfieldharmony7.webp",
+        "src/assets/flowers/dahlia/dahlia-cryfieldharmony8.webp",
+        "src/assets/flowers/dahlia/dahlia-cryfieldharmony9.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4412,7 +4354,15 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-smallworld.png",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-smallworld2.png",
+        "src/assets/flowers/dahlia/dahlia-smallworld3.png",
+        "src/assets/flowers/dahlia/dahlia-smallworld4.png",
+        "src/assets/flowers/dahlia/dahlia-smallworld5.png",
+        "src/assets/flowers/dahlia/dahlia-smallworld9.png",
+        "src/assets/flowers/dahlia/dahlia-smallworld10.png",
+        "src/assets/flowers/dahlia/dahlia-smallworld11.png"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4449,44 +4399,16 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-joweyhubert.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "615",
-      "name": "Dahlia “Burlesca”",
-      "category": "Dahlia",
-      "height": "60-80 cm",
-      "color": ["Cerise", "Röd", "Rosa"],
-      "type": "Pompon",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-joweyhubert2.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert3.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert4.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert5.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert6.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert7.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert8.webp",
+        "src/assets/flowers/dahlia/dahlia-joweyhubert10.webp"
       ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-burlesca.webp",
-      "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4523,7 +4445,11 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-oceanoflove.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-oceanoflove2.webp",
+        "src/assets/flowers/dahlia/dahlia-oceanoflove3.webp",
+        "src/assets/flowers/dahlia/dahlia-oceanoflove4.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4560,7 +4486,16 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-strawberrycream.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-strawberrycream2.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream4.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream5.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream6.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream7.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream9.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream10.webp",
+        "src/assets/flowers/dahlia/dahlia-strawberrycream11.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4597,118 +4532,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "619",
-      "name": "Dahlia “Orange Favourite”",
-      "category": "Dahlia",
-      "height": "100-120 cm",
-      "color": ["Laxrosa", "Aprikos"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan2.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan3.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan4.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan5.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan6.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan8.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan9.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan11.webp",
+        "src/assets/flowers/dahlia/dahlia-karmamaartenzwaan13.webp"
       ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-orangefavourite.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "620",
-      "name": "Dahlia “Ariston”",
-      "category": "Dahlia",
-      "height": "100-120 cm",
-      "color": ["Terrakotta", "Röd", "Orange", "Rosa"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
-      ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-ariston.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "621",
-      "name": "Dahlia “Comet”",
-      "category": "Dahlia",
-      "height": "80-100 cm",
-      "color": ["Aprikos"],
-      "type": "Boll",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
-      ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-comet.webp",
-      "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4745,7 +4579,13 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-madeleine.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-madeleine2.webp",
+        "src/assets/flowers/dahlia/dahlia-madeleine3.webp",
+        "src/assets/flowers/dahlia/dahlia-madeleine4.webp",
+        "src/assets/flowers/dahlia/dahlia-madeleine5.webp",
+        "src/assets/flowers/dahlia/dahlia-madeleine6.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4782,44 +4622,18 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-dustybeauty.webp",
-      "additionalImages": [],
-      "additionalComments": "Inga.",
-      "description": "Beskrivning av växten"
-    },
-    {
-      "id": "624",
-      "name": "Dahlia “Freeman”",
-      "category": "Dahlia",
-      "height": "100-120 cm",
-      "color": ["Aprikos"],
-      "type": "Dekorativa småblommiga",
-      "isDryable": false,
-      "sowWeeksBeforeFrost": null,
-      "cultivationType": "SowOutdoors",
-      "sowingDate": "10/5",
-      "lightGermination": false,
-      "plantOut": "10/5",
-      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
-      "plantDistanceInCm": "40",
-      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
-      "plantSupport": true,
-      "fitForGreenhouse": true,
-      "toppedOff": true,
-      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
-      "cutAndComeAgain": true,
-      "mediumProducer": false,
-      "oneAndDone": false,
-      "hardiness": "TA",
-      "canBeColdPlanted": "No",
-      "harvestPeriod": [
-        {
-          "start": "July",
-          "end": "October"
-        }
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-dustybeauty2.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty3.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty4.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty5.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty6.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty7.jpg",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty8.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty9.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty10.webp",
+        "src/assets/flowers/dahlia/dahlia-dustybeauty14.webp"
       ],
-      "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-freeman.webp",
-      "additionalImages": [],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4856,7 +4670,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-aiyana.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-aiyana2.webp",
+        "src/assets/flowers/dahlia/dahlia-aiyana3.webp",
+        "src/assets/flowers/dahlia/dahlia-aiyana4.webp",
+        "src/assets/flowers/dahlia/dahlia-aiyana5.webp",
+        "src/assets/flowers/dahlia/dahlia-aiyana6.webp",
+        "src/assets/flowers/dahlia/dahlia-aiyana7.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4893,7 +4714,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-dutchpearl.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-dutchpearl2.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl3.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl4.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl5.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl6.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl7.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl8.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl9.webp",
+        "src/assets/flowers/dahlia/dahlia-dutchpearl10.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4930,7 +4761,19 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-sweetsanne.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-sweetsanne2.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne5.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne7.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne8.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne9.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne10.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne11.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne14.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne15.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne16.webp",
+        "src/assets/flowers/dahlia/dahlia-sweetsanne18.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -4967,7 +4810,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-caitlinsjoy.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy2.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy4.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy5.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy6.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy7.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy10.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy11.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy12.webp",
+        "src/assets/flowers/dahlia/dahlia-caitlinsjoy14.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5003,8 +4856,12 @@
         }
       ],
       "chosen": true,
-      "mainImg": "src/assets/flowers/dahlia/dahlia-whitelove.png",
-      "additionalImages": [],
+      "mainImg": "src/assets/flowers/dahlia/dahlia-whitelove.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-whitelove2.webp",
+        "src/assets/flowers/dahlia/dahlia-whitelove3.jpg",
+        "src/assets/flowers/dahlia/dahlia-whitelove4.png"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5041,7 +4898,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-rinabredie.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-rinabredie2.webp",
+        "src/assets/flowers/dahlia/dahlia-rinabredie3.webp",
+        "src/assets/flowers/dahlia/dahlia-rinabredie4.webp",
+        "src/assets/flowers/dahlia/dahlia-rinabredie5.webp",
+        "src/assets/flowers/dahlia/dahlia-rinabredie6.webp",
+        "src/assets/flowers/dahlia/dahlia-rinabredie8.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5078,7 +4942,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-isabel.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-isabel2.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel4.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel6.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel7.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel8.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel9.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel12.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel13.webp",
+        "src/assets/flowers/dahlia/dahlia-isabel14.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5115,7 +4989,21 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-hemisphere.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-hemisphere2.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere3.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere4.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere5.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere6.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere7.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere9.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere10.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere11.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere12.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere13.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere14.webp",
+        "src/assets/flowers/dahlia/dahlia-hemisphere15.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5152,7 +5040,18 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-peaches.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-peaches2.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches3.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches4.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches6.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches7.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches8.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches9.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches11.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches12.webp",
+        "src/assets/flowers/dahlia/dahlia-peaches13.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5189,7 +5088,22 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-nightsilence.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-nightsilence2.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence3.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence5.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence7.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence10.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence11.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence12.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence13.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence14.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence15.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence16.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence19.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence20.webp",
+        "src/assets/flowers/dahlia/dahlia-nightsilence21.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5226,7 +5140,17 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-frostnip.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-frostnip3.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip4.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip5.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip6.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip8.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip9.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip10.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip12.webp",
+        "src/assets/flowers/dahlia/dahlia-frostnip13.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5263,7 +5187,14 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-rosario.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-rosario2.webp",
+        "src/assets/flowers/dahlia/dahlia-rosario3.webp",
+        "src/assets/flowers/dahlia/dahlia-rosario4.webp",
+        "src/assets/flowers/dahlia/dahlia-rosario5.webp",
+        "src/assets/flowers/dahlia/dahlia-rosario7.webp",
+        "src/assets/flowers/dahlia/dahlia-rosario8.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5300,7 +5231,16 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-karmaprospero.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-karmaprospero2.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero3.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero4.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero6.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero7.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero8.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero9.webp",
+        "src/assets/flowers/dahlia/dahlia-karmaprospero10.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5337,7 +5277,20 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-yvonne.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-yvonne2.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne9.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne11.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne12.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne13.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne14.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne15.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne16.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne17.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne18.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne20.webp",
+        "src/assets/flowers/dahlia/dahlia-yvonne21.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
@@ -5374,7 +5327,204 @@
       ],
       "chosen": true,
       "mainImg": "src/assets/flowers/dahlia/dahlia-davinamichelle.webp",
-      "additionalImages": [],
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-davinamichelle2.webp",
+        "src/assets/flowers/dahlia/dahlia-davinamichelle3.webp",
+        "src/assets/flowers/dahlia/dahlia-davinamichelle4.webp",
+        "src/assets/flowers/dahlia/dahlia-davinamichelle5.webp",
+        "src/assets/flowers/dahlia/dahlia-davinamichelle7.webp",
+        "src/assets/flowers/dahlia/dahlia-davinamichelle8.webp",
+        "src/assets/flowers/dahlia/dahlia-davinamichelle9.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "Beskrivning av växten"
+    },
+    {
+      "id": "640",
+      "name": "Dahlia “Dark Destiny”",
+      "category": "Dahlia",
+      "height": "100-120 cm",
+      "color": ["Vinröd", "Svart"],
+      "type": "Dekorativa småblommiga",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-darkdestiny.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-darkdestiny2.webp",
+        "src/assets/flowers/dahlia/dahlia-darkdestiny3.webp",
+        "src/assets/flowers/dahlia/dahlia-darkdestiny4.webp",
+        "src/assets/flowers/dahlia/dahlia-darkdestiny5.webp",
+        "src/assets/flowers/dahlia/dahlia-darkdestiny6.webp",
+        "src/assets/flowers/dahlia/dahlia-darkdestiny7.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "Beskrivning av växten"
+    },
+    {
+      "id": "641",
+      "name": "Dahlia “Moorplace”",
+      "category": "Dahlia",
+      "height": "100-120 cm",
+      "color": ["Lila", "Vinröd", "Svart"],
+      "type": "Pompon",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-moorplace.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-moorplace2.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace3.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace7.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace8.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace11.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace12.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace13.webp",
+        "src/assets/flowers/dahlia/dahlia-moorplace14.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "Beskrivning av växten"
+    },
+    {
+      "id": "642",
+      "name": "Dahlia “Hollyhill Black Beauty”",
+      "category": "Dahlia",
+      "height": "120-140 cm",
+      "color": ["Vinröd", "Svart"],
+      "type": "Dekorativa småblommiga",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty2.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty3.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty4.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty6.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty7.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty8.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty9.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty10.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty11.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty13.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty15.webp",
+        "src/assets/flowers/dahlia/dahlia-hollyhillblackbeauty17.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "Beskrivning av växten"
+    },
+    {
+      "id": "643",
+      "name": "Dahlia “Copper Boy”",
+      "category": "Dahlia",
+      "height": "80-100 cm",
+      "color": ["Terrakotta"],
+      "type": "Boll",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-copperboy.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-copperboy2.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy3.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy4.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy5.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy6.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy7.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy8.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy9.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy10.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy11.webp",
+        "src/assets/flowers/dahlia/dahlia-copperboy14.webp"
+      ],
       "additionalComments": "Inga.",
       "description": "Beskrivning av växten"
     },
