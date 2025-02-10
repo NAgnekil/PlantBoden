@@ -90,14 +90,14 @@
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
-    max-width: 70%;
+    width: 550px;
     height: 70%;
   }
   .carousel {
     --vc-nav-background: rgba(255, 255, 255, 0.7);
     --vc-nav-border-radius: 100%;
     &#gallery {
-      height: 400px;
+      height: 450px;
     }
   }
 

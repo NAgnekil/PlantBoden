@@ -2256,7 +2256,7 @@
           "end": "October"
         }
       ],
-      "chosen": true,
+      "chosen": false,
       "mainImg": "src/assets/flowers/lejongap/lejongap-canarybird.webp",
       "additionalImages": [
         "src/assets/flowers/lejongap/lejongap-canarybird3.webp",
@@ -5564,7 +5564,10 @@
         "src/assets/flowers/luktart/luktart-enchante.webp",
         "src/assets/flowers/luktart/luktart-enchante3.webp",
         "src/assets/flowers/luktart/luktart-enchante4.webp",
-        "src/assets/flowers/luktart/luktart-enchante5.webp"
+        "src/assets/flowers/luktart/luktart-enchante5.webp",
+        "src/assets/flowers/luktart/luktart-enchante6.webp",
+        "src/assets/flowers/luktart/luktart-enchante7.webp",
+        "src/assets/flowers/luktart/luktart-enchante8.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "En älskad sort! Trefärgad luktärt som får körsbärsrosa och lavendel / blå kronblad. Stora blommor och doften är stark och alldeles ljuvlig. Skörda blommorna i knoppstadiet."
@@ -5602,9 +5605,9 @@
       "chosen": true,
       "mainImg": "src/assets/flowers/luktart/luktart-perfumepromisejustjulia.webp",
       "additionalImages": [
-        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia2.webp",
         "src/assets/flowers/luktart/luktart-perfumepromisejustjulia3.webp",
-        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia3.webp"
+        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia4.webp",
+        "src/assets/flowers/luktart/luktart-perfumepromisejustjulia5.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärt ’Just Julia’ har vackert mellanblå, blommor med stora och vågiga kronblad. Stark och behaglig doft. Skörda blommorna i knoppstadiet."
@@ -5682,7 +5685,9 @@
       "additionalImages": [
         "src/assets/flowers/luktart/luktart-spenceroldtimes2.webp",
         "src/assets/flowers/luktart/luktart-spenceroldtimes3.webp",
-        "src/assets/flowers/luktart/luktart-spenceroldtimes4.webp"
+        "src/assets/flowers/luktart/luktart-spenceroldtimes4.webp",
+        "src/assets/flowers/luktart/luktart-spenceroldtimes5.webp",
+        "src/assets/flowers/luktart/luktart-spenceroldtimes6.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "En underbar sort med gräddvita kronblad och ljust lavendelblå skiftningar. Stark fin doft och mycket hållbar som snitt. Skörda blommorna i knoppstadiet."
@@ -5767,7 +5772,13 @@
       "mainImg": "src/assets/flowers/luktart/luktart-juliet.webp",
       "additionalImages": [
         "src/assets/flowers/luktart/luktart-juliet2.webp",
-        "src/assets/flowers/luktart/luktart-juliet3.webp"
+        "src/assets/flowers/luktart/luktart-juliet3.webp",
+        "src/assets/flowers/luktart/luktart-juliet4.webp",
+        "src/assets/flowers/luktart/luktart-juliet5.webp",
+        "src/assets/flowers/luktart/luktart-juliet6.webp",
+        "src/assets/flowers/luktart/luktart-juliet7.webp",
+        "src/assets/flowers/luktart/luktart-juliet8.webp",
+        "src/assets/flowers/luktart/luktart-juliet9.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Juliet’ är vaniljvit med en rosa rodnad. Okänt ursprung. 'Juliet' har en rik doft med en blommig kropp av jasmin och söta inslag av kaprifol och mandel."
@@ -5807,14 +5818,16 @@
       "additionalImages": [
         "src/assets/flowers/luktart/luktart-noelsutton2.webp",
         "src/assets/flowers/luktart/luktart-noelsutton3.webp",
-        "src/assets/flowers/luktart/luktart-noelsutton4.webp"
+        "src/assets/flowers/luktart/luktart-noelsutton4.webp",
+        "src/assets/flowers/luktart/luktart-noelsutton5.webp",
+        "src/assets/flowers/luktart/luktart-noelsutton6.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Noel Sutton’ är en ljuvlig djupt mellanblå sort med lite ljusare kanter på blomman. En riktig favoritsort med stark doft, långa stjälkar och många blommor på varje stjälk. Storvuxen. 'Noel Sutton' har en mild doft av blommig frangipanikropp med söt mandel och jojoba. "
     },
     {
       "id": "708",
-      "name": "Luktärt “Sir Jimmys Hand”",
+      "name": "Luktärt “Sir Jimmy Shand”",
       "category": "Luktärt",
       "height": "250-300 cm",
       "color": ["Gräddvit"],
@@ -5848,7 +5861,12 @@
         "src/assets/flowers/luktart/luktart-sirjimmyshand2.webp",
         "src/assets/flowers/luktart/luktart-sirjimmyshand3.webp",
         "src/assets/flowers/luktart/luktart-sirjimmyshand4.webp",
-        "src/assets/flowers/luktart/luktart-sirjimmyshand6.webp"
+        "src/assets/flowers/luktart/luktart-sirjimmyshand6.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand7.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand8.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand9.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand10.webp",
+        "src/assets/flowers/luktart/luktart-sirjimmyshand11.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Sir Jimmy Shand’ har stora, doftande blommor i vitt med violetta teckningar. En av de allra vackraste. Höjd ca 250-300 cm. 'Sir Jimmy Shand' har en mild söt bouquet med toner av blommig frangipani och körsbärsblom."
@@ -5889,7 +5907,14 @@
         "src/assets/flowers/luktart/luktart-earlgrey2.webp",
         "src/assets/flowers/luktart/luktart-earlgrey3.webp",
         "src/assets/flowers/luktart/luktart-earlgrey4.webp",
-        "src/assets/flowers/luktart/luktart-earlgrey5.jpg"
+        "src/assets/flowers/luktart/luktart-earlgrey5.jpg",
+        "src/assets/flowers/luktart/luktart-earlgrey6.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey7.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey8.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey9.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey10.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey11.webp",
+        "src/assets/flowers/luktart/luktart-earlgrey12.webp"
       ],
       "additionalComments": "Läs om hur man sår här: https://www.hannawendelbo.com/blog/2019/2/2/s-sr-jag-mina-luktrter. Odla luktärt i kruka: https://www.hannawendelbo.com/blog/2021/4/4/odla-luktrt-i-kruka. Kan sås i toarullar för platseffektivitet och direktplantering ner i jorden.",
       "description": "Luktärten ’Earl Grey’ är en stilig silvervit, veckad luktärt med purpurlila strimmor. Långa stjälkar. 'Earl Grey' har en disig myskessens med kropp av neroli och inslag av citronmeliss."
