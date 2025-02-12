@@ -6091,7 +6091,7 @@
       "category": "Phlox",
       "height": "40 cm",
       "color": ["Lila", "Rosa", "Vit", "Ljusrosa", "Röd"],
-      "isDryable": false,
+      "isDryable": true,
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -6132,7 +6132,7 @@
       "category": "Phlox",
       "height": "40-50 cm",
       "color": ["Gräddvit", "Rosa", "Vinröd"],
-      "isDryable": false,
+      "isDryable": true,
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -6174,7 +6174,7 @@
       "category": "Phlox",
       "height": "40-50 cm",
       "color": ["Lila", "Vit"],
-      "isDryable": false,
+      "isDryable": true,
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -6214,7 +6214,7 @@
       "category": "Phlox",
       "height": "40-50 cm",
       "color": ["Rosa", "Vit", "Ljusrosa"],
-      "isDryable": false,
+      "isDryable": true,
       "sowWeeksBeforeFrost": "10",
       "cultivationType": "SowIndoors",
       "sowingDate": "16/3",
@@ -6319,7 +6319,49 @@
   ],
   "articles": [
     {
-      "WinterPlanting": "<h3>Vad är vintersådd?</h3><p>Kallsådd, som också kallas vintersådd, är en spännande metod för att så fröer utomhus på vintern. Kylan hjälper fröerna att förbereda sig för att gro. Under vintermånaderna vilar de i jorden. När våren kommer och temperaturen stiger, vet fröerna att det är dags att växa. Det här är naturens sätt att se till att fröerna gror vid rätt tidpunkt.</p><p>Varför vintersådd?</h3></p><p>Vintersådd kan göras på en liten utvald plats, en bytta eller kruka, men också direkt ute i landet eller i en pallkrage. Ofta görs vintersådd av grönsaker för att odlaren vill ha en supertidig skörd av till exempel bladgrönsaker. Då är det extra bra att skydda sådden och kanske göra den i ett växthus eller i en pallkrage täckt med genomskinligt lock, en så kallad kallbänk.</p><p>En del tycker att det låter jättekonstigt att så på vintern men de flesta som provar blir så nöjda att de aldrig kan tänka sig skippa vintersådden.</p><h3>Gör så här</h3><p>Det är mycket enkelt att vinterså. Gör sådderna från december och framåt, tidigare (innan snön kommer) om du odlar långt norröver och vill så i pallkragar eller land på friland.</p><p>Så som vanligt i tråg eller krukor, täck med lite jord men undvik att vattna. Om du vill kan du ställa sådden utomhus i en vecka eller så, då fuktas jorden lite av vinterns nederbörd. Ställ sedan i växthus, en pallkrage med lock, kallt uterum eller på en plats ute där sådden inte dränks av vårregn eller stora snöfall. En plastback med hål i locket är en bra plats om du inte har växthus.</p><p>Vattna mycket sparsamt, kanske inte ens alls i början. Det är dock bra att fukta jorden lätt genom att pudra över lite snö då och då om det finns, eller spraya över lite vatten om det är milt ute.</p><p>I februari-mars brukar sådden gro, beroende på var du har din sådd. Då är det också dags att se till att jorden inte torkar ut så att sådden förstörs. Fortsätt att fukta jorden lätt. Groningen blir senare om du odlar i kallare klimat norröver.</p><p>Om du vill så i landen utomhus är det bäst att välja platser som du kan skydda på olika vis, till exempel med galler eller olika slags fiberdukar eller nät. Det är lätt hänt att katter och andra djur krafsar i landen och förstör sådden under vintern. Så när det är barmark, innan snön kommer på senhösten (bra för er som odlar norröver) eller under vintern i en period då det inte är snö. Använd gärna en pallkrage eller liknande som lätt kan skyddas med kompostgaller.</p>"
+      "id": "123",
+      "title": "Vintersådd",
+      "headline": "Lär dig allt om vintersådd!",
+      "img": "/src/assets/flowers/aster/artikelbild_aster.webp",
+      "description": "Det här är en schysst beskriving om vad som finns i artikeln, eller vad som står i artikeln kanske man säger",
+      "preamble": "<p>Det här är typ en ingress av något slag</p>",
+      "mainArticle": "<h3>Vad är vintersådd?</h3><p>Kallsådd, som också kallas vintersådd, är en spännande metod för att så fröer utomhus på vintern. Kylan hjälper fröerna att förbereda sig för att gro. Under vintermånaderna vilar de i jorden. När våren kommer och temperaturen stiger, vet fröerna att det är dags att växa. Det här är naturens sätt att se till att fröerna gror vid rätt tidpunkt.</p><p>Varför vintersådd?</h3></p><p>Vintersådd kan göras på en liten utvald plats, en bytta eller kruka, men också direkt ute i landet eller i en pallkrage. Ofta görs vintersådd av grönsaker för att odlaren vill ha en supertidig skörd av till exempel bladgrönsaker. Då är det extra bra att skydda sådden och kanske göra den i ett växthus eller i en pallkrage täckt med genomskinligt lock, en så kallad kallbänk.</p><p>En del tycker att det låter jättekonstigt att så på vintern men de flesta som provar blir så nöjda att de aldrig kan tänka sig skippa vintersådden.</p><h3>Gör så här</h3><p>Det är mycket enkelt att vinterså. Gör sådderna från december och framåt, tidigare (innan snön kommer) om du odlar långt norröver och vill så i pallkragar eller land på friland.</p><p>Så som vanligt i tråg eller krukor, täck med lite jord men undvik att vattna. Om du vill kan du ställa sådden utomhus i en vecka eller så, då fuktas jorden lite av vinterns nederbörd. Ställ sedan i växthus, en pallkrage med lock, kallt uterum eller på en plats ute där sådden inte dränks av vårregn eller stora snöfall. En plastback med hål i locket är en bra plats om du inte har växthus.</p><p>Vattna mycket sparsamt, kanske inte ens alls i början. Det är dock bra att fukta jorden lätt genom att pudra över lite snö då och då om det finns, eller spraya över lite vatten om det är milt ute.</p><p>I februari-mars brukar sådden gro, beroende på var du har din sådd. Då är det också dags att se till att jorden inte torkar ut så att sådden förstörs. Fortsätt att fukta jorden lätt. Groningen blir senare om du odlar i kallare klimat norröver.</p><p>Om du vill så i landen utomhus är det bäst att välja platser som du kan skydda på olika vis, till exempel med galler eller olika slags fiberdukar eller nät. Det är lätt hänt att katter och andra djur krafsar i landen och förstör sådden under vintern. Så när det är barmark, innan snön kommer på senhösten (bra för er som odlar norröver) eller under vintern i en period då det inte är snö. Använd gärna en pallkrage eller liknande som lätt kan skyddas med kompostgaller.</p>"
+    },
+    {
+      "id": "234",
+      "title": "Aster",
+      "headline": "Sommaraster – En Färgsprakande Sensommarskönhet",
+      "description": "Här är allt du behöver veta för att göra dem till stjärnorna i din sommarträdgård.",
+      "preamble": "<p class='preamble'>När syrener och pioner har lagt sina kronor på hyllan, tar sommarastern över trädgårdens scen. Med sina prästkrageliknande blommor i nyanser av lila, rosa, rött, vitt, blått och gult ger sommarastern en explosion av färg från mitten av sommaren och långt in på hösten. Dessutom är den en utmärkt snittblomma och en magnet för bin och fjärilar!</p>",
+      "img": "/src/assets/flowers/aster/artikelbild_aster.webp",
+      "mainArticle": "<h3>En Tidlös Skönhet med Kinesiskt Ursprung</h3><p>Sommarastern (<i>Callistephus chinensis</i>), även kallad <i>Kinaaster</i>, är en ettårig växt som importerades till Europa på 1700-talet och snabbt blev en favorit bland trädgårdsentusiaster. Trots sitt namn är den inte en riktig aster utan tillhör en egen släkt inom familjen korgblommiga växter (Asteraceae). Med sina pompösa blommor som kan mäta upp till 10 cm i diameter påminner den om krysantemum, men med en elegans som är helt unik. Blommornas former varierar – från enkla daisyliknande kronblad till dubbla, pompom-aktiga blomsterhuvuden. Färgpaletten inkluderar allt från snövitt och rosa till purpur, skär och till och med chokladbrunt.</p>"
+    },
+    {
+      "id": "123",
+      "title": "Vintersådd",
+      "headline": "Lär dig allt om vintersådd!",
+      "img": "/src/assets/flowers/aster/artikelbild_aster.webp",
+      "description": "Det här är en schysst beskriving om vad som finns i artikeln, eller vad som står i artikeln kanske man säger",
+      "preamble": "<p>Det här är typ en ingress av något slag</p>",
+      "mainArticle": "<h3>Vad är vintersådd?</h3><p>Kallsådd, som också kallas vintersådd, är en spännande metod för att så fröer utomhus på vintern. Kylan hjälper fröerna att förbereda sig för att gro. Under vintermånaderna vilar de i jorden. När våren kommer och temperaturen stiger, vet fröerna att det är dags att växa. Det här är naturens sätt att se till att fröerna gror vid rätt tidpunkt.</p><p>Varför vintersådd?</h3></p><p>Vintersådd kan göras på en liten utvald plats, en bytta eller kruka, men också direkt ute i landet eller i en pallkrage. Ofta görs vintersådd av grönsaker för att odlaren vill ha en supertidig skörd av till exempel bladgrönsaker. Då är det extra bra att skydda sådden och kanske göra den i ett växthus eller i en pallkrage täckt med genomskinligt lock, en så kallad kallbänk.</p><p>En del tycker att det låter jättekonstigt att så på vintern men de flesta som provar blir så nöjda att de aldrig kan tänka sig skippa vintersådden.</p><h3>Gör så här</h3><p>Det är mycket enkelt att vinterså. Gör sådderna från december och framåt, tidigare (innan snön kommer) om du odlar långt norröver och vill så i pallkragar eller land på friland.</p><p>Så som vanligt i tråg eller krukor, täck med lite jord men undvik att vattna. Om du vill kan du ställa sådden utomhus i en vecka eller så, då fuktas jorden lite av vinterns nederbörd. Ställ sedan i växthus, en pallkrage med lock, kallt uterum eller på en plats ute där sådden inte dränks av vårregn eller stora snöfall. En plastback med hål i locket är en bra plats om du inte har växthus.</p><p>Vattna mycket sparsamt, kanske inte ens alls i början. Det är dock bra att fukta jorden lätt genom att pudra över lite snö då och då om det finns, eller spraya över lite vatten om det är milt ute.</p><p>I februari-mars brukar sådden gro, beroende på var du har din sådd. Då är det också dags att se till att jorden inte torkar ut så att sådden förstörs. Fortsätt att fukta jorden lätt. Groningen blir senare om du odlar i kallare klimat norröver.</p><p>Om du vill så i landen utomhus är det bäst att välja platser som du kan skydda på olika vis, till exempel med galler eller olika slags fiberdukar eller nät. Det är lätt hänt att katter och andra djur krafsar i landen och förstör sådden under vintern. Så när det är barmark, innan snön kommer på senhösten (bra för er som odlar norröver) eller under vintern i en period då det inte är snö. Använd gärna en pallkrage eller liknande som lätt kan skyddas med kompostgaller.</p>"
+    },
+    {
+      "id": "123",
+      "title": "Vintersådd",
+      "headline": "Lär dig allt om vintersådd!",
+      "img": "/src/assets/flowers/aster/artikelbild_aster.webp",
+      "description": "Det här är en schysst beskriving om vad som finns i artikeln, eller vad som står i artikeln kanske man säger",
+      "preamble": "<p>Det här är typ en ingress av något slag</p>",
+      "mainArticle": "<h3>Vad är vintersådd?</h3><p>Kallsådd, som också kallas vintersådd, är en spännande metod för att så fröer utomhus på vintern. Kylan hjälper fröerna att förbereda sig för att gro. Under vintermånaderna vilar de i jorden. När våren kommer och temperaturen stiger, vet fröerna att det är dags att växa. Det här är naturens sätt att se till att fröerna gror vid rätt tidpunkt.</p><p>Varför vintersådd?</h3></p><p>Vintersådd kan göras på en liten utvald plats, en bytta eller kruka, men också direkt ute i landet eller i en pallkrage. Ofta görs vintersådd av grönsaker för att odlaren vill ha en supertidig skörd av till exempel bladgrönsaker. Då är det extra bra att skydda sådden och kanske göra den i ett växthus eller i en pallkrage täckt med genomskinligt lock, en så kallad kallbänk.</p><p>En del tycker att det låter jättekonstigt att så på vintern men de flesta som provar blir så nöjda att de aldrig kan tänka sig skippa vintersådden.</p><h3>Gör så här</h3><p>Det är mycket enkelt att vinterså. Gör sådderna från december och framåt, tidigare (innan snön kommer) om du odlar långt norröver och vill så i pallkragar eller land på friland.</p><p>Så som vanligt i tråg eller krukor, täck med lite jord men undvik att vattna. Om du vill kan du ställa sådden utomhus i en vecka eller så, då fuktas jorden lite av vinterns nederbörd. Ställ sedan i växthus, en pallkrage med lock, kallt uterum eller på en plats ute där sådden inte dränks av vårregn eller stora snöfall. En plastback med hål i locket är en bra plats om du inte har växthus.</p><p>Vattna mycket sparsamt, kanske inte ens alls i början. Det är dock bra att fukta jorden lätt genom att pudra över lite snö då och då om det finns, eller spraya över lite vatten om det är milt ute.</p><p>I februari-mars brukar sådden gro, beroende på var du har din sådd. Då är det också dags att se till att jorden inte torkar ut så att sådden förstörs. Fortsätt att fukta jorden lätt. Groningen blir senare om du odlar i kallare klimat norröver.</p><p>Om du vill så i landen utomhus är det bäst att välja platser som du kan skydda på olika vis, till exempel med galler eller olika slags fiberdukar eller nät. Det är lätt hänt att katter och andra djur krafsar i landen och förstör sådden under vintern. Så när det är barmark, innan snön kommer på senhösten (bra för er som odlar norröver) eller under vintern i en period då det inte är snö. Använd gärna en pallkrage eller liknande som lätt kan skyddas med kompostgaller.</p>"
+    },
+    {
+      "id": "123",
+      "title": "Vintersådd",
+      "headline": "Lär dig allt om vintersådd!",
+      "img": "/src/assets/flowers/aster/artikelbild_aster.webp",
+      "description": "Det här är en schysst beskriving om vad som finns i artikeln, eller vad som står i artikeln kanske man säger",
+      "preamble": "<p>Det här är typ en ingress av något slag</p>",
+      "mainArticle": "<h3>Vad är vintersådd?</h3><p>Kallsådd, som också kallas vintersådd, är en spännande metod för att så fröer utomhus på vintern. Kylan hjälper fröerna att förbereda sig för att gro. Under vintermånaderna vilar de i jorden. När våren kommer och temperaturen stiger, vet fröerna att det är dags att växa. Det här är naturens sätt att se till att fröerna gror vid rätt tidpunkt.</p><p>Varför vintersådd?</h3></p><p>Vintersådd kan göras på en liten utvald plats, en bytta eller kruka, men också direkt ute i landet eller i en pallkrage. Ofta görs vintersådd av grönsaker för att odlaren vill ha en supertidig skörd av till exempel bladgrönsaker. Då är det extra bra att skydda sådden och kanske göra den i ett växthus eller i en pallkrage täckt med genomskinligt lock, en så kallad kallbänk.</p><p>En del tycker att det låter jättekonstigt att så på vintern men de flesta som provar blir så nöjda att de aldrig kan tänka sig skippa vintersådden.</p><h3>Gör så här</h3><p>Det är mycket enkelt att vinterså. Gör sådderna från december och framåt, tidigare (innan snön kommer) om du odlar långt norröver och vill så i pallkragar eller land på friland.</p><p>Så som vanligt i tråg eller krukor, täck med lite jord men undvik att vattna. Om du vill kan du ställa sådden utomhus i en vecka eller så, då fuktas jorden lite av vinterns nederbörd. Ställ sedan i växthus, en pallkrage med lock, kallt uterum eller på en plats ute där sådden inte dränks av vårregn eller stora snöfall. En plastback med hål i locket är en bra plats om du inte har växthus.</p><p>Vattna mycket sparsamt, kanske inte ens alls i början. Det är dock bra att fukta jorden lätt genom att pudra över lite snö då och då om det finns, eller spraya över lite vatten om det är milt ute.</p><p>I februari-mars brukar sådden gro, beroende på var du har din sådd. Då är det också dags att se till att jorden inte torkar ut så att sådden förstörs. Fortsätt att fukta jorden lätt. Groningen blir senare om du odlar i kallare klimat norröver.</p><p>Om du vill så i landen utomhus är det bäst att välja platser som du kan skydda på olika vis, till exempel med galler eller olika slags fiberdukar eller nät. Det är lätt hänt att katter och andra djur krafsar i landen och förstör sådden under vintern. Så när det är barmark, innan snön kommer på senhösten (bra för er som odlar norröver) eller under vintern i en period då det inte är snö. Använd gärna en pallkrage eller liknande som lätt kan skyddas med kompostgaller.</p>"
     }
   ],
   "links": ["https://library.floretflowers.com/", "https://botania.dk/"],
