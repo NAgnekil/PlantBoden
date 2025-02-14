@@ -89,9 +89,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
     width: 550px;
     height: 70%;
+    margin-bottom: 4rem;
   }
   .carousel {
     --vc-nav-background: rgba(255, 255, 255, 0.7);

@@ -30,9 +30,14 @@ html {
   src: url(assets/Belanosima.ttf);
 }
 
+@font-face {
+  font-family: Pompiere;
+  src: url(assets/Pompiere.ttf);
+}
+
 body {
   background-color: #f9f5f2;
-  font-family: "Fredoka", sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 400;
   width: 100%;
   padding: 0;

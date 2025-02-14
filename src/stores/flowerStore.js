@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import { fetchFlowers } from '../../fetchFlowers'
+import axios from 'axios'
 
 export const useFlowerStore = defineStore('flowerStore', () => {
   const flowers = ref([])
@@ -8,6 +9,7 @@ export const useFlowerStore = defineStore('flowerStore', () => {
   const colors = ref([])
   const cultivationTypes = ref([])
   const coldPlantingTypes = ref([])
+  const articles = ref([])
 
   const loadFlowers = async () => {
     flowers.value = await fetchFlowers()
@@ -35,6 +37,17 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     // flatMap() går igenom varje blomma (flower) i flowers.value och samlar ihop alla färger från varje blomma i en enda enkel lista. Vi använder flatMap här för att colors är en array i databasen. Hade det varit en enkel string, som category är, hade vi bara använt map().
   }
 
+  const fetchArticles = async () => {
+    try {
+      const response = await axios.get('../database.json')
+      articles.value = response.data.articles
+      return articles.value
+    } catch (error) {
+      console.error('Kunde inte hämta artiklar:', error)
+      throw error
+    }
+  }
+
   const getFlowersByCategory = computed(() => {
     return (categoryName) =>
       flowers.value.filter((flower) => flower.category === categoryName)
@@ -47,6 +60,8 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     getFlowersByCategory,
     colors,
     cultivationTypes,
-    coldPlantingTypes
+    coldPlantingTypes,
+    fetchArticles,
+    articles
   }
 })
