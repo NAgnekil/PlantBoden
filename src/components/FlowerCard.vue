@@ -1,7 +1,11 @@
 <script setup>
-  defineProps({
+  import { defineEmits, defineProps } from 'vue'
+
+  const props = defineProps({
     flower: Object
   })
+
+  const emit = defineEmits(['open-popup'])
 
   const getName = (name) => {
     const match = name.match(/^(.*?)\s*["“](.*?)["”]\s*(.*?)$/)
@@ -9,9 +13,13 @@
       ? { name: match[1].trim(), subname: match[2].trim() }
       : { name: name.trim(), subname: '' }
   }
+
+  const openPopup = () => {
+    emit('open-popup', props.flower)
+  }
 </script>
 <template>
-  <div class="card">
+  <div class="card" @click="openPopup">
     <div class="image-wrapper">
       <img class="product-img main-img" :src="`/${flower.mainImg}`" alt="" />
       <img
@@ -39,6 +47,7 @@
   .card {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     .image-wrapper {
       position: relative;
       display: inline-block;
@@ -82,5 +91,4 @@
       margin: 0.3rem 0;
     }
   }
-
 </style>

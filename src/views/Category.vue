@@ -3,6 +3,7 @@
   import axios from 'axios'
   import { useFlowerStore } from '../stores/flowerStore.js'
   import FlowerCard from '../components/FlowerCard.vue'
+  import FlowerDetailsCard from '../components/FlowerDetailsCard.vue'
   import { storeToRefs } from 'pinia'
 
   const props = defineProps({
@@ -17,7 +18,8 @@
   const chosenCategoryDescription = ref('')
   const chosenCategoryImg = ref('')
   const categoryList = ref([])
-  // const flowers = ref([])
+  const selectedFlower = ref(null)
+  const isPopupVisible = ref(false)
 
   const fetchCategoryDescription = async () => {
     const allDescriptions = await fetchAllCategoryDescriptions()
@@ -71,6 +73,15 @@
       throw error
     }
   }
+
+  const showPopup = (flower) => {
+    selectedFlower.value = flower
+    isPopupVisible.value = true
+  }
+
+  const closePopup = () => {
+    isPopupVisible.value = false
+  }
 </script>
 
 <template>
@@ -91,6 +102,13 @@
         v-for="flower in categoryList"
         :key="flower.id"
         :flower="flower"
+        @open-popup="showPopup"
+      />
+
+      <FlowerDetailsCard
+        :flower="selectedFlower"
+        :isVisible="isPopupVisible"
+        @close="closePopup"
       />
     </div>
   </section>
@@ -122,6 +140,7 @@
         background-color: rgba(255, 255, 255, 0.3);
       }
       .category-name {
+        font-family: Aboreto, sans-serif;
         position: absolute;
         top: 45%;
         left: 50%;
@@ -131,7 +150,7 @@
         padding: 20px 30px;
         text-align: center;
         font-size: 6rem;
-        font-weight: 400;
+        font-weight: 600;
         margin: 1rem 0 0.5rem 0;
         text-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
         color: #ededed;
@@ -142,6 +161,7 @@
       .preamble {
         font-size: 1.3rem;
         margin-bottom: 2rem;
+        line-height: 1.7rem;
       }
       h3 {
         font-size: 1.5rem;
@@ -150,6 +170,9 @@
         + p {
           margin-top: 0.6rem;
         }
+      }
+      p {
+        line-height: 1.4rem;
       }
       .summary {
         font-size: 1.3rem;

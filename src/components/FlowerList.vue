@@ -1,6 +1,7 @@
 <script setup>
   import { ref, computed } from 'vue'
   import FlowerCard from './FlowerCard.vue'
+  import FlowerDetailsCard from './FlowerDetailsCard.vue'
   import Sorting from './Sorting.vue'
 
   const {
@@ -19,6 +20,9 @@
     sortCategory: String,
     extractMonth: Function
   })
+
+  const selectedFlower = ref(null)
+  const isPopupVisible = ref(false)
 
   const groupedByCategory = computed(() => {
     if (sortCategory !== 'category') return null
@@ -68,6 +72,14 @@
     }
     return monthMap[month] || '???'
   }
+  const showPopup = (flower) => {
+    selectedFlower.value = flower
+    isPopupVisible.value = true
+  }
+
+  const closePopup = () => {
+    isPopupVisible.value = false
+  }
 </script>
 
 <template>
@@ -90,6 +102,13 @@
             v-for="flower in flowers"
             :key="flower.id"
             :flower="flower"
+            @open-popup="showPopup"
+          />
+
+          <FlowerDetailsCard
+            :flower="selectedFlower"
+            :isVisible="isPopupVisible"
+            @close="closePopup"
           />
         </div>
       </div>
@@ -100,6 +119,12 @@
           v-for="flower in sortedFlowers"
           :key="flower.id"
           :flower="flower"
+          @open-popup="showPopup"
+        />
+        <FlowerDetailsCard
+          :flower="selectedFlower"
+          :isVisible="isPopupVisible"
+          @close="closePopup"
         />
       </div>
     </template>
