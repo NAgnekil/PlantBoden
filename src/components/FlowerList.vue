@@ -72,11 +72,7 @@
 
 <template>
   <div v-if="sortedFlowers" class="cards-container" id="cards-container">
-    <Sorting
-      :sortOrder="flowerStore.sortOrder"
-      :sortCategory="flowerStore.sortCategory"
-      :sortMonth="flowerStore.sortMonth"
-    />
+    <Sorting />
     <template
       v-if="
         flowerStore.sortCategory === 'category' ||
