@@ -1,34 +1,7 @@
 <script setup>
-  defineProps({
-    flowers: Array,
-    sortOrder: String,
-    sortCategory: String,
-    sortMonth: String
-  })
+  import { useFlowerStore } from '../stores/flowerStore'
 
-  const emit = defineEmits([
-    'update:sortOrder',
-    'update:sortCategory',
-    'update:sortMonth'
-  ])
-
-  const sortByCategory = (order) => {
-    emit('update:sortCategory', order)
-    emit('update:sortOrder', '')
-    emit('update:sortMonth', '')
-  }
-
-  const sortByMonth = (order) => {
-    emit('update:sortMonth', order)
-    emit('update:sortOrder', '')
-    emit('update:sortCategory', '')
-  }
-
-  const sortFlowers = (order) => {
-    emit('update:sortOrder', order)
-    emit('update:sortCategory', '')
-    emit('update:sortMonth', '')
-  }
+  const flowerStore = useFlowerStore()
 </script>
 
 <template>
@@ -37,10 +10,10 @@
       <div class="dropdown-trigger">
         <p>Sortera</p>
         <ul class="dropdown">
-          <li @click="sortFlowers('asc')">Bokstavsordning A-Z</li>
-          <li @click="sortFlowers('desc')">Bokstavsordning Z-A</li>
-          <li @click="sortByCategory('category')">Kategorier</li>
-          <li @click="sortByMonth('asc')">Månad för sådd</li>
+          <li @click="flowerStore.sortOrder = 'asc'">Bokstavsordning A-Z</li>
+          <li @click="flowerStore.sortOrder = 'desc'">Bokstavsordning Z-A</li>
+          <li @click="flowerStore.sortCategory = 'category'">Kategorier</li>
+          <li @click="flowerStore.sortMonth = 'asc'">Månad för sådd</li>
           <li>Datum för sådd</li>
         </ul>
       </div>

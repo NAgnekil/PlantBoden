@@ -3,31 +3,17 @@
   import FlowerCard from './FlowerCard.vue'
   import FlowerDetailsCard from './FlowerDetailsCard.vue'
   import Sorting from './Sorting.vue'
+  import { useFlowerStore } from '../stores/flowerStore'
 
-  const {
-    flowers,
-    filteredFlowers,
-    searchQueryExists,
-    sortCategory,
-    sortMonth,
-    extractMonth
-  } = defineProps({
-    flowers: Array,
-    filteredFlowers: Array,
-    searchQueryExists: Boolean,
-    sortOrder: String,
-    sortMonth: String,
-    sortCategory: String,
-    extractMonth: Function
-  })
+  const flowerStore = useFlowerStore()
 
   const selectedFlower = ref(null)
   const isPopupVisible = ref(false)
 
   const groupedByCategory = computed(() => {
-    if (sortCategory !== 'category') return null
+    if (flowerStore.sortCategory !== 'category') return null
 
-    return flowers.reduce((categories, flower) => {
+    return flowerStore.flowers.reduce((categories, flower) => {
       if (!categories[flower.category]) {
         categories[flower.category] = []
       }
@@ -37,10 +23,10 @@
   })
 
   const groupedByMonth = computed(() => {
-    if (sortMonth !== 'asc') return null
+    if (flowerStore.sortMonth !== 'asc') return null
 
-    return flowers.reduce((months, flower) => {
-      const month = extractMonth(flower.sowingDate)
+    return flowerStore.flowers.reduce((months, flower) => {
+      const month = flowerStore.extractMonth(flower.sowingDate)
       if (!months[month]) {
         months[month] = []
       }
@@ -50,9 +36,10 @@
   })
 
   const sortedFlowers = computed(() => {
-    if (sortCategory === 'category') return groupedByCategory.value
-    if (sortMonth === 'asc') return groupedByMonth.value
-    return filteredFlowers
+    if (flowerStore.sortCategory === 'category') return groupedByCategory.value
+    if (flowerStore.sortMonth === 'asc') return groupedByMonth.value
+    console.log(groupedByCategory.value, groupedByMonth.value)
+    return flowerStore.filteredFlowers
   })
 
   const getMonth = (month) => {
@@ -72,6 +59,7 @@
     }
     return monthMap[month] || '???'
   }
+
   const showPopup = (flower) => {
     selectedFlower.value = flower
     isPopupVisible.value = true
@@ -85,17 +73,24 @@
 <template>
   <div v-if="sortedFlowers" class="cards-container" id="cards-container">
     <Sorting
-      :sortOrder="sortOrder"
-      :sortCategory="sortCategory"
-      :sortMonth="sortMonth"
+      :sortOrder="flowerStore.sortOrder"
+      :sortCategory="flowerStore.sortCategory"
+      :sortMonth="flowerStore.sortMonth"
     />
-    <template v-if="sortCategory === 'category' || sortMonth === 'asc'">
+    <template
+      v-if="
+        flowerStore.sortCategory === 'category' ||
+        flowerStore.sortMonth === 'asc'
+      "
+    >
       <div
         class="cards-by-sort"
         v-for="(flowers, key) in sortedFlowers"
         :key="key"
       >
-        <h1>{{ sortCategory === 'category' ? key : getMonth(key) }}</h1>
+        <h1>
+          {{ flowerStore.sortCategory === 'category' ? key : getMonth(key) }}
+        </h1>
         <hr />
         <div class="card-container">
           <FlowerCard
