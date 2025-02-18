@@ -25,7 +25,8 @@
     const hardinessMap = {
       HA: '💪 Härdighet: Härdig annuell',
       HHA: '🌼 Härdighet: Halvhärdig annuell',
-      TA: '🥶 Härdighet: Ömtålig annuell'
+      TA: '🥶 Härdighet: Ömtålig annuell',
+      HP: '💪 Härdighet: Härdig perenn'
     }
     return hardinessMap[hardiness]
   }
@@ -176,7 +177,6 @@
   .gallery {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 1rem;
     width: 250px;

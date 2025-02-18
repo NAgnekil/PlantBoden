@@ -1,76 +1,64 @@
 <script setup>
-  import { ref, watch, defineProps, defineEmits } from 'vue'
+  import { onMounted } from 'vue'
+  import { useFlowerStore } from '../stores/flowerStore'
   import ColorPicker from './ColorPicker.vue'
   import CategoryPicker from './CategoryPicker.vue'
 
-  const props = defineProps({
-    categories: Array,
-    colors: Array,
-    cultivationTypes: Array,
-    coldPlantingTypes: Array
+  const flowerStore = useFlowerStore()
+
+  onMounted(async () => {
+    await flowerStore.loadFlowers()
+    await flowerStore.fetchArticles()
   })
 
-  const emit = defineEmits([
-    'update:searchName',
-    'update:chosenCategory',
-    'update:chosenColor',
-    'update:chosenCultivationType',
-    'update:chosenColdPlantingType'
-  ])
-
-  const searchName = ref('')
-  const chosenCategory = ref([])
-  const chosenCultivationType = ref('allCultivationTypes')
-  const chosenColdPlantingType = ref('allColdPlantingTypes')
-  const chosenColor = ref([])
   const cultivationTypeNames = {
     allCultivationTypes: 'Alla',
     SowIndoors: 'Förodlas',
     SowOutdoors: 'Direktsås'
   }
+
   const coldPlantingNames = {
     allColdPlantingTypes: 'Alla',
     Yes: 'Ja',
     No: 'Nej'
   }
 
-  watch(searchName, (newValue) => {
-    emit('update:searchName', newValue)
-  })
+  // Uppdatera storen direkt vid val
+  const handleCultivationTypeChange = (event) => {
+    flowerStore.setCultivationType(event.target.value)
+  }
 
-  watch(chosenColor, (newValue) => {
-    emit('update:chosenColor', newValue)
-  })
-
-  watch(chosenCategory, (newValue) => {
-    emit('update:chosenCategory', newValue)
-  })
-
-  watch(chosenCultivationType, (newValue) => {
-    emit('update:chosenCultivationType', newValue)
-  })
-
-  watch(chosenColdPlantingType, (newValue) => {
-    emit('update:chosenColdPlantingType', newValue)
-  })
+  const handleColdPlantingChange = (event) => {
+    flowerStore.setColdPlantingType(event.target.value)
+  }
 </script>
 
 <template>
   <section class="query-section-wrapper">
     <div class="query-section">
+      <!-- Sökfält -->
       <div class="searchfield-wrapper">
         <input
           class="searchfield-name"
-          v-model="searchName"
+          :value="flowerStore.searchQuery"
+          @input="(e) => flowerStore.setSearchQuery(e.target.value)"
           placeholder="Sök efter fröer"
         />
       </div>
-      <CategoryPicker
-        v-model:chosenCategory="chosenCategory"
-        :categories="categories"
-      />
-      <ColorPicker v-model:chosenColor="chosenColor" :colors="colors" />
 
+      <!-- Kategoriväljare -->
+      <CategoryPicker
+        v-model="flowerStore.chosenCategory"
+        :categories="flowerStore.categories"
+      />
+
+      <!-- Färgväljare -->
+      <ColorPicker
+        v-model="flowerStore.chosenColor"
+        :colors="flowerStore.colors"
+      />
+
+      <!-- Såddtyp -->
       <div class="cultivation-container">
         <p>Typ av sådd</p>
         <div class="radios">
@@ -79,7 +67,10 @@
             type="radio"
             id="allCultivationTypes"
             value="allCultivationTypes"
-            v-model="chosenCultivationType"
+            :checked="
+              flowerStore.chosenCultivationType === 'allCultivationTypes'
+            "
+            @change="handleCultivationTypeChange"
             name="cultivationType"
           />
           <label for="allCultivationTypes">Alla</label
@@ -87,7 +78,7 @@
         </div>
         <div
           class="radios"
-          v-for="cultivationType in cultivationTypes"
+          v-for="cultivationType in flowerStore.cultivationTypes"
           :key="cultivationType"
         >
           <input
@@ -95,15 +86,19 @@
             type="radio"
             :id="cultivationType"
             :value="cultivationType"
-            v-model="chosenCultivationType"
+            :checked="flowerStore.chosenCultivationType === cultivationType"
+            @change="handleCultivationTypeChange"
             name="cultivationType"
           />
-          <label :for="cultivationType">{{
-            cultivationTypeNames[cultivationType] || cultivationType
-          }}</label
+          <label :for="cultivationType">
+            {{
+              cultivationTypeNames[cultivationType] || cultivationType
+            }} </label
           ><span class="checkmark"></span>
         </div>
       </div>
+
+      <!-- Vintersådd -->
       <div class="coldplant-container">
         <p>Passar för vintersådd</p>
         <div class="radios">
@@ -112,22 +107,31 @@
             type="radio"
             id="allColdPlantingTypes"
             value="allColdPlantingTypes"
-            v-model="chosenColdPlantingType"
+            :checked="
+              flowerStore.chosenColdPlantingType === 'allColdPlantingTypes'
+            "
+            @change="handleColdPlantingChange"
             name="coldPlantingType"
           />
           <label for="allColdPlantingTypes">Alla</label
           ><span class="checkmark"></span>
         </div>
-        <div class="radios" v-for="type in coldPlantingTypes" :key="type">
+        <div
+          class="radios"
+          v-for="type in flowerStore.coldPlantingTypes"
+          :key="type"
+        >
           <input
             class="radio-button"
             type="radio"
             :id="type"
             :value="type"
-            v-model="chosenColdPlantingType"
+            :checked="flowerStore.chosenColdPlantingType === type"
+            @change="handleColdPlantingChange"
             name="coldPlantingType"
           />
-          <label :for="type">{{ coldPlantingNames[type] || type }}</label
+          <label :for="type">
+            {{ coldPlantingNames[type] || type }} </label
           ><span class="checkmark"></span>
         </div>
       </div>

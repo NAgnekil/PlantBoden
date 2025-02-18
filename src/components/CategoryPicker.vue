@@ -1,18 +1,9 @@
 <script setup>
-  import { ref, watch, defineProps, defineEmits } from 'vue'
+  import { ref } from 'vue'
+  defineProps({ modelValue: Array, categories: Array })
+  defineEmits(['update:modelValue'])
 
-  const props = defineProps({
-    categories: Array
-  })
-
-  const emit = defineEmits(['update:chosenCategory'])
-
-  const chosenCategory = ref([])
   const categoryIsOpen = ref(false)
-
-  watch(chosenCategory, (newValue) => {
-    emit('update:chosenCategory', newValue)
-  })
 </script>
 
 <template>
@@ -34,7 +25,15 @@
             type="checkbox"
             :id="category"
             :value="category"
-            v-model="chosenCategory"
+            :checked="modelValue.includes(category)"
+            @change="
+              $emit(
+                'update:modelValue',
+                $event.target.checked
+                  ? [...modelValue, category]
+                  : modelValue.filter((c) => c !== category)
+              )
+            "
           />
           <span class="category-name">{{ category }}</span>
         </label>

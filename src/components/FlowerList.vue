@@ -4,43 +4,13 @@
   import FlowerDetailsCard from './FlowerDetailsCard.vue'
   import Sorting from './Sorting.vue'
   import { useFlowerStore } from '../stores/flowerStore'
+  import { storeToRefs } from 'pinia'
 
   const flowerStore = useFlowerStore()
+  const { sortedFlowers, extractMonth } = storeToRefs(flowerStore)
 
   const selectedFlower = ref(null)
   const isPopupVisible = ref(false)
-
-  const groupedByCategory = computed(() => {
-    if (flowerStore.sortCategory !== 'category') return null
-
-    return flowerStore.flowers.reduce((categories, flower) => {
-      if (!categories[flower.category]) {
-        categories[flower.category] = []
-      }
-      categories[flower.category].push(flower)
-      return categories
-    }, {})
-  })
-
-  const groupedByMonth = computed(() => {
-    if (flowerStore.sortMonth !== 'asc') return null
-
-    return flowerStore.flowers.reduce((months, flower) => {
-      const month = flowerStore.extractMonth(flower.sowingDate)
-      if (!months[month]) {
-        months[month] = []
-      }
-      months[month].push(flower)
-      return months
-    }, {})
-  })
-
-  const sortedFlowers = computed(() => {
-    if (flowerStore.sortCategory === 'category') return groupedByCategory.value
-    if (flowerStore.sortMonth === 'asc') return groupedByMonth.value
-    console.log(groupedByCategory.value, groupedByMonth.value)
-    return flowerStore.filteredFlowers
-  })
 
   const getMonth = (month) => {
     const monthMap = {
@@ -73,37 +43,43 @@
 <template>
   <div v-if="sortedFlowers" class="cards-container" id="cards-container">
     <Sorting />
-    <template
-      v-if="
-        flowerStore.sortCategory === 'category' ||
-        flowerStore.sortMonth === 'asc'
-      "
-    >
+    <template v-if="flowerStore.sortCategory === 'category'">
       <div
-        class="cards-by-sort"
-        v-for="(flowers, key) in sortedFlowers"
-        :key="key"
+        v-for="(group, category) in flowerStore.groupedByCategory"
+        :key="category"
       >
-        <h1>
-          {{ flowerStore.sortCategory === 'category' ? key : getMonth(key) }}
-        </h1>
+        <h1>{{ category }}</h1>
         <hr />
         <div class="card-container">
           <FlowerCard
-            v-for="flower in flowers"
+            v-for="flower in group"
             :key="flower.id"
             :flower="flower"
             @open-popup="showPopup"
           />
+        </div>
+      </div>
+    </template>
 
-          <FlowerDetailsCard
-            :flower="selectedFlower"
-            :isVisible="isPopupVisible"
-            @close="closePopup"
+    <template v-else-if="flowerStore.sortMonth === 'asc'">
+      <div
+        v-for="(group, month) in flowerStore.groupedByMonth"
+        :key="month"
+        class="month-div"
+      >
+        <h1>{{ getMonth(month) }}</h1>
+        <hr />
+        <div class="card-container">
+          <FlowerCard
+            v-for="flower in group"
+            :key="flower.id"
+            :flower="flower"
+            @open-popup="showPopup"
           />
         </div>
       </div>
     </template>
+
     <template v-else>
       <div class="product-cards">
         <FlowerCard
@@ -112,13 +88,13 @@
           :flower="flower"
           @open-popup="showPopup"
         />
-        <FlowerDetailsCard
-          :flower="selectedFlower"
-          :isVisible="isPopupVisible"
-          @close="closePopup"
-        />
       </div>
     </template>
+    <FlowerDetailsCard
+      :flower="selectedFlower"
+      :isVisible="isPopupVisible"
+      @close="closePopup"
+    />
   </div>
 </template>
 
@@ -185,5 +161,9 @@
     border-top: 2px solid var(--color-dark-grey);
     box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
     margin: 0 0 1rem 0;
+  }
+
+  .month-div {
+    width: 100%;
   }
 </style>

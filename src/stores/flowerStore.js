@@ -67,59 +67,33 @@ export const useFlowerStore = defineStore('flowerStore', () => {
 
   //NOTE TO SELF: För att Övrigt-kategorin ska hamna sist måste jag göra en fallback då Ö har ett högre Unicode-värde än de andra bokstäverna i det svenska alfabetet. Sorteringsfunktionen i JavaScript använder sig av Unicode-värden för att jämföra strängar, så Ö kommer hamna först i en stigande sortering (A-Z). Den här funktionen säger att om någon av kategorierna är "Övrigt", placera den sist
   const customSort = (a, b) => {
-    if (a === 'Övrigt') return 1 // "Övrigt" ska hamna efter andra kategorier
-    if (b === 'Övrigt') return -1 // Andra kategorier ska hamna före "Övrigt"
-    return a.localeCompare(b, 'sv')
+    const order = { Övrigt: 1 }
+    return (order[a] || 0) - (order[b] || 0) || a.localeCompare(b, 'sv')
   }
 
   const filteredFlowers = computed(() => {
     let result = flowers.value
 
-    if (searchQuery.value) {
-      result = result.filter((flower) =>
-        flower.name.toLowerCase().includes(searchQuery.value.toLowerCase())
-      )
-      searchQueryExists.value = true
-    }
     if (chosenCategory.value.length) {
       result = result.filter((flower) =>
         chosenCategory.value.includes(flower.category)
       )
-      searchQueryExists.value = true
     }
     if (chosenCultivationType.value !== 'allCultivationTypes') {
       result = result.filter(
         (flower) => flower.cultivationType === chosenCultivationType.value
       )
-      searchQueryExists.value = true
     }
     if (chosenColdPlantingType.value !== 'allColdPlantingTypes') {
       result = result.filter(
         (flower) => flower.canBeColdPlanted === chosenColdPlantingType.value
       )
-      searchQueryExists.value = true
     }
     if (chosenColor.value.length) {
       result = result.filter((flower) =>
         chosenColor.value.some((color) => flower.color.includes(color))
       )
-      searchQueryExists.value = true
       //NOTE TO SELF: some() kollar om NÅGOT element i en array uppfyller ett villkor. Den returnerar true om den hittar minst ett element som matchar, annars false.
-    }
-    if (sortOrder.value === 'desc') {
-      result = result.sort((a, b) => b.name.localeCompare(a.name)) // Z-A
-    } else if (sortOrder.value === 'asc') {
-      result.sort((a, b) => a.name.localeCompare(b.name))
-    }
-    if (sortCategory.value === 'category') {
-      result.sort((a, b) => customSort(a.category, b.category))
-    }
-    if (sortMonth.value === 'asc') {
-      return [...result].sort((a, b) => {
-        const monthA = extractMonth(a.sowingDate)
-        const monthB = extractMonth(b.sowingDate)
-        return monthA - monthB // Jämför månaden numeriskt
-      })
     }
 
     // Filtrering baserat på sökning
@@ -127,15 +101,6 @@ export const useFlowerStore = defineStore('flowerStore', () => {
       result = result.filter((flower) =>
         flower.name.toLowerCase().includes(searchQuery.value.toLowerCase())
       )
-    }
-
-    const searchQueryExists = computed(() => {
-      return !!searchQuery.value
-    })
-
-    // Sortering
-    if (sortOrder.value === 'desc') {
-      result = [...result].sort((a, b) => b.name.localeCompare(a.name))
     }
 
     return result
@@ -154,14 +119,6 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     sortOrder.value = order
   }
 
-  const setChosenCategory = (categories) => {
-    chosenCategory.value = categories
-  }
-
-  const setChosenColor = (colors) => {
-    chosenColor.value = colors
-  }
-
   const setCultivationType = (type) => {
     chosenCultivationType.value = type
   }
@@ -169,6 +126,56 @@ export const useFlowerStore = defineStore('flowerStore', () => {
   const setColdPlantingType = (type) => {
     chosenColdPlantingType.value = type
   }
+
+  //-----------------------------------------------
+
+  const searchQueryExists = computed(() => !!searchQuery.value)
+
+  const sortedFlowers = computed(() => {
+    // Kopiera arrayen för att undvika mutation av originaldata
+    let result = [...filteredFlowers.value]
+
+    // Sorteringslogik
+    if (sortOrder.value === 'desc') {
+      result.sort((a, b) => b.name.localeCompare(a.name))
+    } else if (sortOrder.value === 'asc') {
+      result.sort((a, b) => a.name.localeCompare(b.name))
+    }
+
+    if (sortCategory.value === 'category') {
+      result.sort((a, b) => customSort(a.category, b.category))
+    }
+
+    if (sortMonth.value === 'asc') {
+      result.sort((a, b) => {
+        const monthA = extractMonth(a.sowingDate)
+        const monthB = extractMonth(b.sowingDate)
+        return monthA - monthB
+      })
+    }
+
+    return result
+  })
+
+  const groupedByCategory = computed(() => {
+    if (sortCategory.value !== 'category') return null
+    return sortedFlowers.value.reduce((groups, flower) => {
+      const category = flower.category
+      groups[category] = groups[category] || []
+      groups[category].push(flower)
+      return groups
+    }, {})
+  })
+
+  const groupedByMonth = computed(() => {
+    if (sortMonth.value !== 'asc') return null
+    return sortedFlowers.value.reduce((groups, flower) => {
+      const month = extractMonth(flower.sowingDate)
+      groups[month] = groups[month] || []
+      groups[month].push(flower)
+      return groups
+    }, {})
+  })
 
   return {
     flowers,
@@ -191,10 +198,12 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     sortMonth,
     sortCategory,
     sortOrder,
-    setChosenCategory,
-    setChosenColor,
     setColdPlantingType,
     setCultivationType,
-    extractMonth
+    extractMonth,
+    searchQueryExists,
+    sortedFlowers,
+    groupedByCategory,
+    groupedByMonth
   }
 })
