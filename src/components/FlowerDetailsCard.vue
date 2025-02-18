@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, defineProps, defineEmits, onMounted, watchEffect } from 'vue'
+  import { ref, onMounted, watchEffect } from 'vue'
   import { useFlowerStore } from '../stores/flowerStore'
 
   const props = defineProps({
@@ -69,7 +69,7 @@
         <div class="gallery">
           <div class="main-image">
             <img
-              :src="activeImage"
+              :src="'/' + activeImage"
               :class="{ active: true }"
               alt="Main flower image"
             />
@@ -78,7 +78,7 @@
             <img
               v-for="(image, index) in imageList"
               :key="index"
-              :src="image"
+              :src="'/' + image"
               :class="{ active: image === activeImage }"
               @click="handleThumbnailClick(image)"
               alt="Thumbnail flower image"

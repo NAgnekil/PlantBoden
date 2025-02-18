@@ -36,9 +36,6 @@
   }
 
   const updateCategoryList = () => {
-    console.log('Alla blommor i store:', flowers.value)
-    console.log('categoryName från props:', props.categoryName)
-
     categoryList.value = [
       ...flowers.value.filter((flower) => {
         const flowerCategory = flower.category.trim().toLowerCase()
@@ -52,7 +49,6 @@
     await flowerStore.loadFlowers()
     await fetchCategoryDescription()
     updateCategoryList()
-    console.log('Blommor i categoryList:', categoryList.value)
   })
 
   watch(

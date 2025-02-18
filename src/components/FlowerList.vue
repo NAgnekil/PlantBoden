@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, computed } from 'vue'
+  import { ref } from 'vue'
   import FlowerCard from './FlowerCard.vue'
   import FlowerDetailsCard from './FlowerDetailsCard.vue'
   import Sorting from './Sorting.vue'
@@ -7,7 +7,7 @@
   import { storeToRefs } from 'pinia'
 
   const flowerStore = useFlowerStore()
-  const { sortedFlowers, extractMonth } = storeToRefs(flowerStore)
+  const { sortedFlowers } = storeToRefs(flowerStore)
 
   const selectedFlower = ref(null)
   const isPopupVisible = ref(false)
