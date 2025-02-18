@@ -1,6 +1,6 @@
 <script setup>
   import { useFlowerStore } from '../stores/flowerStore.js'
-  import { defineProps, ref, onMounted, render } from 'vue'
+  import { ref, onMounted } from 'vue'
   import { storeToRefs } from 'pinia'
   import FlowerCard from '../components/FlowerCard.vue'
   import FlowerDetailsCard from '../components/FlowerDetailsCard.vue'
@@ -10,7 +10,7 @@
   })
 
   const flowerStore = useFlowerStore()
-  const { flowers, getFlowersByCategory } = storeToRefs(flowerStore)
+  const { getFlowersByCategory } = storeToRefs(flowerStore)
 
   const chosenArticle = ref(null)
   const flowerCategoryList = ref([])
@@ -21,12 +21,6 @@
     await flowerStore.fetchArticles()
     await flowerStore.loadFlowers()
     extractArticle()
-    console.log(
-      'Artiklar i storen:',
-      flowerStore.articles,
-      'Vald artikel:',
-      chosenArticle.value
-    )
   })
 
   const extractArticle = () => {
@@ -34,7 +28,6 @@
       (article) => article.id === props.articleID
     )
     if (chosenArticle.value) {
-      // Update flower list based on category
       flowerCategoryList.value = getFlowersByCategory.value(
         chosenArticle.value.category
       )
@@ -71,7 +64,7 @@
     </section>
   </div>
   <div v-else>Artikeln hittades inte</div>
-  <section class="flowerlist-container">
+  <section class="flowerlist-container" v-if="flowerCategoryList.length > 0">
     <h1 class="varieties-header">Dina sorter</h1>
     <div class="cards-container">
       <FlowerCard
@@ -145,9 +138,7 @@
     }
   }
   .main-article {
-    :first-child {
-      margin-top: 2rem;
-    }
+    padding-top: 2rem;
     h3 {
       font-size: 1.5rem;
       margin: 0;
@@ -172,6 +163,31 @@
     hr {
       box-shadow: unset;
       margin: 2.2rem 0;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      gap: 10rem;
+      div {
+        p {
+          font-size: 1.3rem;
+        }
+        ul {
+          padding-left: 1rem;
+        }
+      }
+    }
+    ol {
+      li {
+        &::marker,
+        .point-headline {
+          font-size: 1.2rem;
+        }
+      }
+      .head-list-element {
+        margin-top: 2.3rem;
+      }
     }
   }
 

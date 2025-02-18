@@ -6,7 +6,6 @@
 
   onMounted(async () => {
     await flowerStore.fetchArticles()
-    console.log('Artiklar i storen:', flowerStore.articles)
   })
 </script>
 
@@ -19,8 +18,8 @@
       <div class="card">
         <img class="card-img" :src="article.img" />
         <div class="card-content">
-          <h2>{{ article.headline }}</h2>
-          <p class="teaser">{{ article.description }}</p>
+          <h2>{{ article.cardHeadline }}</h2>
+          <p class="teaser">{{ article.cardDescription }}</p>
         </div>
       </div>
     </router-link>
@@ -34,6 +33,9 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+    a {
+      display: flex;
+    }
   }
   .card {
     flex: 1;
