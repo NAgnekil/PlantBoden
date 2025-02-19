@@ -1,5 +1,4 @@
 <script setup>
-  import { ref } from 'vue'
   import ImageCarousel from '../components/ImageCarousel.vue'
   import ArticleTeaser from '../components/ArticleTeaser.vue'
 </script>

@@ -1,5 +1,6 @@
 <script setup>
   import { ref } from 'vue'
+
   defineProps({ modelValue: Array, categories: Array })
   defineEmits(['update:modelValue'])
 

@@ -1,5 +1,5 @@
 <script setup>
-  import { defineProps, ref, onMounted, watch, computed } from 'vue'
+  import { defineProps, ref, onMounted, watch } from 'vue'
   import axios from 'axios'
   import { useFlowerStore } from '../stores/flowerStore.js'
   import FlowerCard from '../components/FlowerCard.vue'

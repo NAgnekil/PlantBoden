@@ -58,7 +58,7 @@
         :colors="flowerStore.colors"
       />
 
-      <!-- Såddtyp -->
+      <!-- Såtyp -->
       <div class="cultivation-container">
         <p>Typ av sådd</p>
         <div class="radios">
@@ -130,8 +130,7 @@
             @change="handleColdPlantingChange"
             name="coldPlantingType"
           />
-          <label :for="type">
-            {{ coldPlantingNames[type] || type }} </label
+          <label :for="type"> {{ coldPlantingNames[type] || type }} </label
           ><span class="checkmark"></span>
         </div>
       </div>

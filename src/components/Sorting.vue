@@ -10,10 +10,10 @@
       <div class="dropdown-trigger">
         <p>Sortera</p>
         <ul class="dropdown">
-          <li @click="flowerStore.sortOrder = 'asc'">Bokstavsordning A-Z</li>
-          <li @click="flowerStore.sortOrder = 'desc'">Bokstavsordning Z-A</li>
-          <li @click="flowerStore.sortCategory = 'category'">Kategorier</li>
-          <li @click="flowerStore.sortMonth = 'asc'">Månad för sådd</li>
+          <li @click="flowerStore.setSortOrder('asc')">Bokstavsordning A-Z</li>
+          <li @click="flowerStore.setSortOrder('desc')">Bokstavsordning Z-A</li>
+          <li @click="flowerStore.setSortCategory('category')">Kategorier</li>
+          <li @click="flowerStore.setSortMonth('asc')">Månad för sådd</li>
           <li>Datum för sådd</li>
         </ul>
       </div>

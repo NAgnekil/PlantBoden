@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, onMounted, computed } from 'vue'
+  import { onMounted } from 'vue'
   import { useFlowerStore } from '../stores/flowerStore'
   import FlowerList from '../components/FlowerList.vue'
   import QuerySection from '../components/QuerySection.vue'

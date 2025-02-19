@@ -96,7 +96,6 @@ export const useFlowerStore = defineStore('flowerStore', () => {
       //NOTE TO SELF: some() kollar om NÅGOT element i en array uppfyller ett villkor. Den returnerar true om den hittar minst ett element som matchar, annars false.
     }
 
-    // Filtrering baserat på sökning
     if (searchQuery.value) {
       result = result.filter((flower) =>
         flower.name.toLowerCase().includes(searchQuery.value.toLowerCase())
@@ -115,10 +114,6 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     searchQuery.value = query
   }
 
-  const setSortOrder = (order) => {
-    sortOrder.value = order
-  }
-
   const setCultivationType = (type) => {
     chosenCultivationType.value = type
   }
@@ -127,15 +122,15 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     chosenColdPlantingType.value = type
   }
 
-  //-----------------------------------------------
-
   const searchQueryExists = computed(() => !!searchQuery.value)
 
+  //-----------------------------------------------
+
+  //SORTERINGSLOGIK
+
   const sortedFlowers = computed(() => {
-    // Kopiera arrayen för att undvika mutation av originaldata
     let result = [...filteredFlowers.value]
 
-    // Sorteringslogik
     if (sortOrder.value === 'desc') {
       result.sort((a, b) => b.name.localeCompare(a.name))
     } else if (sortOrder.value === 'asc') {
@@ -156,6 +151,26 @@ export const useFlowerStore = defineStore('flowerStore', () => {
 
     return result
   })
+
+  const setSortOrder = (order) => {
+    sortOrder.value = order
+    sortCategory.value = ''
+    sortMonth.value = ''
+  }
+
+  const setSortCategory = (category) => {
+    sortCategory.value = category
+    sortOrder.value = ''
+    sortMonth.value = ''
+    console.log('Grouped by Category:', groupedByCategory)
+    console.log('Grouped by Month:', groupedByMonth)
+  }
+
+  const setSortMonth = (month) => {
+    sortMonth.value = month
+    sortOrder.value = ''
+    sortCategory.value = ''
+  }
 
   const groupedByCategory = computed(() => {
     if (sortCategory.value !== 'category') return null
@@ -195,9 +210,11 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     chosenCultivationType,
     setSearchQuery,
     setSortOrder,
-    sortMonth,
-    sortCategory,
+    setSortCategory,
+    setSortMonth,
     sortOrder,
+    sortCategory,
+    sortMonth,
     setColdPlantingType,
     setCultivationType,
     extractMonth,
