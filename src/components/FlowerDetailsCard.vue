@@ -100,7 +100,7 @@
           </p>
           <p v-else>🌱 Direktsådd: {{ flower?.sowingDate }}</p>
           <p>↔️ Plantavstånd: {{ flower?.plantDistanceInCm }} cm</p>
-          <p class="flower-description">{{ flower?.description }}</p>
+          <p class="flower-description" v-html="flower?.description"></p>
         </div>
       </div>
     </div>

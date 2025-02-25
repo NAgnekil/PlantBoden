@@ -162,8 +162,6 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     sortCategory.value = category
     sortOrder.value = ''
     sortMonth.value = ''
-    console.log('Grouped by Category:', groupedByCategory)
-    console.log('Grouped by Month:', groupedByMonth)
   }
 
   const setSortMonth = (month) => {
