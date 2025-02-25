@@ -64,7 +64,7 @@
     </section>
   </div>
   <div v-else>Artikeln hittades inte</div>
-  <section class="flowerlist-container" v-if="flowerCategoryList.length > 0">
+  <section class="plantlist-container" v-if="flowerCategoryList.length > 0">
     <h1 class="varieties-header">Dina sorter</h1>
     <div class="cards-container">
       <FlowerCard

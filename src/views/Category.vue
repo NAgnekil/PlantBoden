@@ -91,7 +91,7 @@
     <div class="description-container" v-html="chosenCategoryDescription"></div>
     <hr />
   </section>
-  <section class="flowerlist-container">
+  <section class="plantlist-container">
     <h1 class="varieties-header">Dina sorter</h1>
     <div class="cards-container">
       <FlowerCard
@@ -190,7 +190,7 @@
       width: 60%;
     }
   }
-  .flowerlist-container {
+  .plantlist-container {
     width: 60%;
     display: flex;
     flex-direction: column;

@@ -1,7 +1,7 @@
 <script setup>
   import { onMounted } from 'vue'
   import { useFlowerStore } from '../stores/flowerStore'
-  import FlowerList from '../components/FlowerList.vue'
+  import PlantList from '../components/PlantList.vue'
   import QuerySection from '../components/QuerySection.vue'
 
   const flowerStore = useFlowerStore()
@@ -14,7 +14,7 @@
 <template>
   <div class="main-content">
     <QuerySection />
-    <FlowerList />
+    <PlantList />
   </div>
 </template>
 
