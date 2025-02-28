@@ -67,9 +67,8 @@
     align-items: center;
     position: relative;
     width: 100%;
-    max-width: 600px;
     margin: auto;
-    margin-top: 3rem;
+    margin: 3rem 0 5rem 0;
   }
 
   .timeline-item {
@@ -77,6 +76,7 @@
     align-items: flex-start;
     position: relative;
     margin: 0;
+    align-items: stretch;
   }
 
   .timeline-date {
@@ -90,16 +90,16 @@
 
   .timeline-line {
     width: 4px;
-    background: #4caf50;
+    background: var(--color-green);
     flex-shrink: 0;
     position: relative;
-    height: 400px;
+    flex-grow: 1;
   }
 
   .timeline-dot {
     width: 12px;
     height: 12px;
-    background: #4caf50;
+    background: var(--color-green);
     border-radius: 50%;
     position: absolute;
     left: 50%;
