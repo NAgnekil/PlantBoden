@@ -4,13 +4,15 @@ import Category from '../views/Category.vue'
 import GardenOverview from '../views/GardenOverview.vue'
 import ArticlesAndInspo from '../views/ArticlesAndInspo.vue'
 import Article from '../views/Article.vue'
+import Calendar from '../views/Calendar.vue'
 
 const routes = [
   { path: '/', component: Start },
   { path: '/category/:categoryName', component: Category, props: true },
   { path: '/gardenoverview', component: GardenOverview },
   { path: '/articlesandinspo', component: ArticlesAndInspo },
-  { path: '/article/:articleID', component: Article, props: true }
+  { path: '/article/:articleID', component: Article, props: true },
+  { path: '/calendar', component: Calendar }
 ]
 
 const router = createRouter({

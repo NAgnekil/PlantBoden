@@ -190,6 +190,22 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     }, {})
   })
 
+  const groupedByDate = computed(() => {
+    const sortedFlowersByDate = [...flowers.value].sort((a, b) => {
+      const [dayA, monthA] = a.sowingDate.split('/').map(Number)
+      const [dayB, monthB] = b.sowingDate.split('/').map(Number)
+
+      return monthA - monthB || dayA - dayB
+    })
+
+    return sortedFlowersByDate.reduce((groups, flower) => {
+      const date = flower.sowingDate
+      groups[date] = groups[date] || []
+      groups[date].push(flower)
+      return groups
+    }, {})
+  })
+
   return {
     flowers,
     categories,
@@ -219,6 +235,7 @@ export const useFlowerStore = defineStore('flowerStore', () => {
     searchQueryExists,
     sortedFlowers,
     groupedByCategory,
-    groupedByMonth
+    groupedByMonth,
+    groupedByDate
   }
 })
