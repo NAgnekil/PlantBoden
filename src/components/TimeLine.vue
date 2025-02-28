@@ -115,10 +115,6 @@
   }
 
   .timeline-card {
-    background: #f5f5f5;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -126,8 +122,7 @@
     width: 515px;
   }
   .card {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
+    padding: 0 0.2rem;
     width: 100px;
   }
   ::v-deep(.name-headline) {

@@ -198,7 +198,11 @@ export const useFlowerStore = defineStore('flowerStore', () => {
       return monthA - monthB || dayA - dayB
     })
 
-    return sortedFlowersByDate.reduce((groups, flower) => {
+    const chosenFlowersArray = sortedFlowersByDate.filter(
+      (flower) => flower.chosen
+    )
+
+    return chosenFlowersArray.reduce((groups, flower) => {
       const date = flower.sowingDate
       groups[date] = groups[date] || []
       groups[date].push(flower)
