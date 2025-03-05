@@ -211,9 +211,9 @@
       "height": "90 cm",
       "color": ["Vit", "Rosa", "Lila", "Vinröd"],
       "isDryable": true,
-      "sowWeeksBeforeFrost": "10",
+      "sowWeeksBeforeFrost": "14",
       "cultivationType": "SowIndoors",
-      "sowingDate": "16/3",
+      "sowingDate": "16/2",
       "lightGermination": false,
       "plantOut": "16/4",
       "plantOutComment": "4-6 veckor före sista frost",
@@ -247,7 +247,7 @@
         "src/assets/flowers/other/blomstermorot-dara9.webp"
       ],
       "additionalComments": "Kan direktsås efter sista frost, men är osäker på när den blommar då, hinner den blomma samma år?",
-      "description": "Blomstermorot blommar under hela sommaren med sina stora, vackra och skira flockblommor i gammelrosa, vinröda och chokladfärgade nyanser. Bladverket är finflikigt. Blommar Rödan första året vid tidig sådd. Upp till tusen små blommor produceras i delikata, spetsiga, platta, 5-10 cm stora klasar. De är vackra och passar bra med nästan allt i trädgården eller i vasen.<br/><br/>Bra snittblomma som gör sig otroligt bra som utfyllnad i buketter eller för att binda ihop rabatter och krukor. Skapar också stor effekt som solitär och ger effekt av ett fluffigt moln i vasen. Kan även användas torkad i buketter och arrangemang. Blommorna håller i upp till 10 dagar i vas och ger en dramatisk, luftig kvalitet till färdiga arrangemang.<br/><br/>Bra dragväxt för pollinerare.<br/><br/>Daucus carota är en bra växt för landskapsplanering och kan användas på ängar och vilda trädgårdar, där den älskas av bin och ger en underbar värdväxt för fjärilar. Växterna växer till en höjd av cirka 120 cm med en spridning på 40 cm.<br/><br/>Blomningen fortsätter vanligtvis långt in på hösten, även efter att blommorna har dött ut och fröskidor börjat bildas. När fröna mognar krullas fröhuvudet inåt för att bilda en 'fågelbo'-form och blir brunt. Ett litet borstigt frö produceras i slutet av varje blomstjälk, och när de är torra hakar de lätt fast i päls eller fjädrar för att spridas bortom där fröna annars skulle falla."
+      "description": "Blomstermorot blommar under hela sommaren med sina stora, vackra och skira flockblommor i gammelrosa, vinröda och chokladfärgade nyanser. Bladverket är finflikigt. Blommar redan första året vid tidig sådd. Upp till tusen små blommor produceras i delikata, spetsiga, platta, 5-10 cm stora klasar. De är vackra och passar bra med nästan allt i trädgården eller i vasen.<br/><br/>Bra snittblomma som gör sig otroligt bra som utfyllnad i buketter eller för att binda ihop rabatter och krukor. Skapar också stor effekt som solitär och ger effekt av ett fluffigt moln i vasen. Kan även användas torkad i buketter och arrangemang. Blommorna håller i upp till 10 dagar i vas och ger en dramatisk, luftig kvalitet till färdiga arrangemang.<br/><br/>Bra dragväxt för pollinerare.<br/><br/>Daucus carota är en bra växt för landskapsplanering och kan användas på ängar och vilda trädgårdar, där den älskas av bin och ger en underbar värdväxt för fjärilar. Växterna växer till en höjd av cirka 120 cm med en spridning på 40 cm.<br/><br/>Blomningen fortsätter vanligtvis långt in på hösten, även efter att blommorna har dött ut och fröskidor börjat bildas. När fröna mognar krullas fröhuvudet inåt för att bilda en 'fågelbo'-form och blir brunt. Ett litet borstigt frö produceras i slutet av varje blomstjälk, och när de är torra hakar de lätt fast i päls eller fjädrar för att spridas bortom där fröna annars skulle falla."
     },
     {
       "id": "007",
@@ -2986,7 +2986,7 @@
       "mainImg": "src/assets/flowers/risp/risp-apricotshades.webp",
       "additionalImages": [
         "src/assets/flowers/risp/risp-apricotshades2.webp",
-        "src/assets/flowers/risp/risp-apricotshades3.webp",
+        "src/assets/flowers/risp/risp-apricotshades3.jpg",
         "src/assets/flowers/risp/risp-apricotshades4.webp"
       ],
       "additionalComments": "Efter fröer har grott och hjärtbladen utvecklats är det bra att ställa plantorna svalt. Gärna 10-15 grader. Detta gör att de fokuserar på rottillväxt istället för bladtillväxt och komme i längden ge kraftigare och tidigare blomning. Professionella snittblomsodlare väljer ibland även att köldbehandla plantorna i 4-6 grader några veckor för att ge dem ytterligare fokus på att utveckla rötterna. Tack vare att de gillar kyla kan de direktsås i april. Direktsådda plantor brukar blomma i mitten av augusti.",
@@ -5850,6 +5850,228 @@
       "description": "Dahlian ’Copper Boy’ är en riktig snygging med mörkt kopparfärgade toner med inslag av dovt rött och vinrött som blir nästan lite metalliskt. En helt underbar färg som måste upplevas på riktigt. ’Copper Boy’ sprider skönhet i såväl i din rabatt som i dina blomsterarrangemang. På långa stadiga stjälkar svajar ’Copper Boy’s vackra bollar över ett grönt och friskt bladverk.<br/><br/>’Copper Boy’ tillhör gruppen bolldahlior. De karaktäriseras av sina runda, tätt packade blommor som skapar en spektakulär färgexplosion till din trädgård. Blommans symmetriska form och dess förmåga att stå länge i vas gör den till en ypperlig snittblomma. Med sina långa och stadiga stjälkar blir ’Copper Boy’ en given favorit till sommarens buketter och blomsterarrangemang. Oavsett om du söker bolldahlior med färgstark kontrast eller en mer harmonisk färgpalett kommer du garanterat hitta en sort som passar dig.<br/><br/>Plantera gärna ’Copper Boy’ i rabatten eller i en stor kruka där den får ta plats. Med rätt skötsel har du här en följeslagare som blommar oavbrutet från juli till frost!"
     },
     {
+      "id": "644",
+      "name": "Dahlia “Nicholas”",
+      "category": "Dahlia",
+      "height": "90 cm",
+      "color": ["Aprikos", "Persika"],
+      "type": "Dekorativa småblommiga",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-nicholas.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-nicholas2.webp",
+        "src/assets/flowers/dahlia/dahlia-nicholas3.webp",
+        "src/assets/flowers/dahlia/dahlia-nicholas4.webp",
+        "src/assets/flowers/dahlia/dahlia-nicholas5.webp",
+        "src/assets/flowers/dahlia/dahlia-nicholas6.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "En dahlia med enastående skönhet – <i>’Nicholas’</i> är ett måste att odla. Denna sort utvecklar stora blommor i en saftig mandarinorange nyans, med röda strimmor vid basen av varje kronblad. Riklig och frisk grönska fulländar utseendet i trädgården, och blommorna blir en riktig blickfångare i buketter. En älskad favorit sedan länge."
+    },
+    {
+      "id": "645",
+      "name": "Dahlia “Joel's Favourite”",
+      "category": "Dahlia",
+      "height": "70 cm",
+      "color": ["Aprikos", "Persika"],
+      "type": "Näckros",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-joelsfavourite.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite2.webp",
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite3.webp",
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite4.webp",
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite5.webp",
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite6.webp",
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite7.jpg",
+        "src/assets/flowers/dahlia/dahlia-joelsfavourite8.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "<i>'Joel's Favourite'</i> är en storblommig dekorativ dahlia som blommar i en delikat gräddgul färg med en antydan till rosa. Blommorna kan nå en vacker diameter på upp till 20 cm och sitter på starka stjälkar, vilket gör dem idealiska för snitt och vackra buketter. För att framhäva de fina färgtonerna kan den planteras tillsammans med dahlior i djupa vinröda eller rosa toner."
+    },
+    {
+      "id": "646",
+      "name": "Dahlia “Alauna Clair-Obscure”",
+      "category": "Dahlia",
+      "height": "90 cm",
+      "color": ["Lila", "Cerise"],
+      "type": "Fransdahlia",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-alaunaclairobscure.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-alaunaclairobscure2.webp",
+        "src/assets/flowers/dahlia/dahlia-alaunaclairobscure3.webp",
+        "src/assets/flowers/dahlia/dahlia-alaunaclairobscure4.webp",
+        "src/assets/flowers/dahlia/dahlia-alaunaclairobscure5.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "<i>'Clair-Obscur'</i> tar plats i sommarträdgården och gör det med självklarhet. Hon är tydlig med den skönhet hon tillför!<br/><br/>Som en av fransdahliorna har hon långa, lätt vridna kronblad som strålar ut från en central grupp av kortare, upprättstående blad. Hos just denna sort slutar kronbladen i franslika spetsar, som små vita fingrar som sträcker sig mot dig!<br/><br/>Den rika färgkombinationen av djup cerise till karamellrosa, upplyft av rena vita inslag, gör Dahlia <br/><br/>'Clair-Obscur' till ett lysande och iögonfallande tillskott i din dahliaplantering – både ute och inne."
+    },
+    {
+      "id": "647",
+      "name": "Dahlia “Café au Lait Mini”",
+      "category": "Dahlia",
+      "height": "80 cm",
+      "color": ["Gräddvit"],
+      "type": "Dekorativa småblommiga",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-cafeaulaitmini1.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-cafeaulaitmini.webp",
+        "src/assets/flowers/dahlia/dahlia-cafeaulaitmini2.webp",
+        "src/assets/flowers/dahlia/dahlia-cafeaulaitmini3.webp",
+        "src/assets/flowers/dahlia/dahlia-cafeaulaitmini4.webp",
+        "src/assets/flowers/dahlia/dahlia-cafeaulaitmini5.webp",
+        "src/assets/flowers/dahlia/dahlia-cafeaulaitmini6.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "En mindre version av drottningen <i>'Café au Lait'</i>. Denna charmiga dahlia har mindre, men lika spektakulära blommor, vilket gör den perfekt för rabatter, krukor och buketter. Med sin kompakta växtform, ca 60–80 cm hög, är den idealisk för mindre trädgårdar eller balkonger där den blommar rikligt från sensommaren till frosten."
+    },
+    {
+      "id": "648",
+      "name": "Dahlia “Myrtle's Folly”",
+      "category": "Dahlia",
+      "height": "100 cm",
+      "color": ["Rosa", "Cerise", "Gul"],
+      "type": "Fransdahlia",
+      "isDryable": false,
+      "sowWeeksBeforeFrost": null,
+      "cultivationType": "SowOutdoors",
+      "sowingDate": "10/5",
+      "lightGermination": false,
+      "plantOut": "10/5",
+      "plantOutComment": "När jorden värmts upp/reder sig, men inte för långt innan sista frost",
+      "plantDistanceInCm": "40",
+      "plantDistanceImg": "src/assets/plantdistance/dahlia.webp",
+      "plantSupport": true,
+      "fitForGreenhouse": true,
+      "toppedOff": true,
+      "pests": ["Tvestjärtar", "Mördarsniglar", "Löss"],
+      "cutAndComeAgain": true,
+      "mediumProducer": false,
+      "oneAndDone": false,
+      "hardiness": "TA",
+      "canBeColdPlanted": "No",
+      "harvestPeriod": [
+        {
+          "start": "July",
+          "end": "October"
+        }
+      ],
+      "chosen": true,
+      "mainImg": "src/assets/flowers/dahlia/dahlia-myrtlesfolly.webp",
+      "additionalImages": [
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly2.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly3.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly4.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly5.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly6.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly7.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly8.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly9.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly10.webp",
+        "src/assets/flowers/dahlia/dahlia-myrtlesfolly11.webp"
+      ],
+      "additionalComments": "Inga.",
+      "description": "Gå all in med den uppseendeväckande dahlian <i>'Myrtle’s Folly'</i>! Den här vilda och lekfulla sorten har rufsiga kronblad och ett nästan galet uttryck – men det går inte att förneka att de enorma blommorna är både otroligt vackra och fulla av fascinerande detaljer.<br/><br/>Blommorna på <i>'Myrtle’s Folly'</i> påminner om havsanemoner – de krusiga, tvåfärgade kronbladen i lysande rosa och gult ser nästan ut som om de skulle kunna kittla en clownfisk! Om du älskar tropiska färger är detta dahlian för dig.<br/><br/>Oavsett om du vill lysa upp trädgården eller odlar dahlior för att plocka in i buketter, så är den här stora, fluffiga och färgstarka blomman en riktig showstopper. Plantera den i ett soligt hörn av rabatten och låt den göra sin magi – antingen som ett iögonfallande inslag i en klassisk plantering, eller bland exotiska växter som kannor och andra sprakande dahlior."
+    },
+    {
       "id": "701",
       "name": "Luktärt “Enchanté”",
       "category": "Luktärt",
@@ -7017,6 +7239,19 @@
       "illustration": "/src/assets/articleimages/illustration-amarant.png",
       "mainArticle": "<h3>En färgsprakande skönhet med historiska rötter</h3><p>Amarant (<i>Amaranthus</i>) är en växt som kombinerar skönhet med nytta. Med sina dekorativa, färgstarka blomställningar och näringsrika frön har den varit en uppskattad växt i både trädgårdar och kök i tusentals år. Den odlas för sina spektakulära, långa blomspiror i nyanser av rött, rosa, guld och grönt – men också för sina ätbara blad och frön.</p><p>Oavsett om du vill odla amarant för dess prydnadsvärde, som en lättskött trädgårdsväxt eller som en näringsrik gröda, finns det många anledningar att älska denna mångsidiga växt.</p><hr><h3>Beskrivning och egenskaper</h3><br/><p class='info-items'>🌸 <span class='bold-text'>Vetenskapligt namn:</span> <i>Amaranthus spp.</i><br/>🌱 <span class='bold-text'>Familj:</span> Amarantväxter (Amaranthaceae)<br/>📏 <span class='bold-text'>Höjd:</span> 40–250 cm beroende på sort<br/>🌞 <span class='bold-text'>Läge:</span> Soligt<br/>🌿 <span class='bold-text'>Jord:</span> Väldränerad, gärna näringsrik<br/>⏳ <span class='bold-text'>Blomningstid:</span> Juli – oktober<br/>🦋 <span class='bold-text'>Pollinerarvänlig:</span> Ja! Amarant är en utmärkt växt för pollinerare som bin och fjärilar<br/>🍃 <span class='bold-text'>Ätbar:</span> Ja! Både blad och frön kan ätas</p><p>Amarant finns i många arter och sorter, från låga, buskiga växter till ståtliga, meterhöga spiror. Dess blommor kan vara upprättstående eller hängande i långa klasar, och dess blad kan skifta i allt från grönt till djupt rött.</p><hr><h3>Så odlar du Amarant</h3><p>Amarant är en robust och torktålig växt som är enkel att odla. Eftersom den kommer från varmare klimat trivs den bäst på en solig plats med väldränerad jord.</p><span class='bold-text'>Sådd och plantering</span><ul><li>Förkultivera inomhus i april-maj för att få tidigare blomning. Så fröna i små krukor med lätt fuktad såjord och placera dem varmt.</li><li>Plantera ut när all risk för frost är över, oftast i juni.</li><li>Direktsådd är också möjlig när jorden är varm (minst 15°C).</li></ul><span class='bold-text'>Skötsel och trivsel</span><p>Amarant kräver minimalt med skötsel när den väl etablerat sig. Den behöver: </p><p>🌞 <span class='bold-text'>Sol</span> – Ju mer sol, desto starkare färg på bladen och blommorna.<br/>💧 <span class='bold-text'>Lagom med vatten</span> – Klarar torka bra, men blommar bäst vid jämn vattning.<br/>🌱 <span class='bold-text'>Näring</span> – Näringsrik jord ger kraftigare plantor och rikligare blomning.<br/>🌱 <span class='bold-text'>Avstånd</span> – Ge varje planta 30–50 cm utrymme så att den får utvecklas fullt ut.</p><hr><h3>Användning - från trädgård till kök</h3><p>🌺 <span class='bold-text'>Prydnadsväxt</span> – Amarant är fantastisk i rabatter, som solitärväxt eller i buketter. De torkade blomställningarna är också populära i evighetsbuketter.</p><p>🥗 <span class='bold-text'>Ätbara blad</span> – Bladen är näringsrika och smakar milt. De kan ätas färska i sallader eller tillagas som spenat.</p><p>🌾 <span class='bold-text'>Superfood-frön</span> – Fröna är glutenfria och rika på protein. De kan kokas som quinoa eller malas till mjöl.</p><hr><h3>Amarantens historia – från helig gröda till modern superfood</h3><p>Amarant har en lång och fascinerande historia som sträcker sig över tusentals år. Den var en av de viktigaste grödorna för aztekerna, som inte bara åt fröna utan också använde dem i religiösa ceremonier. När spanjorerna erövrade Amerika på 1500-talet försökte de förbjuda odlingen av amarant, eftersom den var starkt kopplad till aztekiska ritualer. Trots detta överlevde växten och har idag fått en renässans som både prydnadsväxt och näringsrik superfood.</p><p>✨ <span class='bold-text'>Spännande fakta:</span> Amarantens frön är så små att ett enda gram kan innehålla över 1 000 frön! 🌾</p><hr><h3>Vanliga frågor</h3><p class='qa-question'><span class='bold-text'>Självsår sig amarant?</span><p class='qa-answer'>Ja, amarant kan fröså sig själv och dyka upp nästa säsong.</p><p class='qa-question'><span class='bold-text'>Är amarant en perenn?</span><p class='qa-answer'>Amarant odlas som ettårig i Sverige, men i varmare klimat kan vissa arter vara fleråriga.</p><p class='qa-question'><span class='bold-text'>Kan jag odla amarant i kruka?</span><p class='qa-answer'>Ja, men välj en stor kruka eftersom vissa sorter blir höga och behöver stabilitet.</p><p class='qa-question'><span class='bold-text'>Kan jag äta alla sorters amarant?</span><p class='qa-answer'>Ja, alla arter av amarant är ätbara, men vissa sorter är mer lämpade för mat än andra.</p><hr>",
       "conclusion": "Med sina lysande färger, lättskötta natur och både prydnads- och matvärde är amarant en riktig trädgårdsskatt. Oavsett om du vill odla den för att locka bin och fjärilar, för att skapa dramatiska blomsterarrangemang eller för att skörda dina egna näringsrika frön, är detta en växt som levererar på alla plan."
+    },
+    {
+      "id": "456",
+      "category": "Celosia",
+      "cardHeadline": "Trädgårdens levande lågor – Celosia i all sin prakt.",
+      "cardDescription": "En av trädgårdens mest spektakulära sommarblommor.",
+      "title": "Celosia",
+      "description": "En färgstark dans av plymer, tuppkammar och spiror.",
+      "preamble": "<p>Celosia är en av trädgårdens mest spektakulära sommarblommor. Med sina intensiva färger och unika former ser den nästan overklig ut, som om någon har målat den med en överdos av kreativitet.</p>",
+      "img": "/src/assets/articleimages/artikelbild-celosia.jpg",
+      "illustration": "/src/assets/articleimages/illustration-celosia.png",
+      "mainArticle": "<h3>Glödande färgprakt som skapar liv i rabatten</h3><p>Celosia, även kallad <span class='bold-text'>amarant</span>, tillhör samma familj som spenat och beta (<i>Amaranthaceae</i>). Den kommer ursprungligen från Afrika, Asien och Sydamerika, men har blivit en global favorit tack vare sina ovanliga blommor och långa blomningstid (juni–oktober). Celosia finns i flera olika varianter som skiljer sig i både utseende och växtsätt. Tre av de vanligaste sorterna är:<ul><li><span class='bold-text'>Axamarant (<i>Celosia argentea spicata</i>)</span> – med långa, silkeslika blomax som liknar rävsvansar.</li><li><span class='bold-text'>Tuppkam (<i>Celosia argentea cristata</i>)</span> – med sina koralliknande, veckade blommor som påminner om en tupps kammar.</li><li><span class='bold-text'>Plymört (<i>Celosia argentea plumosa</i>)</span> – med upprätta, fjäderlika blomställningar som ser ut som små eldsflammor.</li></ul>Oavsett vilken sort man väljer är Celosia ett fantastiskt val för både rabatter och krukor. Dess långa blomningstid och intensiva färgprakt gör den till en riktig blickfångare i trädgården.</p><hr><h3>Beskrivning och egenskaper</h3><br/><p class='info-items'>🌸 <span class='bold-text'>Vetenskapligt namn:</span> <i>Celosia argentea</i> (inkl. var. <i>cristata</i> och <i>plumosa</i>)<br/>🌱 <span class='bold-text'>Familj:</span> Amarantväxter (Amaranthaceae)<br/>📏 <span class='bold-text'>Höjd:</span> 20–100 cm beroende på sort<br/>🌞 <span class='bold-text'>Läge:</span> Soligt och varmt<br/>🌿 <span class='bold-text'>Jord:</span> Näringsrik, väldränerad och lätt fuktig<br/>⏳ <span class='bold-text'>Blomningstid:</span> Juni – oktober<br/>🦋 <span class='bold-text'>Pollinerarvänlig:</span> Ja, lockar bin och fjärilar<br/>🥶 <span class='bold-text'>Frostkänslig:</span> Ja, odlas som ettårig i Sverige</p><p>Celosia är en spektakulär blomma med en unik textur och form. Tuppkam (<i>C. argentea var. cristata</i>) har tätt veckade blomställningar som påminner om en hjärna eller en tuppkam. Plymört (<i>C. argentea var. plumosa</i>) har luftiga, fjäderlika blomspiror i lysande färger. Axamarant (<i>C. argentea</i>) har mer avlånga, vippiga blomställningar. Alla varianter bjuder på intensiv färgprakt i nyanser av rött, gult, orange, rosa och lila.</p><hr><h3>Odling och skötsel av Celosia</h3><p>Celosia är en solälskande växt som trivs bäst i varmt och skyddat läge. Den vill ha en näringsrik, väldränerad jord och behöver jämn vattning för att må bra. Det är en perfekt blomma för sommarens heta dagar, då den tål sol och värme bättre än många andra blommor.</p><h4>Grundkrav</h4><ul><li><span class='bold-text'>Ljus</span>: Minst <span class='bold-text'>6-8 timmar full sol</span> dagligen.</li><li><span class='bold-text'>Jord</span>: <span class='bold-text'>Väldränerad, näringsrik</span> jord med pH 6–6,5. Undvik blöt jord – rötterna ruttnar lätt.</li><li><span class='bold-text'>Sådd</span>:<ul><li><span class='bold-text'>Inomhus</span>: Så i krukor i mars–april. Groddtid: 7–14 dagar vid 20–25°C.</li><li><span class='bold-text'>Utomhus</span>: Direktså efter sista frost (maj–juni).</li></ul></li></ul><h4>Sortspecifika tips</h4><ul><li><span class='bold-text'>Axamarant</span>: Lämna 30 cm mellan plantor för luftighets skull.</li><li><span class='bold-text'>Tuppkam</span>: Välj en vindskyddad plats – blommorna kan bli tunga.</li><li><span class='bold-text'>Plymört</span>: Använd stödpinnar för höga sorter i blöt jord.</li></ul><hr><h3>Skötsel och blomning</h3><p>När Celosia väl har etablerat sig är den relativt lättskött. Regelbunden vattning och en giva flytande näring varannan vecka gör att den fortsätter blomma långt in på hösten. Det gör inget om den torkar ut lite mellan vattningar, det tål den, men den blommar bäst om den vattnas regelbundet. För att få tätare och buskigare plantor kan man toppa dem tidigt i tillväxtfasen. Det gäller dock inte tuppkam, eftersom de producerar endast en blomma per planta. Däremot kan Axamarant och Plymört toppas för att få bättre skörd och fler användbara stjälkar.</p><p>Ett extra plus är att Celosia är relativt motståndskraftig mot sjukdomar och skadedjur, vilket gör den till en lättodlad favorit. Den kan dock få bladlöss eller spinnkvalster, vid bladlöss, skölj bort med vatterstråle, vid spinnkvalster, öka luftfuktigheten eller behandla med neemolja.</p><hr><h3>Celosias olika sorter - vilken ska du välja?</h3><p>🌾 <span class='bold-text'>Axamarant (<i>Celosia argentea spicata</i>)</span><br/>Denna eleganta variant av Celosia har smala, avlånga blomax i nyanser av rosa, purpur och silver. Den har ett mer naturligt och vilt utseende än sina kusiner och fungerar utmärkt i både vilda ängar och moderna rabatter. Axamarant är en av de bästa Celosia-sorterna att torka, eftersom blommorna behåller sin färg länge.</p><p>🐓 <span class='bold-text'>Tuppkam (<i>Celosia argentea cristata</i>)</span><br/>Den mest spektakulära av alla Celosia-sorter! Med sina tjocka, veckade blommor ser den nästan ut som en hjärna eller en korall. Färgerna är ofta djupröda, gyllene eller orange, vilket gör den till en riktig statement-blomma. Tuppkam fungerar utmärkt både i krukor och rabatter och är dessutom en av de bästa sorterna för snittblommor och torkade arrangemang.</p><p>🔥 <span class='bold-text'>Plymört (<i>Celosia argentea plumosa</i>)</span><br/>Denna variant ser ut som små eldstungor som fladdrar i vinden. De fluffiga blomställningarna kan vara allt från intensivt röda och gula till lysande orange och rosa. Plymört är ett fantastiskt val om man vill ha en färgsprakande rabatt, eftersom den lyser upp trädgården med sin starka färg och höga blomställningar.</p><hr><h3>Celosia i trädgården – hur kan den användas?</h3><p>Celosia är en extremt mångsidig blomma och kan användas på flera olika sätt i trädgården:<br/><ul><li><span class='bold-text'>I rabatter</span> – Plantera Celosia i grupper för att skapa färgklickar som lyser upp sommarens och höstens trädgård.</li><li><span class='bold-text'>I krukor</span> – Perfekt för balkong och terrass där den bidrar med exotisk charm.</li><li><span class='bold-text'>Som snittblomma</span> – Alla sorter av Celosia passar utmärkt i buketter, och de håller sig länge i vas.</li><li><span class='bold-text'>Som torkad blomma</span> – Torka blommorna upp och ned på en mörk, luftig plats så behåller de sin färg och form.</li></ul></p><hr><h3>Rolig fakta om Celosia</h3><p>🌱 <span class='bold-text'>En ätbar skönhet</span> – I vissa delar av världen används Celosia som en bladgrönsak! Bladen och unga skotten är näringsrika och används i traditionella afrikanska och asiatiska maträtter.</p><p>🔥 <span class='bold-text'>Namnet betyder eld</span> – Celosia kommer från det grekiska ordet <i>keleos</i>, som betyder 'brinnande' – en passande beskrivning för dess eldiga blommor.</p><p>🌍 <span class='bold-text'>Växer vilt i tropikerna</span> – Celosia är ursprungligen en tropisk växt och växer vilt i Asien, Afrika och Sydamerika.</p><hr><h3>Vanliga frågor</h3><p class='qa-question'><span class='bold-text'>Är celosia giftig?</span><p class='qa-answer'>Nej, men bladen kan vara mildt laxerande i stora mängder. Håll borta från hungriga husdjur.</p><p class='qa-question'><span class='bold-text'>Varför blir min celosia gul och slokar?</span><p class='qa-answer'>För mycket vatten eller dålig dränering. Flytta till torrare jord.</p><p class='qa-question'><span class='bold-text'>Kan jag övervintra celosia?</span><p class='qa-answer'>Nej, den är <span class='bold-text'>ettårig</span> i Sverige – men samla frön från torra blomställningar för nästa år!</p><p class='qa-question'><span class='bold-text'>Varför slutar min Celosia blomma?</span><p class='qa-answer'>Om den får för lite ljus eller näring kan blomningen avta. Placera den i fullt solljus och ge regelbunden näring för att stimulera nya blommor.</p><p class='qa-question'><span class='bold-text'>Hur torkar man Celosia?</span><p class='qa-answer'>Klipp av blommorna och häng dem upp och ned på en mörk, torr plats. Efter några veckor är de redo att användas i torkade arrangemang.</p><hr><p>Om du vill ha en blomma som verkligen sticker ut – och samtidigt lockar fjärilar och bin – är Celosia det perfekta valet. Så nästa gång du planerar din trädgård, varför inte låta den brinna av färg med Celosia?</p><p>🔥 <span class='bold-text'>Proffstips</span>: Blanda alla tre sorterna i en kruka för en texturmässig explosion: axamarantens höjd, tuppkammens struktur och plymörtens fluff!</p><hr>",
+      "conclusion": "Celosia är en av trädgårdens mest spektakulära sommarblommor och går inte att ignorera. Oavsett om du väljer den eleganta axamaranten, den dramatiska tuppkammen eller den eldiga plymörten, så är du garanterad en lång och färgsprakande blomning. Den är lättskött, tålig och fungerar lika bra i rabatter som i krukor och buketter. Med minimalt underhåll och maximal effekt är det en investering i glädje – både i rabatten och som torkad dekoration."
     },
     {
       "id": "123",
