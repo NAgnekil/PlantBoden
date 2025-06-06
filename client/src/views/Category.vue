@@ -1,83 +1,83 @@
 <script setup>
-  import { defineProps, ref, onMounted, watch } from 'vue'
-  import axios from 'axios'
-  import { useFlowerStore } from '../stores/flowerStore.js'
-  import FlowerCard from '../components/FlowerCard.vue'
-  import FlowerDetailsCard from '../components/FlowerDetailsCard.vue'
-  import { storeToRefs } from 'pinia'
+  import { ref, onMounted, watch } from 'vue';
+  import axios from 'axios';
+  import { useFlowerStore } from '../stores/flowerStore.js';
+  import FlowerCard from '../components/FlowerCard.vue';
+  import FlowerDetailsCard from '../components/FlowerDetailsCard.vue';
+  import { storeToRefs } from 'pinia';
 
   const props = defineProps({
     categoryName: String,
     flowers: Array
-  })
+  });
 
-  const flowerStore = useFlowerStore()
-  const { flowers } = storeToRefs(flowerStore)
+  const flowerStore = useFlowerStore();
+  const { flowers } = storeToRefs(flowerStore);
 
-  const chosenCategoryObject = ref(null)
-  const chosenCategoryDescription = ref('')
-  const chosenCategoryImg = ref('')
-  const categoryList = ref([])
-  const selectedFlower = ref(null)
-  const isPopupVisible = ref(false)
+  const chosenCategoryObject = ref(null);
+  const chosenCategoryDescription = ref('');
+  const chosenCategoryImg = ref('');
+  const categoryList = ref([]);
+  const selectedFlower = ref(null);
+  const isPopupVisible = ref(false);
 
   const fetchCategoryDescription = async () => {
-    const allDescriptions = await fetchAllCategoryDescriptions()
+    const allDescriptions = await fetchAllCategoryDescriptions();
 
     const categoryObject = allDescriptions.find(
       (item) => Object.keys(item)[0] === props.categoryName
-    )
+    );
 
     if (categoryObject) {
-      chosenCategoryObject.value = categoryObject[props.categoryName]
-      chosenCategoryDescription.value = chosenCategoryObject.value.desc
-      chosenCategoryImg.value = chosenCategoryObject.value.img
+      chosenCategoryObject.value = categoryObject[props.categoryName];
+      chosenCategoryDescription.value = chosenCategoryObject.value.desc;
+      chosenCategoryImg.value = chosenCategoryObject.value.img;
     }
-  }
+  };
 
   const updateCategoryList = () => {
     categoryList.value = [
       ...flowers.value.filter((flower) => {
-        const flowerCategory = flower.category.trim().toLowerCase()
-        const selectedCategory = props.categoryName.trim().toLowerCase()
-        return flowerCategory === selectedCategory
+        const flowerCategory = flower.category.trim().toLowerCase();
+        const selectedCategory = props.categoryName.trim().toLowerCase();
+        return flowerCategory === selectedCategory;
       })
-    ]
-  }
+    ];
+  };
 
   onMounted(async () => {
-    await flowerStore.loadFlowers()
-    await fetchCategoryDescription()
-    updateCategoryList()
-  })
+    await flowerStore.loadFlowers();
+    await fetchCategoryDescription();
+    updateCategoryList();
+  });
 
   watch(
     () => props.categoryName,
     async () => {
-      await flowerStore.loadFlowers()
-      await fetchCategoryDescription()
-      updateCategoryList()
+      await flowerStore.loadFlowers();
+      await fetchCategoryDescription();
+      updateCategoryList();
     }
-  )
+  );
 
   const fetchAllCategoryDescriptions = async () => {
     try {
-      const response = await axios.get('../database.json')
-      return response.data.categoryDescriptions
+      const response = await axios.get('../database.json');
+      return response.data.categoryDescriptions;
     } catch (error) {
-      console.error('Error fetching categories:', error)
-      throw error
+      console.error('Error fetching categories:', error);
+      throw error;
     }
-  }
+  };
 
   const showPopup = (flower) => {
-    selectedFlower.value = flower
-    isPopupVisible.value = true
-  }
+    selectedFlower.value = flower;
+    isPopupVisible.value = true;
+  };
 
   const closePopup = () => {
-    isPopupVisible.value = false
-  }
+    isPopupVisible.value = false;
+  };
 </script>
 
 <template>

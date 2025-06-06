@@ -1,14 +1,15 @@
 <script setup>
-  import { onMounted } from 'vue'
-  import { useFlowerStore } from '../stores/flowerStore'
-  import PlantList from '../components/PlantList.vue'
-  import QuerySection from '../components/QuerySection.vue'
+  import { onMounted } from 'vue';
+  import { useFlowerStore } from '../stores/flowerStore';
+  import PlantList from '../components/PlantList.vue';
+  import QuerySection from '../components/QuerySection.vue';
 
-  const flowerStore = useFlowerStore()
+  const flowerStore = useFlowerStore();
 
   onMounted(async () => {
-    await flowerStore.loadFlowers()
-  })
+    await flowerStore.loadFlowers();
+    await fetch('/api/plants');
+  });
 </script>
 
 <template>

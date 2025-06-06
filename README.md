@@ -1,37 +1,5 @@
-# garden-inventory
+# Vue 3 + Vite
 
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-
-
-Endast true eller false kan skrivas i de nycklarna där en av dessa anges från början.
-Om inget alternativ passar eller du inte vill använda en kategori: skriv null.
-{
-  "id": "001",
-  "name": "Betor",
-  "category": "Dahlia",
-  "height": "70 cm",
-  "color": "Peach",
-  "isDryable": true,
-  "canPlantInPots": true,
-  "canTakeSeedsFrom": false,
-  "sowWeeksBeforeFrost": "10",
-  "cultivationType": "SowIndoors", //SowIndoors, SowOutdoors
-  "sowingDate": "16/3",
-  "lightGermination": true,
-  "plantOut": "25/5",
-  "plantOutComment": "AfterLastFrost",
-  "plantDistanceInCm": "25",
-  "plantSupport": true,
-  "canPlantInGreenhouse": true,
-  "toppedOff": true,
-  "pests": "Rådjur, Sniglar",
-  "harvestPeriod": [
-    {
-      "start": "August",
-      "end": "September"
-    }
-  ],
-  "img": "src/assets/pampasplume.jpg",
-  "additionalComments": "Typ gillar värme, växer långsamt, känslig för frost",
-  "description": "Beskrivning av växten"
-}
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
