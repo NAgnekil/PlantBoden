@@ -7,8 +7,7 @@
   import { storeToRefs } from 'pinia';
 
   const props = defineProps({
-    categoryName: String,
-    flowers: Array
+    categoryName: String
   });
 
   const flowerStore = useFlowerStore();
@@ -23,16 +22,24 @@
 
   const fetchCategoryDescription = async () => {
     const allDescriptions = await fetchAllCategoryDescriptions();
+    console.log('allDescriptions:', allDescriptions);
 
-    const categoryObject = allDescriptions.find(
-      (item) => Object.keys(item)[0] === props.categoryName
+    const categoryObject = allDescriptions.find((item) =>
+      item.hasOwnProperty(props.categoryName)
     );
 
+    console.log(categoryObject);
+
     if (categoryObject) {
-      chosenCategoryObject.value = categoryObject[props.categoryName];
-      chosenCategoryDescription.value = chosenCategoryObject.value.desc;
-      chosenCategoryImg.value = chosenCategoryObject.value.img;
+      const categoryData = categoryObject[props.categoryName];
+      chosenCategoryObject.value = categoryObject;
+      chosenCategoryDescription.value = categoryData.desc;
+      chosenCategoryImg.value = categoryData.img;
+      console.log('categoryObject found');
+    } else {
+      console.log('Något gick fel vid hämtningen');
     }
+    console.log('Kategorier hämtade');
   };
 
   const updateCategoryList = () => {
@@ -62,8 +69,11 @@
 
   const fetchAllCategoryDescriptions = async () => {
     try {
-      const response = await axios.get('../database.json');
-      return response.data.categoryDescriptions;
+      const response = await axios.get(
+        'http://localhost:3000/api/categoryDescriptions'
+      );
+      console.log('API response:', response);
+      return response.data;
     } catch (error) {
       console.error('Error fetching categories:', error);
       throw error;

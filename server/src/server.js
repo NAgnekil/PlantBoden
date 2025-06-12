@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const connectDB = require('./db');
 const plantRoutes = require('./routes/plants');
 const articleRoutes = require('./routes/articles');
+const categoryRoutes = require('./routes/categories');
 
 dotenv.config();
 
@@ -15,10 +16,7 @@ app.use(express.json());
 
 app.use('/api/plants', plantRoutes);
 app.use('/api/articles', articleRoutes);
-
-app.get('/test', (req, res) => {
-  res.json({ message: 'Server fungerar!' });
-});
+app.use('/api/categoryDescriptions', categoryRoutes);
 
 connectDB().then(() => {
   app.listen(PORT, () => {

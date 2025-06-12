@@ -1,25 +1,25 @@
 <script setup>
-  import { onMounted, ref } from 'vue'
-  import { useFlowerStore } from '../stores/flowerStore'
+  import { onMounted, ref } from 'vue';
+  import { useFlowerStore } from '../stores/flowerStore';
 
-  const flowerStore = useFlowerStore()
-  const categories = ref([])
+  const flowerStore = useFlowerStore();
+  const categories = ref([]);
 
   onMounted(async () => {
-    await flowerStore.loadFlowers()
+    await flowerStore.loadFlowers();
     categories.value = [
       ...new Set(
         flowerStore.flowers
           .map((flower) => flower.category)
           .filter((category) => category !== 'Övrigt')
       )
-    ].sort()
-  })
+    ].sort();
+  });
 </script>
 
 <template>
   <header>
-    <router-link to="/"><h1>Fröboden</h1></router-link>
+    <router-link to="/"><h1>Plantboden</h1></router-link>
     <div class="image">
       <div class="image-overlay"></div>
     </div>
