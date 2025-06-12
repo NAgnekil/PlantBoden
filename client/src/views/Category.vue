@@ -22,7 +22,6 @@
 
   const fetchCategoryDescription = async () => {
     const allDescriptions = await fetchAllCategoryDescriptions();
-    console.log('allDescriptions:', allDescriptions);
 
     const categoryObject = allDescriptions.find((item) =>
       item.hasOwnProperty(props.categoryName)
@@ -35,9 +34,6 @@
       chosenCategoryObject.value = categoryObject;
       chosenCategoryDescription.value = categoryData.desc;
       chosenCategoryImg.value = categoryData.img;
-      console.log('categoryObject found');
-    } else {
-      console.log('Något gick fel vid hämtningen');
     }
     console.log('Kategorier hämtade');
   };
