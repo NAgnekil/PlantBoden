@@ -8,7 +8,8 @@
 
   onMounted(async () => {
     await flowerStore.loadFlowers();
-    await fetch('/api/plants');
+    const plants = await fetch('/api/plants');
+    console.log('Plants: ', plants);
   });
 </script>
 
