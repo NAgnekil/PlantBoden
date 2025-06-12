@@ -2,11 +2,19 @@ const Plant = require('../models/Plant');
 
 const getPlants = async (req, res) => {
   try {
-    const plants = await Plant.find();
+    const { category } = req.query;
+
+    let query = {};
+    if (category) {
+      query.category = category;
+    }
+
+    const plants = await Plant.find(query);
     res.json(plants);
-  } catch (error) {
-    console.error('❌ Fel vid hämtning av växter:', err);
-    res.status(500).json({ message: 'Server error' });
+  } catch (err) {
+    res
+      .status(500)
+      .json({ error: 'Kunde inte hämta växter', details: err.message });
   }
 };
 
